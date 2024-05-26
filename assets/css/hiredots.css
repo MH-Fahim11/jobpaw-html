@@ -10629,6 +10629,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 50px; 
   display: flex; 
   padding: 0px 10px; 
+  justify-content: center;
   align-items: center; 
   border-radius: 5px;
 }
@@ -10650,14 +10651,16 @@ body.megamenu-popup-active .mobile-nav__content {
     /* height: 50px;  */
     /* padding: 0px 10px;  */
     /* border-radius: 5px; */
+    width: 80px;
+    margin-right: 10px;
   }
   
   .connexion-i2-m{
     /* background-color: white;  */
     /* height: 50px;  */
-    display: flex; 
+    /* display: flex;  */
     /* padding: 0px 10px;  */
-    align-items: center; 
+    /* align-items: center;  */
     /* border-radius: 5px; */
   }
 }
@@ -10694,4 +10697,97 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .cta-three2{
   padding: 0px !important;
+}
+
+.lang-menu {
+  /* width: 100px; */
+  text-align: center;
+  /* font-weight: bold; */
+  /* margin-top: 10px; */
+  position: relative;
+  padding: auto;
+  z-index: 100;
+}
+.lang-menu .selected-lang {
+  display: flex; 
+  justify-content: center;
+  line-height: 2;
+  cursor: pointer;
+}
+.lang-menu .selected-lang:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 22px;
+  background-image: url(https://flagcdn.com/w20/fr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  /* width: 125px; */
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  text-decoration: none;
+  /* width: 125px; */
+  padding: 5px 10px;
+  display: block;
+}
+
+.lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fr:before {
+  background-image: url(https://flagcdn.com/w20/fr.png);
+}
+
+.en:before {
+  background-image: url(https://flagcdn.com/w20/us.png);
+}
+
+
+.es:before {
+  background-image: url(https://flagcdn.com/w20/es.png);
+}
+.ht:before {
+  background-image: url(https://flagcdn.com/w20/ht.png);
+}
+
+.lang-menu:hover ul {
+  display: block;
+}
+
+@media (max-width: 767px) {
+ 
 }
