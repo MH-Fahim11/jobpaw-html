@@ -7080,7 +7080,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../images//34FinalPhotos/IMG-20240320-WA0039.jpg);
+  background-image: url(../images/backgrounds/header.jpg);
   z-index: -1;
 }
 .page-header__shape {
@@ -7981,10 +7981,11 @@ body.megamenu-popup-active .mobile-nav__content {
   overflow: hidden;
 }
 .feature-one__item__img img {
-  width: 100%;
+  width: 335px;
   height: 350px;
   min-height: 320px;
   object-fit: cover;
+  border-radius: 10px;
 }
 .feature-one__item__content {
   position: absolute;
@@ -10643,7 +10644,7 @@ body.megamenu-popup-active .mobile-nav__content {
     display: flex;
     gap: 5x;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 50px;
     /* border-radius: 5px; */
   }
   .connexion-i1-m{
