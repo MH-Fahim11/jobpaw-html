@@ -7982,7 +7982,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .feature-one__item__img img {
   width: 100%;
-  height: auto;
+  height: 350px;
   min-height: 320px;
   object-fit: cover;
 }
