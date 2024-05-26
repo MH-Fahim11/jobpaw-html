@@ -63,21 +63,18 @@ projects.forEach((feature, index) => {
     featureItem.style.animationDelay = `${100 * (index + 1)}ms`;
 
     featureItem.innerHTML = `
-        <div class="feature-one__item text-center p-5">
-            <div class="feature-one__item__img">
-                <img src="${feature.img}" alt="hiredots">
-            </div>
-            <div class="feature-one__item__content">
-                <div class="feature-one__item__ball"></div>
-                <div class="feature-one__item__icon">
-                    <img class="rounded-circle" width="100" height="100" src="${feature.icon}" alt="icon">
-                </div>
-                <h3 class="feature-one__item__title">${feature.title}</h3>
-                <a href="${feature.path}" class="hiredots-btn">
-                    <span>${feature.title}</span>
-                </a>
-            </div>
-        </div>
+    <div class="feature-one__item text-center">
+    <div class="feature-one__item__img">
+        <img src="${feature.img}" alt="hiredots">
+    </div>
+    <div class="feature-one__item__content">
+        <div class="feature-one__item__ball"></div>
+        <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="${feature.icon}" alt="icon"/></div>
+        <h3 class="feature-one__item__title">${feature.title}</h3>
+        <p class="feature-one__item__text">.</p>
+        <a href="${feature.path}" class="hiredots-btn"><span>${feature.title}</span></a>
+    </div>
+</div>
     `;
 
     container.appendChild(featureItem);
