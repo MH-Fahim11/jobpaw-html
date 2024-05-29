@@ -47,8 +47,12 @@
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
     
-        <header id="main-header" class="main-header sticky-header sticky-header--normal">
-            
+        <header  class="main-header sticky-header sticky-header--normal">
+        <?php
+            $title = 'Home';
+            $page = 'home'; 
+            include_once('component/navBar.php') ; 
+        ?>    
         </header>
         <!-- main-slider-start -->
         <section class="main-slider-one">

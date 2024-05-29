@@ -57,13 +57,13 @@
                     <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">Entreprises</h2>
+                    <h2 class="page-header__title">Universities</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Erofessionals</span>
+                            <span>Universities</span>
                         </li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@
        <div class="my-5">
         <section class="feature-one">
             <div class="container">
-                <div class="row gutter-y-30" id="entreprises-container">
+                <div class="row gutter-y-30" id="universities-container">
                     <!-- JavaScript will populate this container -->
                 </div>
             </div>
@@ -287,7 +287,7 @@
     
     <script src="../scripts/nav.js"></script>
 
-    <script src="../scripts/entreprises.js"></script>
+    <script src="universities.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

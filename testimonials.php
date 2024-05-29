@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQs || Hiredots || Human Resources & Recruiting HTML Template</title>
+    <title>About Page || Hiredots || Human Resources & Recruiting HTML Template</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -188,181 +188,284 @@
                 </div><!-- /.mobile-nav__toggler -->
             </div>
         </header>
+        
         <section class="page-header">
             <div class="page-header__bg"></div>
             <div class="page-header__shape"><img src="assets/images/shapes/page-header-shape.png" alt="hiredots"></div>
             <!-- /.page-header__bg -->
             <div class="container">
-                <h2 class="page-header__title">FAQs</h2>
+                <h2 class="page-header__title">Testimonials</h2>
                 <ul class="hiredots-breadcrumb list-unstyled">
                     <li><a href="index.html">Home</a></li>
-                    <li><span>FAQs</span></li>
+                    <li><span>Testimonials</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
-        </section><!-- /.page-header -->
+        </section>
 
-        <section class="faq-page-search">
-            <div class="container">
-                <div class="faq-page-search__inner wow fadeInUp" data-wow-duration="1500ms">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="sec-title text-center">
-
-                                <h6 class="sec-title__tagline">frequently asked questions</h6><!-- /.sec-title__tagline -->
-
-                                <h3 class="sec-title__title">Have Any Questions? Look <br>Here for it Now!</h3><!-- /.sec-title__title -->
-                            </div><!-- /.sec-title -->
-                            <form action="#" class="faq-page-search__form">
-                                <input type="text" id="error-search" placeholder="Search here">
-                                <button type="submit" class="faq-page-search__form__btn" aria-label="search submit">
-                                    <span><i class="icon-magnifying-glass"></i></span>
-                                </button>
-                            </form><!-- /.faq-page-search__form -->
-                        </div><!-- /.col-lg-12 -->
-                    </div><!-- /.row -->
-                </div><!-- /.faq-page-search__inner -->
-            </div><!-- /.container -->
-        </section><!-- /.faq-page-search -->
-
-
-        <section class="faq-page">
+       
+        <section class="">
+            <div class="testimonials-one background-gray">
+            <div class="testimonials-one__shape">
+                <img src="assets/images/shapes/testimonail-share.png" alt="">
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="faq-page__contact background-base">
-                            <h3 class="faq-page__contact__title">have Questions?
-                                Call Now!</h3><!-- /.faq-page__contact__title -->
-                            <div class="faq-page__contact__text">
-                                <i class="icon-phone-call"></i>
-                                <p class="faq-page__contact__number">
-                                    Have Question?<br>
-                                    Free <a href="tel:+9288009850">+92 (8800) - 9850</a>
-                                </p><!-- /.faq-page__contact__number -->
-                            </div><!-- /.faq-page__contact__text -->
-                        </div><!-- /.faq-page__contact -->
-                        <!-- <div class="faq-page__contact__img">
-                            <img src="assets/images/resources/faq-1-img.jpg" alt="faq">
-                        </div> -->
-                    </div><!-- /.col-lg-4 col-xl-3 -->
-                    <div class="col-lg-8">
-                        <div class="faq-page__accordion hiredots-accrodion" data-grp-name="hiredots-accrodion">
-                            <div class="accrodion">
-                                <div class="accrodion-title">
-                                    <h4>
-                                        What Does your Process Look Like?
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
-                            <div class="accrodion active">
-                                <div class="accrodion-title">
-                                    <h4>Learn How We Create Unmatched Solutions
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
-                            <div class="accrodion">
-                                <div class="accrodion-title">
-                                    <h4>
-                                        What We should do If our skin gets dry?
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
-                            <div class="accrodion">
-                                <div class="accrodion-title">
+                    <div class="col-xl-4">
+                        <div class="testimonials-one__sec-title">
+                            <div class="sec-title text-left">
 
-                                    <h4>How Long do Services Take to Complete?
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                <h6 class="sec-title__tagline">our testimonials</h6><!-- /.sec-title__tagline -->
 
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
-                            <div class="accrodion">
-                                <div class="accrodion-title">
-                                    <h4>
-                                        How Can i Find my Financial Record?
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
-                            <div class="accrodion">
-                                <div class="accrodion-title">
-                                    <h4>
-                                        How Long do Services Take to Complete?
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
-                            <div class="accrodion">
-                                <div class="accrodion-title">
-                                    <h4>
-                                        How Can i Find my Financial Record?
-                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                    </h4>
-                                </div><!-- /.accordian-title -->
-                                <div class="accrodion-content">
-                                    <div class="inner">
-                                        <p>
-                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
-                                            now suffered alteration in some fo injected humour, or randomised words believable.
-                                        </p>
-                                    </div><!-- /.accordian-content -->
-                                </div>
-                            </div><!-- /.accordian-item -->
+                                <h3 class="sec-title__title">What They’re <br> Talking About?</h3><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <p class="testimonials-one__text">
+                                Quisque commodo, magna simply free text available nec accu man euismod tellus mi ornare enim.
+                            </p>
+                            <div class="testimonials-one__dots"></div>
                         </div>
-                    </div><!-- /.col-lg-8 col-xl-9 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.faq-page-accordion -->
+                    </div>
+                    <div class="col-xl-8">
+                        <div class="hiredots-stretch-element-inside-column">
+                            <div class="testimonials-one__carousel hiredots-owl__carousel hiredots-owl__carousel--with-shadow hiredots-owl__carousel--basic-nav owl-carousel" data-owl-options='{
+							"items": 1,
+							"margin": 30,
+							"loop": true,
+							"smartSpeed": 700,
+							"nav": false,
+							"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+							"dots": true,
+							"dotsContainer":".testimonials-one__dots",
+							"autoplay": false,
+							"responsive": {
+								"0": {
+									"items": 1
+								},
+								"768": {
+									"items": 1.93
+								}
+							}
+						}'>
+                                <div class="item">
+                                    <div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+                                        <div class="testimonials-card__inner">
+                                            <div class="testimonials-card__top">
+                                                <div class="testimonials-card__image">
+                                                    <img src="assets/images/resources/testi-1-1.jpg" alt="Kevin martin">
+                                                </div><!-- /.testimonials-card__image -->
+                                                <div class="testimonials-card__top__left">
+                                                    <div class="testimonials-card__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div><!-- /.testimonials-card__rating -->
+                                                    <div class="testimonials-card__content">
+                                                        Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.
+                                                    </div><!-- /.testimonials-card__content -->
+                                                    <div class="testimonials-card__author">
+                                                        <div class="testimonials-card__icon">
+                                                            <i class="icon-quote"></i>
+                                                        </div>
+                                                        <div class="testimonials-card__autor__info">
+                                                            <h3 class="testimonials-card__name">
+                                                                Kevin martin
+                                                            </h3><!-- /.testimonials-card__name -->
+                                                            <p class="testimonials-card__designation">Market Manager</p>
+                                                            <!-- /.testimonials-card__designation -->
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.testimonials-card__top__left -->
+                                            </div><!-- /.testimonials-card__top -->
+                                        </div><!-- /.testimonials-card__inner -->
+                                    </div><!-- /.testimonials-card -->
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                                        <div class="testimonials-card__inner">
+                                            <div class="testimonials-card__top">
+                                                <div class="testimonials-card__image">
+                                                    <img src="assets/images/resources/testi-1-2.jpg" alt="Sarah albert">
+                                                </div><!-- /.testimonials-card__image -->
+                                                <div class="testimonials-card__top__left">
+                                                    <div class="testimonials-card__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div><!-- /.testimonials-card__rating -->
+                                                    <div class="testimonials-card__content">
+                                                        Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.
+                                                    </div><!-- /.testimonials-card__content -->
+                                                    <div class="testimonials-card__author">
+                                                        <div class="testimonials-card__icon">
+                                                            <i class="icon-quote"></i>
+                                                        </div>
+                                                        <div class="testimonials-card__autor__info">
+                                                            <h3 class="testimonials-card__name">
+                                                                Sarah albert
+                                                            </h3><!-- /.testimonials-card__name -->
+                                                            <p class="testimonials-card__designation">Co Founder</p>
+                                                            <!-- /.testimonials-card__designation -->
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.testimonials-card__top__left -->
+                                            </div><!-- /.testimonials-card__top -->
+                                        </div><!-- /.testimonials-card__inner -->
+                                    </div><!-- /.testimonials-card -->
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+                                        <div class="testimonials-card__inner">
+                                            <div class="testimonials-card__top">
+                                                <div class="testimonials-card__image">
+                                                    <img src="assets/images/resources/testi-1-3.jpg" alt="Kevin martin">
+                                                </div><!-- /.testimonials-card__image -->
+                                                <div class="testimonials-card__top__left">
+                                                    <div class="testimonials-card__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div><!-- /.testimonials-card__rating -->
+                                                    <div class="testimonials-card__content">
+                                                        Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.
+                                                    </div><!-- /.testimonials-card__content -->
+                                                    <div class="testimonials-card__author">
+                                                        <div class="testimonials-card__icon">
+                                                            <i class="icon-quote"></i>
+                                                        </div>
+                                                        <div class="testimonials-card__autor__info">
+                                                            <h3 class="testimonials-card__name">
+                                                                Kevin martin
+                                                            </h3><!-- /.testimonials-card__name -->
+                                                            <p class="testimonials-card__designation">Market Manager</p>
+                                                            <!-- /.testimonials-card__designation -->
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.testimonials-card__top__left -->
+                                            </div><!-- /.testimonials-card__top -->
+                                        </div><!-- /.testimonials-card__inner -->
+                                    </div><!-- /.testimonials-card -->
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                                        <div class="testimonials-card__inner">
+                                            <div class="testimonials-card__top">
+                                                <div class="testimonials-card__image">
+                                                    <img src="assets/images/resources/testi-1-4.jpg" alt="Sarah albert">
+                                                </div><!-- /.testimonials-card__image -->
+                                                <div class="testimonials-card__top__left">
+                                                    <div class="testimonials-card__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div><!-- /.testimonials-card__rating -->
+                                                    <div class="testimonials-card__content">
+                                                        Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.
+                                                    </div><!-- /.testimonials-card__content -->
+                                                    <div class="testimonials-card__author">
+                                                        <div class="testimonials-card__icon">
+                                                            <i class="icon-quote"></i>
+                                                        </div>
+                                                        <div class="testimonials-card__autor__info">
+                                                            <h3 class="testimonials-card__name">
+                                                                Sarah albert
+                                                            </h3><!-- /.testimonials-card__name -->
+                                                            <p class="testimonials-card__designation">Co Founder</p>
+                                                            <!-- /.testimonials-card__designation -->
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.testimonials-card__top__left -->
+                                            </div><!-- /.testimonials-card__top -->
+                                        </div><!-- /.testimonials-card__inner -->
+                                    </div><!-- /.testimonials-card -->
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+                                        <div class="testimonials-card__inner">
+                                            <div class="testimonials-card__top">
+                                                <div class="testimonials-card__image">
+                                                    <img src="assets/images/resources/testi-1-5.jpg" alt="Kevin martin">
+                                                </div><!-- /.testimonials-card__image -->
+                                                <div class="testimonials-card__top__left">
+                                                    <div class="testimonials-card__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div><!-- /.testimonials-card__rating -->
+                                                    <div class="testimonials-card__content">
+                                                        Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.
+                                                    </div><!-- /.testimonials-card__content -->
+                                                    <div class="testimonials-card__author">
+                                                        <div class="testimonials-card__icon">
+                                                            <i class="icon-quote"></i>
+                                                        </div>
+                                                        <div class="testimonials-card__autor__info">
+                                                            <h3 class="testimonials-card__name">
+                                                                Kevin martin
+                                                            </h3><!-- /.testimonials-card__name -->
+                                                            <p class="testimonials-card__designation">Market Manager</p>
+                                                            <!-- /.testimonials-card__designation -->
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.testimonials-card__top__left -->
+                                            </div><!-- /.testimonials-card__top -->
+                                        </div><!-- /.testimonials-card__inner -->
+                                    </div><!-- /.testimonials-card -->
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                                        <div class="testimonials-card__inner">
+                                            <div class="testimonials-card__top">
+                                                <div class="testimonials-card__image">
+                                                    <img src="assets/images/resources/testi-1-6.jpg" alt="Sarah albert">
+                                                </div><!-- /.testimonials-card__image -->
+                                                <div class="testimonials-card__top__left">
+                                                    <div class="testimonials-card__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div><!-- /.testimonials-card__rating -->
+                                                    <div class="testimonials-card__content">
+                                                        Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.
+                                                    </div><!-- /.testimonials-card__content -->
+                                                    <div class="testimonials-card__author">
+                                                        <div class="testimonials-card__icon">
+                                                            <i class="icon-quote"></i>
+                                                        </div>
+                                                        <div class="testimonials-card__autor__info">
+                                                            <h3 class="testimonials-card__name">
+                                                                Sarah albert
+                                                            </h3><!-- /.testimonials-card__name -->
+                                                            <p class="testimonials-card__designation">Co Founder</p>
+                                                            <!-- /.testimonials-card__designation -->
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.testimonials-card__top__left -->
+                                            </div><!-- /.testimonials-card__top -->
+                                        </div><!-- /.testimonials-card__inner -->
+                                    </div><!-- /.testimonials-card -->
+                                </div><!-- /.item -->
+
+                            </div><!-- /.testimonials-one__carousel -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        
+    
 
         <footer class="main-footer background-black">
             <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>

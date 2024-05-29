@@ -1,7 +1,4 @@
-const navContainer = document.getElementById('main-header');
-const nav = document.createElement('div');
-nav.innerHTML = `
-            <div class="main-header__inner">
+<div class="main-header__inner">
                 <div class="main-header__logo">
                     <a href="/">
                         <img src="assets/images/logos/logo-light.png" alt="Hiredots HTML" width="125">
@@ -15,7 +12,7 @@ nav.innerHTML = `
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
                             <li class="dropdown">
-                                <a href="professionals.html">Professionels</a>
+                                <a href="professionals.php">Professionels</a>
                             </li>
 
                             <li>
@@ -132,6 +129,3 @@ nav.innerHTML = `
                     <span></span>
                 </div><!-- /.mobile-nav__toggler -->
             </div>
-    `;
-
-navContainer.appendChild(nav);

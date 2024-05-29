@@ -73,7 +73,7 @@ const projects = [
     },
 ];
 
-const container = document.getElementById('entreprises-container');
+const entreprisesContainer = document.getElementById('entreprises-container');
 
 projects.forEach((feature, index) => {
     const featureItem = document.createElement('div');
@@ -95,5 +95,5 @@ projects.forEach((feature, index) => {
 </div>
     `;
 
-    container.appendChild(featureItem);
+    entreprisesContainer.appendChild(featureItem);
 });
