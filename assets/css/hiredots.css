@@ -7222,7 +7222,7 @@ body.megamenu-popup-active .mobile-nav__content {
   opacity: 0.3;
   transition: all 500ms ease;
   max-width: 100%;
-  width: auto !important;
+  width: 50px !important;
 }
 .client-carousel__one__item:hover img {
   opacity: 0.6;
