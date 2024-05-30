@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page || Hiredots || Human Resources & Recruiting HTML Template</title>
+    <title>About || JobPaw </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -46,147 +46,19 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
-    <!-- /.preloader -->
-    <div class="page-wrapper">
-        <div class="topbar-one">
-            <div class="container-fluid">
-                <div class="topbar-one__inner">
-                    <ul class="list-unstyled topbar-one__info">
-                        <li class="topbar-one__info__item">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-                        </li>
-                        <li class="topbar-one__info__item">
-                            <i class="fas fa-map-marker"></i>
-                            <a href="tel:+92(8800)-6930">30 Broklyn Golden Street. New York</a>
-                        </li>
-                    </ul><!-- /.list-unstyled topbar-one__info -->
-                    <div class="topbar-one__right">
-                        <div class="topbar-one__nav">
-                            <ul>
-                                <li>
-                                    <a href="about.html">About</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">Help</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="topbar-one__social">
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                            <a href="https://pinterest.com">
-                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                            <a href="https://instagram.com">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </div><!-- /.topbar-one__social -->
-                    </div><!-- /.topbar-one__right -->
-                </div><!-- /.topbar-one__inner -->
-            </div>
-        </div>
+
 
         <header class="main-header sticky-header sticky-header--normal">
-            <div class="main-header__inner">
-                <div class="main-header__logo">
-                    <a href="index.html">
-                        <img src="assets/images/logo-dark.png" alt="Hiredots HTML" width="125">
-                    </a>
-                </div><!-- /.main-header__logo -->
-                <a href="#" class="search-toggler main-header__search">
-                    <i class="icon-magnifying-glass" aria-hidden="true"></i>
-                    <span class="sr-only">Search</span>
-                </a><!-- /.search-toggler -->
-                <div class="main-header__menu">
-                    <nav class="main-header__nav main-menu">
-                        <ul class="main-menu__list">
-                            <li class="dropdown">
-                                <a href="index.html">Home</a>
-                                <ul>
-                                    <li><a href="index.html">Home One</a></li>
-                                    <li><a href="index-2.html">Home Two</a></li>
-                                    <li><a href="index-3.html">Home Three</a></li>
-                                    <li class="dropdown">
-                                        <a href="#">Header Styles</a>
-                                        <ul>
-                                            <li><a href="index.html">Header One</a></li>
-                                            <li><a href="index-2.html">Header Two</a></li>
-                                            <li><a href="index-3.html">Header Three</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="jobs.html">Jobs</a></li>
-                                    <li><a href="history.html">History</a></li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="service-d-consulting.html">HR Consulting</a></li>
-                                    <li><a href="service-d-resources.html">Tech Resources</a></li>
-                                    <li><a href="service-d-hydro-solution.html">Staffing Solution</a></li>
-                                    <li><a href="service-d-program.html">Corporate Program</a></li>
-                                    <li> <a href="service-d-training.html">Leadership Training</a></li>
-                                    <li><a href="service-d-management.html">Staff Management</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="project.html">Projects</a>
-                                <ul>
-                                    <li><a href="project.html">Projects</a></li>
-                                    <li><a href="project-details.html">Projects Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul>
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="blog-details.html">News Details</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav><!-- /.main-header__nav -->
-                    <div class="main-header__call">
-                        <i class="icon-telephone"></i>
-                        <a href="tel:+9288006930">+ 92 (8800)-6930</a>
-                    </div>
-                </div>
-                <div class="main-header__link">
-                    <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
-                </div>
-                <div class="mobile-nav__btn mobile-nav__toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div><!-- /.mobile-nav__toggler -->
-            </div>
+        <?php
+            $title = 'Home';
+            $page = 'home';
+            $professionels = '/professionals'; 
+            $entreprises ='/entreprises';
+            $universities = '/universities';
+            $services ='services.php';
+            $projects = '';
+            include_once('component/navBar.php') ; 
+        ?> 
         </header>
         <section class="page-header">
             <div class="page-header__bg"></div>

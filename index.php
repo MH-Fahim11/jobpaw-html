@@ -50,7 +50,12 @@
         <header  class="main-header sticky-header sticky-header--normal">
         <?php
             $title = 'Home';
-            $page = 'home'; 
+            $page = 'home';
+            $professionels = '/professionals'; 
+            $entreprises ='/entreprises';
+            $universities = '/universities';
+            $services ='services.php';
+            $projects = '';
             include_once('component/navBar.php') ; 
         ?>    
         </header>

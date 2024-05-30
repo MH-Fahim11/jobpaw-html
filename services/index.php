@@ -10,21 +10,21 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/images/favicons/apple-touch-icon.png"
+      href="../assets/images/favicons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/images/favicons/favicon-32x32.png"
+      href="../assets/images/favicons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/images/favicons/favicon-16x16.png"
+      href="../assets/images/favicons/favicon-16x16.png"
     />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest" />
     <meta
       name="description"
       content="Hiredots is a modern HTML Template HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses."
@@ -38,45 +38,45 @@
       rel="stylesheet"
     />
     <!-- reey font -->
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="../assets/vendors/reey-font/stylesheet.css" />
 
     <link
       rel="stylesheet"
-      href="assets/vendors/bootstrap/css/bootstrap.min.css"
+      href="../assets/vendors/bootstrap/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
-      href="assets/vendors/bootstrap-select/bootstrap-select.min.css"
+      href="../assets/vendors/bootstrap-select/bootstrap-select.min.css"
     />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="../assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="../assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="../assets/vendors/jarallax/jarallax.css" />
     <link
       rel="stylesheet"
-      href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.min.css"
+      href="../assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"
     />
     <link
       rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.pips.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/slick/slick.css" />
-    <link rel="stylesheet" href="assets/vendors/hiredots-icons/style.css" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.carousel.min.css"
+      href="../assets/vendors/nouislider/nouislider.min.css"
     />
     <link
       rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.theme.default.min.css"
+      href="../assets/vendors/nouislider/nouislider.pips.css"
+    />
+    <link rel="stylesheet" href="../assets/vendors/slick/slick.css" />
+    <link rel="stylesheet" href="../assets/vendors/hiredots-icons/style.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/owl-carousel/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/owl-carousel/css/owl.theme.default.min.css"
     />
 
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/hiredots.css" />
+    <link rel="stylesheet" href="../assets/css/hiredots.css" />
   </head>
 
   <body class="custom-cursor">
@@ -86,24 +86,29 @@
     <div class="preloader">
       <div
         class="preloader__image"
-        style="background-image: url(assets/images/loader.png)"
+        style="background-image: url(../assets/images/loader.png)"
       ></div>
     </div>
     <!-- /.preloader -->
  
 
     <header  class="main-header sticky-header sticky-header--normal">
-        <?php
+    <?php
             $title = 'Home';
-            $page = 'home'; 
-            include_once('component/navBar.php') ; 
-        ?>    
+            $page = 'home';
+            $professionels = '/professionals'; 
+            $entreprises ='/entreprises';
+            $universities = '/universities';
+            $services ='services.php';
+            $projects = '';
+            include_once('../component/navBar.php') ; 
+        ?>     
         </header>
       <section class="page-header">
         <div class="page-header__bg"></div>
         <div class="page-header__shape">
           <img
-            src="assets/images/shapes/page-header-shape.png"
+            src="../assets/images/shapes/page-header-shape.png"
             alt="hiredots"
           />
         </div>
@@ -132,7 +137,7 @@
       <footer class="main-footer background-black">
         <div
           class="main-footer__bg"
-          style="background-image: url(assets/images/backgrounds/footer-bg.jpg)"
+          style="background-image: url(../assets/images/backgrounds/footer-bg.jpg)"
         ></div>
         <!-- /.main-footer__bg -->
         <div class="main-footer__subscribe">
@@ -173,7 +178,7 @@
                 <div class="footer-widget footer-widget--about">
                   <a href="index.html" class="footer-widget__logo">
                     <img
-                      src="assets/images/logo-light.png"
+                      src="../assets/images/logo-light.png"
                       width="125"
                       alt="Hiredots HTML Template"
                     />
@@ -186,7 +191,7 @@
                   <div class="footer-widget__author">
                     <div class="footer-widget__author__img">
                       <img
-                        src="assets/images/resources/footer-about-avata.png"
+                        src="../assets/images/resources/footer-about-avata.png"
                         alt=""
                       />
                     </div>
@@ -315,7 +320,7 @@
         ></span>
         <div class="logo-box">
           <a href="index.html" aria-label="logo image"
-            ><img src="assets/images/logo-light.png" width="155" alt=""
+            ><img src="../assets/images/logo-light.png" width="155" alt=""
           /></a>
         </div>
         <!-- /.logo-box -->
@@ -381,28 +386,28 @@
       ></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/slick/slick.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="./scripts/services.js"></script>
+    <script src="../assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="../assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="../assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="../assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="../assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="../assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="../assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="../assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="../assets/vendors/slick/slick.min.js"></script>
+    <script src="../assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="../assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="../assets/vendors/wow/wow.js"></script>
+    <script src="../assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="../assets/vendors/isotope/isotope.js"></script>
+    <script src="../assets/vendors/countdown/countdown.min.js"></script>
+    <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    <script src="../scripts/services.js"></script>
     <!-- template js -->
-    <script src="assets/js/hiredots.js"></script>
+    <script src="../assets/js/hiredots.js"></script>
   </body>
 </html>

@@ -12,14 +12,14 @@
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
                             <li class="dropdown">
-                                <a href="professionals.php">Professionels</a>
+                                <a href=<?php echo  $professionels?>>Professionels</a>
                             </li>
 
                             <li>
-                                <a href="entreprises.html">Entreprises</a>
+                                <a href="/entreprises">Entreprises</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Universities</a>
+                                <a href="/universities">Universities</a>
                                 <ul>
                                     <li><a href="team-details.html">Team Details</a></li>
                                     <li><a href="jobs.html">Jobs</a></li>
@@ -28,7 +28,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Services</a>
+                                <a href="/services">Services</a>
                                 <ul>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="service-d-consulting.html">HR Consulting</a></li>
