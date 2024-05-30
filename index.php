@@ -156,6 +156,7 @@
         </section>
         <!-- Feature End -->
         
+
         <!-- /.funfact-one -->
         <section class="service-one" style="background-image: url(assets/images/shapes/service-bg-1.jpg);">
             <div class="container">
@@ -168,71 +169,57 @@
                 </div><!-- /.sec-title -->
                 <div class="row gutter-y-30">
                     <div class="col-md-6 col-lg-4">
-                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
-                            <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="hiredots">
                             </div>
-                            <div class="service-one-card__content">
-                                <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
-                                    <a href="/services" class="service-one-card__cat">Programming & Tech</a>
-                                </div>
-                                <h3 style="height: 50px" class="service-one-card__title">
-                                    <a href="${job.link}">Software Engineer Job</a>
-                                </h3>
-                                <p class="service-one-card__text">Company: Brain Station 23</p>
-                                <p class="service-one-card__text">Deadline: 5/31/2024</p>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="./images/5x/9.jpg" alt="icon"/></div>
+                                <h3 class="feature-one__item__title">Software Engineer Job</h3>
+                                <p class="feature-one__item__text">Company: Brain Station 23</p>
+                                <p class="feature-one__item__text">Deadline: 7/06/2024</p>
+                                
+                                <a href="/professionnels/find-job/" class="hiredots-btn"><span>Read More</span></a>
                             </div>
-                            <a href="/professionnels/find-job/${createSlug(job.title)}" class="service-one-card__link">
-                                Read More
-                                <i class="icon-right-arrow"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
-                            <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="hiredots">
                             </div>
-                            <div class="service-one-card__content">
-                                <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
-                                    <a href="/services" class="service-one-card__cat">Sales & Marketing</a>
-                                </div>
-                                <h3 style="height: 50px" class="service-one-card__title">
-                                    <a href="${job.link}">Digital Marketing</a>
-                                </h3>
-                                <p class="service-one-card__text">Company: Enosis Solution</p>
-                                <p class="service-one-card__text">Deadline: 7/06/2024</p>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="./images/5x/9.jpg" alt="icon"/></div>
+                                <h3 class="feature-one__item__title">Sales & Marketing</h3>
+                                <p class="feature-one__item__text">Company: Brain Station 23</p>
+                                <p class="feature-one__item__text">Deadline: 7/06/2024</p>
+                                
+                                <a href="/professionnels/find-job/" class="hiredots-btn"><span>Read More</span></a>
                             </div>
-                            <a href="/professionnels/find-job/${createSlug(job.title)}" class="service-one-card__link">
-                                Read More
-                                <i class="icon-right-arrow"></i>
-                            </a>
                         </div>
                     </div>
+                    
                     <div class="col-md-6 col-lg-4">
-                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
-                            <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="hiredots">
                             </div>
-                            <div class="service-one-card__content">
-                                <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
-                                    <a href="/services" class="service-one-card__cat">Multimedia</a>
-                                </div>
-                                <h3 style="height: 50px" class="service-one-card__title">
-                                    <a href="${job.link}">Video Editing</a>
-                                </h3>
-                                <p class="service-one-card__text">Company: Dropouts Discord</p>
-                                <p class="service-one-card__text">Deadline: 5/31/2024</p>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="./images/5x/9.jpg" alt="icon"/></div>
+                                <h3 class="feature-one__item__title">Video Editing</h3>
+                                <p class="feature-one__item__text">Company: Brain Station 23</p>
+                                <p class="feature-one__item__text">Deadline: 7/06/2024</p>
+                                
+                                <a href="/professionnels/find-job/" class="hiredots-btn"><span>Read More</span></a>
                             </div>
-                            <a href="/professionals/find-job.html" class="service-one-card__link">
-                                Read More
-                                <i class="icon-right-arrow"></i>
-                            </a>
                         </div>
                     </div>
+                    
+                    
+                    
                 </div><!-- /.row -->
                 <div style="display: flex; justify-content: center; margin-top: 20px;">
                     <a href="/professionals/find-job.html" class="hiredots-btn">View more jobs</a>
@@ -240,7 +227,7 @@
             </div><!-- /.container -->
         </section><!-- /.service-one -->
         <!-- Call To Action Start -->
-        <section class="service-one" style="background-image: url(assets/images/shapes/service-bg-1.jpg);">
+        <section class="service-one" style="background-image: linear-gradient(135deg, #e3fdf5 10%, #ffe6fa);  margin-top: 50px;">
             <div class="container">
                 <div class="sec-title text-center">
 
@@ -407,7 +394,7 @@ Time: 10:00 AM - 4:00 PM
 
         <!-- Call To Action Start -->
 
-        <section class="blog-one">
+        <section class="blog-one" style="background-color: rgb(253, 245, 223);">
             <div class="container">
                 <div class="sec-title text-center">
 

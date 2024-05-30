@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobpaw | professionals</title>
+    <title>FAQs || Hiredots || Human Resources & Recruiting HTML Template</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="assets/vendors/hiredots-icons/style.css">
     <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-    
+
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/hiredots.css">
 </head>
@@ -46,175 +46,196 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
+    <!-- /.preloader -->
+
         <header class="main-header sticky-header sticky-header--normal">
-            <div class="main-header__inner">
-                <div class="main-header__logo">
-                    <a href="index.html">
-                        <img src="assets/images/logos/logo-light.png" alt="Hiredots HTML" width="125">
-                    </a>
-                </div><!-- /.main-header__logo -->
-                <a href="#" class="search-toggler main-header__search">
-                    <i class="icon-magnifying-glass" aria-hidden="true"></i>
-                    <span class="sr-only">Search</span>
-                </a><!-- /.search-toggler -->
-                <div class="main-header__menu">
-                    <nav class="main-header__nav main-menu">
-                        <ul class="main-menu__list">
-                            <li class="dropdown">
-                                <a href="/professionnels">Professionels</a>
-                            </li>
-
-                            <li>
-                                <a href="about.html">Entreprises</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Universities</a>
-                                <ul>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="jobs.html">Jobs</a></li>
-                                    <li><a href="history.html">History</a></li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="service-d-consulting.html">HR Consulting</a></li>
-                                    <li><a href="service-d-resources.html">Tech Resources</a></li>
-                                    <li><a href="service-d-hydro-solution.html">Staffing Solution</a></li>
-                                    <li><a href="service-d-program.html">Corporate Program</a></li>
-                                    <li> <a href="service-d-training.html">Leadership Training</a></li>
-                                    <li><a href="service-d-management.html">Staff Management</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="project.html">Projects</a>
-                                <ul>
-                                    <li><a href="project.html">Projects</a></li>
-                                    <li><a href="project-details.html">Projects Details</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul>
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="blog-details.html">News Details</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li> -->
-                        </ul>
-                    </nav><!-- /.main-header__nav -->
-                    <!-- <div class="main-header__call">
-                        <i class="icon-telephone"></i>
-                        <a href="tel:+9288006930">+ 92 (8800)-6930</a>
-                    </div> -->
-                    <!-- <div style="background-color: aqua; margin: 5px; margin-right: 30px;">
-
-                    
-                        <div class=" d-flex align-items-center" style="background-color: white; margin: 5px; padding: 5px;">
-                            <div class="">
-                                <a>Connexion</a>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-
-                            <div>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="connexion">
-                        <div class="connexion-i1">
-    
-                            <p style="color: rgb(25, 164, 222);">Connexion</p>
-                            <div style="margin-top: -20px;">
-                                <select style="border: none;">
-                                    <option>Inscription</option>
-                                    <option>Entreprises</option>
-                                    <option>Professionnels</option>
-                                    <option>Universités</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="connexion-i2">
-                            <button style="border: none;">
-                            </button>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!-- <div class="main-header__link">
-                    <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
-                    
-                </div> -->
-                <div class="connexion-m">
-                    <div class="connexion-i1-m">
-
-                        <p style="color: rgb(25, 164, 222);">Connexion</p>
-                        <div style="margin-top: -20px;">
-                            <select style="border: none;">
-                                <option>Inscription</option>
-                                <option>Entreprises</option>
-                                <option>Professionnels</option>
-                                <option>Universités</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="connexion-i2-m">
-                        <button style="border: none;">
-                        </button>
-                    </div>
-                </div>
-
-                <div class="mobile-nav__btn mobile-nav__toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div><!-- /.mobile-nav__toggler -->
-            </div>
+        <?php
+            $title = 'Home';
+            $page = 'home';
+            $professionels = '/professionals'; 
+            $entreprises ='/entreprises';
+            $universities = '/universities';
+            $services ='services.php';
+            $projects = '';
+            include_once('component/navBar.php') ; 
+        ?> 
         </header>
-        <!-- main-slider-start -->
-        <div>
-            <section class="page-header">
-                <div class="page-header__bg"></div>
-                <div class="page-header__shape">
-                    <img src="./images/shapes/page-header-shape.png" alt="hiredots">
-                </div>
-                <div class="container">
-                    <h2 class="page-header__title">Professionals</h2>
-                    <ul class="hiredots-breadcrumb list-unstyled">
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li>
-                            <span>Professionals</span>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- main-slider-end -->
-        <!-- Feature Start -->
-       <div class="my-5">
-        <section class="feature-one">
+        <section class="page-header">
+            <div class="page-header__bg"></div>
+            <div class="page-header__shape"><img src="assets/images/shapes/page-header-shape.png" alt="hiredots"></div>
+            <!-- /.page-header__bg -->
             <div class="container">
-                <div class="row gutter-y-30" id="projects-container">
-                    <!-- JavaScript will populate this container -->
-                </div>
-            </div>
-        </section>
-       </div>
+                <h2 class="page-header__title">FAQs</h2>
+                <ul class="hiredots-breadcrumb list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><span>FAQs</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+
+        <section class="faq-page-search">
+            <div class="container">
+                <div class="faq-page-search__inner wow fadeInUp" data-wow-duration="1500ms">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center">
+
+                                <h6 class="sec-title__tagline">frequently asked questions</h6><!-- /.sec-title__tagline -->
+
+                                <h3 class="sec-title__title">Have Any Questions? Look <br>Here for it Now!</h3><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <form action="#" class="faq-page-search__form">
+                                <input type="text" id="error-search" placeholder="Search here">
+                                <button type="submit" class="faq-page-search__form__btn" aria-label="search submit">
+                                    <span><i class="icon-magnifying-glass"></i></span>
+                                </button>
+                            </form><!-- /.faq-page-search__form -->
+                        </div><!-- /.col-lg-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.faq-page-search__inner -->
+            </div><!-- /.container -->
+        </section><!-- /.faq-page-search -->
+
+
+        <section class="faq-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="faq-page__contact background-base">
+                            <h3 class="faq-page__contact__title">have Questions?
+                                Call Now!</h3><!-- /.faq-page__contact__title -->
+                            <div class="faq-page__contact__text">
+                                <i class="icon-phone-call"></i>
+                                <p class="faq-page__contact__number">
+                                    Have Question?<br>
+                                    Free <a href="tel:+9288009850">+92 (8800) - 9850</a>
+                                </p><!-- /.faq-page__contact__number -->
+                            </div><!-- /.faq-page__contact__text -->
+                        </div><!-- /.faq-page__contact -->
+                        <!-- <div class="faq-page__contact__img">
+                            <img src="assets/images/resources/faq-1-img.jpg" alt="faq">
+                        </div> -->
+                    </div><!-- /.col-lg-4 col-xl-3 -->
+                    <div class="col-lg-8">
+                        <div class="faq-page__accordion hiredots-accrodion" data-grp-name="hiredots-accrodion">
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>
+                                        What Does your Process Look Like?
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                            <div class="accrodion active">
+                                <div class="accrodion-title">
+                                    <h4>Learn How We Create Unmatched Solutions
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>
+                                        What We should do If our skin gets dry?
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+
+                                    <h4>How Long do Services Take to Complete?
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>
+                                        How Can i Find my Financial Record?
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>
+                                        How Long do Services Take to Complete?
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>
+                                        How Can i Find my Financial Record?
+                                        <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                    </h4>
+                                </div><!-- /.accordian-title -->
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            There are many variations of passages the majority have simply free text available in the lorem ipsum market for free
+                                            now suffered alteration in some fo injected humour, or randomised words believable.
+                                        </p>
+                                    </div><!-- /.accordian-content -->
+                                </div>
+                            </div><!-- /.accordian-item -->
+                        </div>
+                    </div><!-- /.col-lg-8 col-xl-9 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.faq-page-accordion -->
+
         <footer class="main-footer background-black">
             <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
             <!-- /.main-footer__bg -->
@@ -328,8 +349,7 @@
             </div><!-- /.main-footer__bottom -->
         </footer><!-- /.main-footer -->
 
-    </div>
-    <!-- /.page-wrapper -->
+    </div><!-- /.page-wrapper -->
 
 
 
@@ -339,7 +359,7 @@
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logos/logo-for-dark.png" width="155" alt=""></a>
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt=""></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -391,10 +411,10 @@
     </div>
     <!-- /.search-popup -->
 
-    <!-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">back top</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-    </a> -->
+    </a>
 
 
     <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
@@ -417,7 +437,6 @@
     <script src="assets/vendors/countdown/countdown.min.js"></script>
     <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="./scripts/professionals.js"></script>
     <!-- template js -->
     <script src="assets/js/hiredots.js"></script>
 </body>
