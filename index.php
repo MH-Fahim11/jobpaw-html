@@ -186,7 +186,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0038.jpg" alt="${job.title}">
+                                <img src="" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
@@ -208,7 +208,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
