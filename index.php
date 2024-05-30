@@ -492,6 +492,9 @@ Time: 10:00 AM - 4:00 PM
             </div><!-- /.container -->
         </section><!-- /.blog-one -->
 
+        <?php
+            include_once('component/whychose.php') ; 
+        ?>    
          <!-- Call To Action End -->
          <div class="client-carousel ">
             <div class="container">
