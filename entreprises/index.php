@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobpaw | professionals</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
     <meta name="description" content="Hiredots is a modern HTML Template HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses.">
 
     <!-- fonts -->
@@ -17,25 +17,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- reey font -->
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css">
+    <link rel="stylesheet" href="../assets/vendors/reey-font/stylesheet.css">
 
 
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
-    <link rel="stylesheet" href="assets/vendors/hiredots-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/vendors/bootstrap-select/bootstrap-select.min.css">
+    <link rel="stylesheet" href="../assets/vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="../assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/vendors/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="../assets/vendors/jarallax/jarallax.css">
+    <link rel="stylesheet" href="../assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+    <link rel="stylesheet" href="../assets/vendors/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="../assets/vendors/nouislider/nouislider.pips.css">
+    <link rel="stylesheet" href="../assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="../assets/vendors/hiredots-icons/style.css">
+    <link rel="stylesheet" href="../assets/vendors/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/vendors/owl-carousel/css/owl.theme.default.min.css">
     
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/hiredots.css">
+    <link rel="stylesheet" href="../assets/css/hiredots.css">
 </head>
 
 <body class="custom-cursor">
@@ -44,145 +44,19 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(../assets/images/loader.png);"></div>
     </div>
-        <header class="main-header sticky-header sticky-header--normal">
-            <div class="main-header__inner">
-                <div class="main-header__logo">
-                    <a href="index.html">
-                        <img src="assets/images/logos/logo-light.png" alt="Hiredots HTML" width="125">
-                    </a>
-                </div><!-- /.main-header__logo -->
-                <a href="#" class="search-toggler main-header__search">
-                    <i class="icon-magnifying-glass" aria-hidden="true"></i>
-                    <span class="sr-only">Search</span>
-                </a><!-- /.search-toggler -->
-                <div class="main-header__menu">
-                    <nav class="main-header__nav main-menu">
-                        <ul class="main-menu__list">
-                            <li class="dropdown">
-                                <a href="/professionnels">Professionels</a>
-                            </li>
-
-                            <li>
-                                <a href="about.html">Entreprises</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Universities</a>
-                                <ul>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="jobs.html">Jobs</a></li>
-                                    <li><a href="history.html">History</a></li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="service-d-consulting.html">HR Consulting</a></li>
-                                    <li><a href="service-d-resources.html">Tech Resources</a></li>
-                                    <li><a href="service-d-hydro-solution.html">Staffing Solution</a></li>
-                                    <li><a href="service-d-program.html">Corporate Program</a></li>
-                                    <li> <a href="service-d-training.html">Leadership Training</a></li>
-                                    <li><a href="service-d-management.html">Staff Management</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="project.html">Projects</a>
-                                <ul>
-                                    <li><a href="project.html">Projects</a></li>
-                                    <li><a href="project-details.html">Projects Details</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul>
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="blog-details.html">News Details</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li> -->
-                        </ul>
-                    </nav><!-- /.main-header__nav -->
-                    <!-- <div class="main-header__call">
-                        <i class="icon-telephone"></i>
-                        <a href="tel:+9288006930">+ 92 (8800)-6930</a>
-                    </div> -->
-                    <!-- <div style="background-color: aqua; margin: 5px; margin-right: 30px;">
-
-                    
-                        <div class=" d-flex align-items-center" style="background-color: white; margin: 5px; padding: 5px;">
-                            <div class="">
-                                <a>Connexion</a>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-
-                            <div>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="connexion">
-                        <div class="connexion-i1">
-    
-                            <p style="color: rgb(25, 164, 222);">Connexion</p>
-                            <div style="margin-top: -20px;">
-                                <select style="border: none;">
-                                    <option>Inscription</option>
-                                    <option>Entreprises</option>
-                                    <option>Professionnels</option>
-                                    <option>Universités</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="connexion-i2">
-                            <button style="border: none;">
-                            </button>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!-- <div class="main-header__link">
-                    <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
-                    
-                </div> -->
-                <div class="connexion-m">
-                    <div class="connexion-i1-m">
-
-                        <p style="color: rgb(25, 164, 222);">Connexion</p>
-                        <div style="margin-top: -20px;">
-                            <select style="border: none;">
-                                <option>Inscription</option>
-                                <option>Entreprises</option>
-                                <option>Professionnels</option>
-                                <option>Universités</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="connexion-i2-m">
-                        <button style="border: none;">
-                        </button>
-                    </div>
-                </div>
-
-                <div class="mobile-nav__btn mobile-nav__toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div><!-- /.mobile-nav__toggler -->
-            </div>
+        <header  class="main-header sticky-header sticky-header--normal">
+        <?php
+            $title = 'Home';
+            $page = 'home';
+            $professionels = '/professionals'; 
+            $entreprises ='/entreprises';
+            $universities = '/universities';
+            $services ='services.php';
+            $projects = '';
+            include_once('../component/navBar.php') ; 
+        ?>    
         </header>
         <!-- main-slider-start -->
         <div>
@@ -215,8 +89,10 @@
             </div>
         </section>
        </div>
+
+       
         <footer class="main-footer background-black">
-            <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
+            <div class="main-footer__bg" style="background-image: url(../assets/images/backgrounds/footer-bg.jpg);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__subscribe">
                 <div class="container">
@@ -244,13 +120,13 @@
                         <div class="col-md-6 col-xl-5">
                             <div class="footer-widget footer-widget--about">
                                 <a href="index.html" class="footer-widget__logo">
-                                    <img src="assets/images/logo-light.png" width="125" alt="Hiredots HTML Template">
+                                    <img src="../assets/images/logo-light.png" width="125" alt="Hiredots HTML Template">
                                 </a>
                                 <p class="footer-widget__text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit <br>
                                     sed do eiusmod tempor incididunt ut labore.</p>
                                 <div class="footer-widget__author">
                                     <div class="footer-widget__author__img">
-                                        <img src="assets/images/resources/footer-about-avata.png" alt="">
+                                        <img src="../assets/images/resources/footer-about-avata.png" alt="">
                                     </div>
                                     <div>
                                         <div class="footer-widget__author__info">
@@ -339,7 +215,7 @@
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logos/logo-for-dark.png" width="155" alt=""></a>
+                <a href="index.html" aria-label="logo image"><img src="../assets/images/logos/logo-for-dark.png" width="155" alt=""></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -397,29 +273,32 @@
     </a> -->
 
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/slick/slick.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="./scripts/entreprises.js"></script>
+    <script src="../assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="../assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="../assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="../assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="../assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="../assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="../assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="../assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="../assets/vendors/slick/slick.min.js"></script>
+    <script src="../assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="../assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="../assets/vendors/wow/wow.js"></script>
+    <script src="../assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="../assets/vendors/isotope/isotope.js"></script>
+    <script src="../assets/vendors/countdown/countdown.min.js"></script>
+    <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    
+    <script src="../scripts/nav.js"></script>
+
+    <script src="../scripts/entreprises.js"></script>
     <!-- template js -->
-    <script src="assets/js/hiredots.js"></script>
+    <script src="../assets/js/hiredots.js"></script>
 </body>
 
 </html>

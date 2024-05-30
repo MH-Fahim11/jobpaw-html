@@ -1,61 +1,43 @@
 const projects = [
     {
-        title: "Voir statistiques opportunités",
+        title: "Adapter les formations au marché",
         img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
-        path: "professionals/voir-statistiques-opportunites.php",
+        path: "/",
         icon: "../images/5x/1.jpg"
     },
     {
-        title: "Choisir université ou école",
+        title: "Promouvoir son université ou son école",
         img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
-        path: "professionals/universities.php",
+        path: "",
         icon: "../images/5x/2.jpg"
     },
     {
-        title: "Créer un CVPaw",
+        title: "Stimuler recherche et innovation",
         img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
-        path: "/professionals/cv-paw.php",
+        path: "",
         icon: "../images/5x/5.jpg"
     },
     {
-        title: "Trouver un emploi",
+        title: "Valoriser les diplomés",
         img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
-        path: "professionals/find-job.php",
+        path: "",
         icon: "../images/5x/7.jpg"
     },
     {
-        title: "Avoir un coaching",
+        title: "Partager les travaux de recherche",
         img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
-        path: "/professionals/avoir-un-coaching.php",
+        path: "",
         icon: "../images/5x/8.jpg"
     },
     {
-        title: "Trouver formation continue",
+        title: "Opportunités d’affaires",
         img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
-        path: "/professionals/seminer.php",
+        path: "",
         icon: "../images/5x/9.jpg"
-    },
-    {
-        title: "Monter son entreprise",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
-        path: "/professionals/choose-school-or-universiry.php",
-        icon: "../images/5x/10.jpg"
-    },
-    {
-        title: "Trouver bourse d’étude",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0027.jpg",
-        path: "/professionals/choose-school-or-universiry",
-        icon: "../images/5x/11.jpg"
-    },
-    {
-        title: "Consulter travaux recherche",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "professionals/consult-research-work.html",
-        icon: "../images/5x/12.jpg"
     }
 ];
 
-const container = document.getElementById('projects-container');
+const container = document.getElementById('universities-container');
 
 projects.forEach((feature, index) => {
     const featureItem = document.createElement('div');
@@ -79,6 +61,3 @@ projects.forEach((feature, index) => {
 
     container.appendChild(featureItem);
 });
-
-
-

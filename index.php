@@ -47,9 +47,19 @@
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
     
-        <header id="main-header" class="main-header sticky-header sticky-header--normal">
-            
+        <header  class="main-header sticky-header sticky-header--normal">
+        <?php
+            $title = 'Home';
+            $page = 'home';
+            $professionels = '/professionals'; 
+            $entreprises ='/entreprises';
+            $universities = '/universities';
+            $services ='services.php';
+            $projects = '';
+            include_once('component/navBar.php') ; 
+        ?>    
         </header>
+
         <!-- main-slider-start -->
         <section class="main-slider-one">
             <div class="main-slider-one__carousel hiredots-owl__carousel owl-carousel" data-owl-options='{
@@ -68,7 +78,7 @@
 	    }'>
                 <div class="item" data-dot="<button>1/</button>">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0038.jpg);"></div>
                         <div class="main-slider-one__overlay"></div>
                         <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
                         <div class="container">
@@ -76,7 +86,12 @@
                                 <div class="col-md-12">
                                     <div class="main-slider-one__content">
                                         <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div><!-- slider-layer -->
-                                        <h2 class="main-slider-one__title">Right<br> People for<br> the Business</h2><!-- slider-title -->
+                                        <h2 class="main-slider-one__title">
+                                                Recrutez en publiant vos offres d'emploi <br/>
+                                                <span class='text-danger'>Achetez en publiant vos appels d'offres</span> <br/>
+                                                Signalez en publiant vos plans annuels d'achats <br/>
+                                                <span className='text-danger'>Placez en adaptant vos formations aux marchés</span>
+                                            </h2>
                                         <div class="main-slider-one__btn">
                                             <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->
                                         </div>
@@ -88,7 +103,7 @@
                 </div>
                 <div class="item" data-dot="<button>2/</button>">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-2.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0035.jpg);"></div>
                         <div class="main-slider-one__overlay"></div>
                         <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
                         <div class="container">
@@ -108,7 +123,7 @@
                 </div>
                 <div class="item" data-dot="<button>3</button>">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-3.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0053.jpg);"></div>
                         <div class="main-slider-one__overlay"></div>
                         <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
                         <div class="container">
@@ -141,6 +156,7 @@
         </section>
         <!-- Feature End -->
         
+
         <!-- /.funfact-one -->
         <section class="service-one" style="background-image: url(assets/images/shapes/service-bg-1.jpg);">
             <div class="container">
@@ -153,71 +169,57 @@
                 </div><!-- /.sec-title -->
                 <div class="row gutter-y-30">
                     <div class="col-md-6 col-lg-4">
-                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
-                            <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="hiredots">
                             </div>
-                            <div class="service-one-card__content">
-                                <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
-                                    <a href="/services" class="service-one-card__cat">Programming & Tech</a>
-                                </div>
-                                <h3 style="height: 50px" class="service-one-card__title">
-                                    <a href="${job.link}">Software Engineer Job</a>
-                                </h3>
-                                <p class="service-one-card__text">Company: Brain Station 23</p>
-                                <p class="service-one-card__text">Deadline: 5/31/2024</p>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="./images/5x/9.jpg" alt="icon"/></div>
+                                <h3 class="feature-one__item__title">Software Engineer Job</h3>
+                                <p class="feature-one__item__text">Company: Brain Station 23</p>
+                                <p class="feature-one__item__text">Deadline: 7/06/2024</p>
+                                
+                                <a href="/professionnels/find-job/" class="hiredots-btn"><span>Read More</span></a>
                             </div>
-                            <a href="/professionnels/find-job/${createSlug(job.title)}" class="service-one-card__link">
-                                Read More
-                                <i class="icon-right-arrow"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
-                            <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0038.jpg" alt="${job.title}">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="hiredots">
                             </div>
-                            <div class="service-one-card__content">
-                                <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
-                                    <a href="/services" class="service-one-card__cat">Sales & Marketing</a>
-                                </div>
-                                <h3 style="height: 50px" class="service-one-card__title">
-                                    <a href="${job.link}">Digital Marketing</a>
-                                </h3>
-                                <p class="service-one-card__text">Company: Enosis Solution</p>
-                                <p class="service-one-card__text">Deadline: 7/06/2024</p>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="./images/5x/9.jpg" alt="icon"/></div>
+                                <h3 class="feature-one__item__title">Sales & Marketing</h3>
+                                <p class="feature-one__item__text">Company: Brain Station 23</p>
+                                <p class="feature-one__item__text">Deadline: 7/06/2024</p>
+                                
+                                <a href="/professionnels/find-job/" class="hiredots-btn"><span>Read More</span></a>
                             </div>
-                            <a href="/professionnels/find-job/${createSlug(job.title)}" class="service-one-card__link">
-                                Read More
-                                <i class="icon-right-arrow"></i>
-                            </a>
                         </div>
                     </div>
+                    
                     <div class="col-md-6 col-lg-4">
-                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
-                            <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="hiredots">
                             </div>
-                            <div class="service-one-card__content">
-                                <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
-                                    <a href="/services" class="service-one-card__cat">Multimedia</a>
-                                </div>
-                                <h3 style="height: 50px" class="service-one-card__title">
-                                    <a href="${job.link}">Video Editing</a>
-                                </h3>
-                                <p class="service-one-card__text">Company: Dropouts Discord</p>
-                                <p class="service-one-card__text">Deadline: 5/31/2024</p>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon"><img width="100" height="100" class=" rounded-circle" src="./images/5x/9.jpg" alt="icon"/></div>
+                                <h3 class="feature-one__item__title">Video Editing</h3>
+                                <p class="feature-one__item__text">Company: Brain Station 23</p>
+                                <p class="feature-one__item__text">Deadline: 7/06/2024</p>
+                                
+                                <a href="/professionnels/find-job/" class="hiredots-btn"><span>Read More</span></a>
                             </div>
-                            <a href="/professionals/find-job.html" class="service-one-card__link">
-                                Read More
-                                <i class="icon-right-arrow"></i>
-                            </a>
                         </div>
                     </div>
+                    
+                    
+                    
                 </div><!-- /.row -->
                 <div style="display: flex; justify-content: center; margin-top: 20px;">
                     <a href="/professionals/find-job.html" class="hiredots-btn">View more jobs</a>
@@ -225,7 +227,7 @@
             </div><!-- /.container -->
         </section><!-- /.service-one -->
         <!-- Call To Action Start -->
-        <section class="service-one" style="background-image: url(assets/images/shapes/service-bg-1.jpg);">
+        <section class="service-one" style="background-image: linear-gradient(135deg, #e3fdf5 10%, #ffe6fa);  margin-top: 50px;">
             <div class="container">
                 <div class="sec-title text-center">
 
@@ -237,7 +239,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -257,7 +259,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0038.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0038.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -277,7 +279,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3 class="service-one-card__title">
@@ -313,7 +315,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -337,7 +339,7 @@ Time: 10:00 AM - 4:00 PM
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -361,7 +363,7 @@ Time: 10:00 AM - 4:00 PM
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -392,7 +394,7 @@ Time: 10:00 AM - 4:00 PM
 
         <!-- Call To Action Start -->
 
-        <section class="blog-one">
+        <section class="blog-one" style="background-color: rgb(253, 245, 223);">
             <div class="container">
                 <div class="sec-title text-center">
 
@@ -569,118 +571,10 @@ Time: 10:00 AM - 4:00 PM
                 <div class="client-carousel__border"></div>
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->
-        <footer class="main-footer background-black">
-            <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
-            <!-- /.main-footer__bg -->
-            <div class="main-footer__subscribe">
-                <div class="container">
-                    <div class="main-footer__subscribe__wrapper">
-                        <div class="main-footer__subscribe__left">
-                            <span class="main-footer__subscribe__icon"><i class="icon-message"></i></span>
-                            <h3 class="main-footer__subscribe__title">Subscribe Now to Get <br>
-                                Latest Updates</h3>
-                        </div>
-                        <div class="main-footer__subscribe__right">
-                            <form action="#" data-url="MAILCHIMP_FORM_URL" class="main-footer__newsletter mc-form">
-                                <input type="text" name="EMAIL" placeholder="Email address">
-                                <button type="submit" class="fas fa-paper-plane">
-                                    <span class="sr-only">submit</span><!-- /.sr-only -->
-                                </button>
-                            </form><!-- /.footer-widget__newsletter mc-form -->
-                            <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-footer__top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-xl-5">
-                            <div class="footer-widget footer-widget--about">
-                                <a href="index.html" class="footer-widget__logo">
-                                    <img src="assets/images/logo-light.png" width="125" alt="Hiredots HTML Template">
-                                </a>
-                                <p class="footer-widget__text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit <br>
-                                    sed do eiusmod tempor incididunt ut labore.</p>
-                                <div class="footer-widget__author">
-                                    <div class="footer-widget__author__img">
-                                        <img src="assets/images/resources/footer-about-avata.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="footer-widget__author__info">
-                                            <span class="footer-widget__author__tagline">Need Help?</span>
-                                            <h3 class="footer-widget__author__title"><a href="contact.html">Book Appointment </a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="col-md-6 col-xl-2">
-                            <div class="footer-widget footer-widget--links">
-                                <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">About Company</a></li>
-                                    <li><a href="team.html">Meet the Team</a></li>
-                                    <li><a href="blog.html">News & Media</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="col-md-6 col-xl-2">
-                            <div class="footer-widget footer-widget--contact">
-                                <h2 class="footer-widget__title">Links</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">Apply Now</a></li>
-                                    <li><a href="contact.html">Contract to Hire</a></li>
-                                    <li><a href="team.html">Direct Hire</a></li>
-                                    <li><a href="history.html">Executive Search</a></li>
-                                    <li><a href="about.html">Our Solutions</a></li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="col-md-6 col-xl-3">
-                            <div class="footer-widget footer-widget--time">
-                                <h2 class="footer-widget__title">Contact</h2><!-- /.footer-widget__title -->
-                                <p class="footer-widget__text">66 Road Broklyn Street, 600 <br> New York, USA</p>
-                                <!-- /.footer-widget__text -->
-                                <ul class="list-unstyled footer-widget__info">
-                                    <li><i class="fas fa-envelope"></i> <a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                                    <li><i class="fas fa-phone-square"></i> <a href="tel:+92(8800)-6930">+ 92 ( 8800 ) - 6930</a></li>
-                                </ul><!-- /.list-unstyled -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__top -->
-            <div class="main-footer__bottom">
-                <div class="container">
-                    <div class="main-footer__bottom__inner">
-                        <div class="footer-widget__social">
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                            <a href="https://pinterest.com">
-                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                            <a href="https://instagram.com">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </div><!-- /.footer-widget__social -->
-                        <p class="main-footer__copyright">
-                            &copy; Copyright <span class="dynamic-year"></span> by Hiredots HTML Template.
-                        </p>
-                    </div><!-- /.main-footer__inner -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__bottom -->
-        </footer><!-- /.main-footer -->
+
+        <?php
+            include_once('./component/footer.php') ; 
+        ?> 
 
     </div>
     <!-- /.page-wrapper -->
@@ -701,11 +595,11 @@ Time: 10:00 AM - 4:00 PM
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@hiredots.com">needhelp@hiredots.com</a>
+                    <a href="mailto:info@jobpaw.com">info@jobpaw.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:666-888-0000">+(509) 3701 9232</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">

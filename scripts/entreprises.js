@@ -8,7 +8,7 @@ const projects = [
     {
         title: "Publicité via Blast e-mail",
         img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
-        path: "/entreprises/universities.html",
+        path: "/entreprises/universities.php",
         icon: "../images/5x/2.jpg"
     },
     {
@@ -73,7 +73,7 @@ const projects = [
     },
 ];
 
-const container = document.getElementById('entreprises-container');
+const entreprisesContainer = document.getElementById('entreprises-container');
 
 projects.forEach((feature, index) => {
     const featureItem = document.createElement('div');
@@ -95,5 +95,5 @@ projects.forEach((feature, index) => {
 </div>
     `;
 
-    container.appendChild(featureItem);
+    entreprisesContainer.appendChild(featureItem);
 });

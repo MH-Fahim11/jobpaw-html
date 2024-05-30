@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobpaw | Universities</title>
+    <title>Jobpaw | professionals</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
     <meta name="description" content="Hiredots is a modern HTML Template HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses.">
@@ -44,7 +44,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(../assets/images/loader.png);"></div>
     </div>
         <header class="main-header sticky-header sticky-header--normal">
         <?php
@@ -56,23 +56,23 @@
             $services ='services.php';
             $projects = '';
             include_once('../component/navBar.php') ; 
-        ?> 
+        ?>  
         </header>
         <!-- main-slider-start -->
         <div>
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="../images/shapes/page-header-shape.png" alt="hiredots">
+                    <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">CV Paw</h2>
+                    <h2 class="page-header__title">Universities</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Professionals / CV Paw</span>
+                            <span>Universities</span>
                         </li>
                     </ul>
                 </div>
@@ -80,12 +80,19 @@
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-        <div id="container" class="container my-5">
-            <!-- Content will be dynamically added here -->
-        </div>
+       <div class="my-5">
+        <section class="feature-one">
+            <div class="container">
+                <div class="row gutter-y-30" id="universities-container">
+                    <!-- JavaScript will populate this container -->
+                </div>
+            </div>
+        </section>
        </div>
+
+       
         <footer class="main-footer background-black">
-            <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
+            <div class="main-footer__bg" style="background-image: url(../assets/images/backgrounds/footer-bg.jpg);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__subscribe">
                 <div class="container">
@@ -240,9 +247,11 @@
                     <i class="fab fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>
-            </div>
+            </div><!-- /.mobile-nav__social -->
         </div>
+        <!-- /.mobile-nav__content -->
     </div>
+    <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -254,7 +263,14 @@
                 </button>
             </form>
         </div>
+        <!-- /.search-popup__content -->
     </div>
+    <!-- /.search-popup -->
+
+    <!-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <span class="scroll-to-top__text">back top</span>
+        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+    </a> -->
 
 
     <script src="../assets/vendors/jquery/jquery-3.7.0.min.js"></script>
@@ -277,7 +293,10 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/cvpaw.js"></script>
+    
+    <script src="../scripts/nav.js"></script>
+
+    <script src="universities.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>
