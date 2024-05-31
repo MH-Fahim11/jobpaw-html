@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobpaw | professionals</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
     <meta name="description"
@@ -65,16 +65,16 @@
         <section class="page-header">
             <div class="page-header__bg"></div>
             <div class="page-header__shape">
-                <img src="./images/shapes/page-header-shape.png" alt="hiredots">
+                <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
             </div>
             <div class="container">
-                <h2 class="page-header__title">Monter son entreprise</h2>
+                <h2 class="page-header__title">Promouvoir son école ou son Université</h2>
                 <ul class="hiredots-breadcrumb list-unstyled">
                     <li>
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <span>Professionals / Monter son entreprise</span>
+                        <span>Universities / Promouvoir son école ou son Université</span>
                     </li>
                 </ul>
             </div>
@@ -85,17 +85,20 @@
     <div class="my-5">
         <section class="">
             <div class="container">
-                <div>
-                    Monter une entreprise requiert trois éléments fondamentaux que nous allons développer : Quoi – Quoi
-                    produire, dans quel secteur porteur investir ou entreprendre, Qui – Avec qui produire, avec qui
-                    collaborer et s’associer pour produire et Comment – Comment produire, comment combiner ressources
-                    humaines, techniques et financières pour produire. <br /><br />
-                    Cliquez ici et avisez-nous si êtes une entreprise ou un professionnel certifié et si vous voulez
-                    être notre partenaire dans un domaine. <br /><br />
-                    Vous pourrez commenter et partager toute information utile sur ce sujet dans la section commentaires
+                <div class="my-5">
+                    <p>
+                        Ce répertoire des formations techniques et universitaires offertes en Haïti aide les
+                        professionnels à choisir une profession adaptée à l’emploi ou à l’entreprenariat.
+                        <br><br>
+                        Il aide les entreprises et les organisations dans l’élaboration d’un plan de formation et dans
+                        l’offre des bourses d’études.
+                        <br><br>
+                        Vous pourrez leur donner cette opportunité en cliquant ici et en mettant à jour les informations
+                        de votre université ou votre école professionnelle dans notre répertoire.
+                    </p>
                 </div>
                 <div class="row gutter-y-30">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240409-WA0000.jpg" alt="hiredots">
@@ -106,13 +109,13 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/1.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Quoi produire?</h3>
+                                <h3 class="feature-one__item__title">Info besoins du marché</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Quoi produire?</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Info besoins du marché</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240408-WA0005.jpg" alt="hiredots">
@@ -123,13 +126,14 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/2.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Avec qui produire?</h3>
+                                <h3 class="feature-one__item__title">Questionnaire et Interaction</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Avec qui produire?</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Questionnaire et
+                                        Interaction</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240408-WA0004.jpg" alt="hiredots">
@@ -140,98 +144,244 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/5.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Comment produire?</h3>
+                                <h3 class="feature-one__item__title">Rétroaction des étudiants</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Comment produire?</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0054.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/6.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Opportunités d’affaires</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Opportunités d’affaires</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Rétroaction des étudiants</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="my-5">
-                    <h5>Monter une entreprise</h5>
-                    <p>Monter une entreprise requiert trois éléments fondamentaux que nous allons développer :</p>
-
-                    <h5>Quoi produire ?</h5>
-                    <p>A propos de l’enjeu de <strong>quoi</strong>, du secteur profitable dans lequel investir, des
-                        récentes recherches ont suggéré de donner priorité aux secteurs à forte demande induite. Il
-                        s’agit de regarder les biens et services très demandés et chercher une option d’offrir un bien
-                        ou service dérivé.</p>
-                    <p>Un simple coup d’œil autour de son environnement immédiat devrait aider à identifier ces biens.
-                        Une analyse approfondie des statistiques sur le PIB (source IHSI, BRH, MEF, etc.) permet aussi
-                        de voir les biens (et leurs secteurs) produits et demandés dans l’économie.</p>
-                    <p>Les entrepreneurs aguerris ou sophistiqués pourront aller au-delà des biens à forte demande
-                        dérivée pour explorer des biens innovants.</p>
-                    <p>L’examen des projets (incluant actions et mesures) de l’Etat inclus dans le budget et relayées <a
-                            href="#">ici</a> donne une idée des orientations des dépenses et des achats.</p>
-                    <p>La connaissance anticipée des biens et services qui seront achetés dans une économie donne une
-                        opportunité de les produire ou de se préparer à les produire. Voir Waddle (2017).</p>
-
-                    <h5>Avec qui produire ?</h5>
-                    <p>Sur l’enjeu de <strong>qui</strong>, des potentiels collaborateurs et associés, il est
-                        généralement conseillé de discuter, de peaufiner ses idées avec ses plus proches à compétences
-                        complémentaires.</p>
-                    <p>Les proches ne sont pas nécessairement des membres de sa famille. Ils peuvent être aussi et
-                        devraient être des camarades de classe, des collègues de travail reconnus pour leur compétence
-                        et leur honnêteté. Ces deux valeurs à chercher chez tous les associés sont la clé de la réussite
-                        de la nouvelle entreprise et de sa consolidation.</p>
-                    <p>Vous pouvez élargir ce petit cercle fermé à d’autres professionnels compétents qui se retrouvent
-                        dans la vision de la nouvelle entreprise.</p>
-                    <p>La plateforme JobPaw dispose d’une solide base de données de professionnels intéressés par
-                        l’entreprenariat. Elle peut ainsi créer le lien entre eux et faciliter leur rencontre.</p>
-
-                    <h5>Comment produire ?</h5>
-                    <p>Le dernier enjeu <strong>comment</strong>, sur comment combiner les ressources pour produire, est
-                        le plus important. Il s’agit de passer de la parole (rêve, idées, projet) aux actions (mise en
-                        œuvre).</p>
-                    <p>Ceci nécessite un savoir-faire technique acquis à travers l’étude, l’observation et l’expérience.
-                    </p>
-                    <p>Le premier pas consiste à avoir le projet avec un plan d’affaires et une étude de marché. Il est
-                        préférable de recourir à des entreprises spécialisées de la place, tout en faisant attention au
-                        vol de vos idées.</p>
-                    <p>Le deuxième pas est la mise en œuvre qui requiert la mise en place de :</p>
-                    <ul>
-                        <li>Sommet stratégique où l’on s’accorde sur la vision et l’orientation.</li>
-                        <li>Technostructure où l’on transforme la vision en action avec capacité de suivi et
-                            d’évaluation.</li>
-                        <li>Centre opérationnel où les actions de production sont entreprises.</li>
-                    </ul>
-                    <p>Ceci exige un savoir-faire éprouvé pour s’assurer que les ressources humaines et financières
-                        soient utilisées de façon optimale.</p>
-                    <p>Parlant de ressources techniques et financières, il est possible d’obtenir du financement externe
-                        et de l’encadrement technique.</p>
-                    <p>De nombreuses plateformes web de crowdfunding avec paiement de frais : Indiegogo (4%), Rock et
-                        Hub (4%), GoFundMe (5%), Razoo (3%), Crowdrise (5%), etc. permettent d’obtenir du financement,
-                        sous forme de dons, pour des projets entrepreneurs innovants et créatifs, culturels ou
-                        solidaires. <a href="#">Cliquer sur Crowd Funding</a></p>
-                    <p>Des institutions locales publiques et privées détaillées dans les tableaux ci-dessous fournissent
-                        aussi un encadrement technique et un encadrement financier.</p>
-
-                    <p><a href="#">Cliquez ici</a> et avisez-nous si vous êtes une entreprise ou un professionnel
-                        certifié et si vous voulez être notre partenaire dans un domaine.</p>
-                    <p>Vous pourrez commenter et partager toute information utile sur ce sujet dans la section
-                        commentaires.</p>
-
+                <div class="mt-5">
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Université/Ecole professionnelle</th>
+                                <th scope="col">Type Formation</th>
+                                <th scope="col">Téléphone</th>
+                                <th scope="col">Adresse</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Abeille Ecole Ménagère</td>
+                                <td>Technique</td>
+                                <td>2257 7260</td>
+                                <td>Rue C. Mayard # 207, Pétion-Ville, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Académie de Compétences Essentielles</td>
+                                <td>Technique</td>
+                                <td>3416 6297, 3138 0786</td>
+                                <td>6 Impasse Monoville, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Académie de Formation et de Perfectionnement des Cadres (Continue)</td>
+                                <td>Universitaire</td>
+                                <td>3617 8941, 4467 7790, 2227 6837, 4075 1060</td>
+                                <td>12, rue Pacot (entre bellevue et la rue 4) Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Académie des Sciences Pures et Appliquées</td>
+                                <td>Universitaire & Technique</td>
+                                <td>3779 8259, 3925 1735</td>
+                                <td>154, Lalue (ancien local du Collège Latin), Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Académie Haïtienne des Arts Culinaires</td>
+                                <td>Technique</td>
+                                <td>3808 2818, 3701 3469, 2811 0629, 3824 1789</td>
+                                <td>Angle rue Duncombre et Ave Lamartiniere, Bois-Verna, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Académie Nationale Diplomatique et Consulaire</td>
+                                <td>Universitaire</td>
+                                <td>2227 5543, 44743636</td>
+                                <td>25 Ave N, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Aiguille Enchantée</td>
+                                <td>Technique</td>
+                                <td>34492029</td>
+                                <td>Cap-Haïtien, Nord</td>
+                            </tr>
+                            <tr>
+                                <td>Alliance Centre de Form. Profes. et Technique (ACFPT)</td>
+                                <td>Technique</td>
+                                <td>3724 0634, 4890 6607</td>
+                                <td>Rte de Delmas, Port-au-Prince Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>America English School & Espana</td>
+                                <td>Technique</td>
+                                <td>3742 1400, 3742 1403</td>
+                                <td>1ère Avenue du Travail # 5, Port-au-Prince, Ouest<br>Delmas 35 #2, Port-au-Prince,
+                                    Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Apex Centre de Formation Professionnelle</td>
+                                <td>Technique</td>
+                                <td>2223 6509, 3940 4606, 3940 4607</td>
+                                <td>Autoroute de Delmas, Delmas 50, Port-au-Prince</td>
+                            </tr>
+                            <tr>
+                                <td>Atelier Ecole Professionnelle d'Ennery (AEPE)</td>
+                                <td>Technique</td>
+                                <td>3710 5927</td>
+                                <td>Rte Cimetière Ennery, Artibonite</td>
+                            </tr>
+                            <tr>
+                                <td>Atelier Ecole Professionnelle La Gonâve</td>
+                                <td>Technique</td>
+                                <td>3758 0235, 3635 6528</td>
+                                <td>Anse à Galet, La Gonave, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Ateliers de Petit Goave (Public)</td>
+                                <td>Technique</td>
+                                <td>2287 2606</td>
+                                <td>Petit Goave, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Business and Technology Institute</td>
+                                <td>Technique</td>
+                                <td>2286 4677, 3315 6678</td>
+                                <td>#78,Rue du Quai,Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Business Institute of the West Indies</td>
+                                <td>Technique</td>
+                                <td>2246 2277, 2246 0684</td>
+                                <td>Delmas 77 # 1 A, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Campus Henry Christophe de Limonade (UEH)</td>
+                                <td>Universitaire</td>
+                                <td>3880 0117</td>
+                                <td>Route Nationale #6, Limonade Haiti</td>
+                            </tr>
+                            <tr>
+                                <td>Cargo Freight International School</td>
+                                <td>Technique</td>
+                                <td>3281 0468</td>
+                                <td>Angle rue Jér,3e imp Lav ,Port-au-Prince Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>CASM (Public)</td>
+                                <td>Technique</td>
+                                <td>2222 5971</td>
+                                <td>Ruelle Mayard, au Fond, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre Cardinal Keeler</td>
+                                <td>Technique</td>
+                                <td>3632 8134, 3486 7383</td>
+                                <td>Varreux Rte Nle#1, Cité Soleil, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre Catholique de Formation Professionnelle de Léogane</td>
+                                <td>Technique</td>
+                                <td>3847-1464, 3646-4790, 2230-5326, 3713-3336</td>
+                                <td>Rte de Darbonne, Léogane, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Apprentissage de St Martin</td>
+                                <td>Technique</td>
+                                <td>2222 5921, 3721-4156, 4275-5709</td>
+                                <td>Campus du Centre Pilote situé à Varreux (logement Provisoire), Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Apprentissage des Cayes (CAC)</td>
+                                <td>Technique</td>
+                                <td>3461-3452, 3724-5126, 3452 3767, 4405</td>
+                                <td>Rue Charpentier, Cayes, Sud</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Apprentissage des Soins Infirmiers des Cayes</td>
+                                <td>Technique</td>
+                                <td>-</td>
+                                <td>Cayes, Sud</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'apprentissage en Informatique</td>
+                                <td>Technique</td>
+                                <td>3766 0487, 3758 8515</td>
+                                <td>Avenue Christophe,Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Arts Ménagers 1ère Eglise Baptiste de la rue de la Réunion</td>
+                                <td>Technique</td>
+                                <td>3687 8283, 4774-8020</td>
+                                <td># 115 Rue de l'enterrement, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Arts Ménagers Baptiste Eben-Ezer</td>
+                                <td>Technique</td>
+                                <td>3670 8678, 3703 9987 , 3703 99 87</td>
+                                <td>#54, Avenue de la Liberté, Jacmel, Sud-Est</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Arts Ménagers Lumière</td>
+                                <td>Technique</td>
+                                <td>3704 3204, 3452 7882</td>
+                                <td>Simon, Sud</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Atelier Professionnel et de Formation Sociale (Continue)</td>
+                                <td>Technique</td>
+                                <td>3460 3976, 3728 0532</td>
+                                <td>#12, vIL.Espérance, Mirbalais, Centre</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Economie Familliale des Abricots</td>
+                                <td>Technique</td>
+                                <td>3631 9591</td>
+                                <td>Abricots, Jeremie, Grand'Anse</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Education en Informatique du Sud</td>
+                                <td>Technique</td>
+                                <td>2286 0039</td>
+                                <td>18, Rue Nicolas Geffrard,Cayes, Sud</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Education Technique et Professionnelle de St Marc</td>
+                                <td>Technique</td>
+                                <td>2279 2460, 3689 9710</td>
+                                <td>#99 Cité Verna (St Marc) Artibonite</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'enseignement professionnel des Gonaives</td>
+                                <td>Technique</td>
+                                <td>3862 3279</td>
+                                <td>34, Descahos, Route Nationale #1, Gonaives, Artibonite</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Etude Professionnelle et Technique</td>
+                                <td>Technique</td>
+                                <td>3794 7583</td>
+                                <td>30,Toussaint Louverture à Cote des Oblats, Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Etudes Comm. et de Perfectionnement d'Haiti (CECPH)</td>
+                                <td>Technique</td>
+                                <td>3421 7678</td>
+                                <td>Delmas 75 / Puit Blain,Port-au-Prince, Ouest</td>
+                            </tr>
+                            <tr>
+                                <td>Centre d'Etudes para Médical pour les Carrières Médicales de Port-au-Prince (MSPP)
+                                </td>
+                                <td>Technique</td>
+                                <td>-</td>
+                                <td>Port-au-Prince, Ouest</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
     </div>
+
+
     <footer class="main-footer background-black">
         <div class="main-footer__bg" style="background-image: url(../assets/images/backgrounds/footer-bg.jpg);"></div>
         <!-- /.main-footer__bg -->
@@ -440,7 +590,10 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/professionals.js"></script>
+
+    <script src="../scripts/nav.js"></script>
+
+    <script src="universities.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

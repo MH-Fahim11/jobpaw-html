@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobpaw | professionals</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
     <meta name="description"
@@ -65,16 +65,16 @@
         <section class="page-header">
             <div class="page-header__bg"></div>
             <div class="page-header__shape">
-                <img src="./images/shapes/page-header-shape.png" alt="hiredots">
+                <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
             </div>
             <div class="container">
-                <h2 class="page-header__title">Monter son entreprise</h2>
+                <h2 class="page-header__title">Stimuler recherche et innovation</h2>
                 <ul class="hiredots-breadcrumb list-unstyled">
                     <li>
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <span>Professionals / Monter son entreprise</span>
+                        <span>Universities / Stimuler recherche et innovation</span>
                     </li>
                 </ul>
             </div>
@@ -85,17 +85,20 @@
     <div class="my-5">
         <section class="">
             <div class="container">
-                <div>
-                    Monter une entreprise requiert trois éléments fondamentaux que nous allons développer : Quoi – Quoi
-                    produire, dans quel secteur porteur investir ou entreprendre, Qui – Avec qui produire, avec qui
-                    collaborer et s’associer pour produire et Comment – Comment produire, comment combiner ressources
-                    humaines, techniques et financières pour produire. <br /><br />
-                    Cliquez ici et avisez-nous si êtes une entreprise ou un professionnel certifié et si vous voulez
-                    être notre partenaire dans un domaine. <br /><br />
-                    Vous pourrez commenter et partager toute information utile sur ce sujet dans la section commentaires
+                <div class="my-5">
+                    <p>
+                        Une des finalités de l’université et de l’école est former des citoyens capables de cohabiter et
+                        de produire en vue d’améliorer le bien-être collectif et individuel.
+                        <br><br>
+                        La formation doit être appliquée d’abord à l’école et à l’université et ensuite à toute la
+                        société.
+                        <br><br>
+                        Vous pourrez commenter et partager toute information utile sur ce sujet dans la section
+                        commentaires.
+                    </p>
                 </div>
                 <div class="row gutter-y-30">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240409-WA0000.jpg" alt="hiredots">
@@ -106,13 +109,13 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/1.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Quoi produire?</h3>
+                                <h3 class="feature-one__item__title">Info besoins du marché</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Quoi produire?</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Info besoins du marché</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240408-WA0005.jpg" alt="hiredots">
@@ -123,13 +126,14 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/2.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Avec qui produire?</h3>
+                                <h3 class="feature-one__item__title">Questionnaire et Interaction</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Avec qui produire?</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Questionnaire et
+                                        Interaction</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240408-WA0004.jpg" alt="hiredots">
@@ -140,98 +144,62 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/5.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Comment produire?</h3>
+                                <h3 class="feature-one__item__title">Rétroaction des étudiants</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Comment produire?</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0054.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/6.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Opportunités d’affaires</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Opportunités d’affaires</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Rétroaction des étudiants</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="my-5">
-                    <h5>Monter une entreprise</h5>
-                    <p>Monter une entreprise requiert trois éléments fondamentaux que nous allons développer :</p>
-
-                    <h5>Quoi produire ?</h5>
-                    <p>A propos de l’enjeu de <strong>quoi</strong>, du secteur profitable dans lequel investir, des
-                        récentes recherches ont suggéré de donner priorité aux secteurs à forte demande induite. Il
-                        s’agit de regarder les biens et services très demandés et chercher une option d’offrir un bien
-                        ou service dérivé.</p>
-                    <p>Un simple coup d’œil autour de son environnement immédiat devrait aider à identifier ces biens.
-                        Une analyse approfondie des statistiques sur le PIB (source IHSI, BRH, MEF, etc.) permet aussi
-                        de voir les biens (et leurs secteurs) produits et demandés dans l’économie.</p>
-                    <p>Les entrepreneurs aguerris ou sophistiqués pourront aller au-delà des biens à forte demande
-                        dérivée pour explorer des biens innovants.</p>
-                    <p>L’examen des projets (incluant actions et mesures) de l’Etat inclus dans le budget et relayées <a
-                            href="#">ici</a> donne une idée des orientations des dépenses et des achats.</p>
-                    <p>La connaissance anticipée des biens et services qui seront achetés dans une économie donne une
-                        opportunité de les produire ou de se préparer à les produire. Voir Waddle (2017).</p>
-
-                    <h5>Avec qui produire ?</h5>
-                    <p>Sur l’enjeu de <strong>qui</strong>, des potentiels collaborateurs et associés, il est
-                        généralement conseillé de discuter, de peaufiner ses idées avec ses plus proches à compétences
-                        complémentaires.</p>
-                    <p>Les proches ne sont pas nécessairement des membres de sa famille. Ils peuvent être aussi et
-                        devraient être des camarades de classe, des collègues de travail reconnus pour leur compétence
-                        et leur honnêteté. Ces deux valeurs à chercher chez tous les associés sont la clé de la réussite
-                        de la nouvelle entreprise et de sa consolidation.</p>
-                    <p>Vous pouvez élargir ce petit cercle fermé à d’autres professionnels compétents qui se retrouvent
-                        dans la vision de la nouvelle entreprise.</p>
-                    <p>La plateforme JobPaw dispose d’une solide base de données de professionnels intéressés par
-                        l’entreprenariat. Elle peut ainsi créer le lien entre eux et faciliter leur rencontre.</p>
-
-                    <h5>Comment produire ?</h5>
-                    <p>Le dernier enjeu <strong>comment</strong>, sur comment combiner les ressources pour produire, est
-                        le plus important. Il s’agit de passer de la parole (rêve, idées, projet) aux actions (mise en
-                        œuvre).</p>
-                    <p>Ceci nécessite un savoir-faire technique acquis à travers l’étude, l’observation et l’expérience.
+                <div class="mt-5">
+                    <h5>Application à l’école et à l’université</h5>
+                    <p>
+                        Une des meilleures façons d’aiguiser le sens de bien-être collectif chez l’étudiant est de
+                        l’encourager à réfléchir sur son environnement immédiat et comment il pourrait être amélioré.
+                        Très tôt, il devrait apprendre à énumérer les besoins prioritaires
+                        <br><br>
+                        Dans un premier temps, les devoirs et les travaux de recherche pourraient être l’occasion de lui
+                        permettre d’obtenir un consensus sur les besoins prioritaires et de proposer des solutions
+                        optimales et faisables.
+                        <br><br>
+                        Dans un deuxième temps, des devoirs pourraient être envisagées en vue de lui permettre de monter
+                        un projet collectif capable de mettre en œuvre une solution à l’un des problèmes prioritaires.
+                        <br><br>
+                        Dans un troisième temps, la réussite d’un cours pourrait être conditionnée à la mise en œuvre du
+                        projet précédemment élaboré. Une classe peut être divisée en deux ou plusieurs groupes chargés
+                        de mettre une ou plusieurs composantes de projet. Si cours est échelonné sur toute l’année, les
+                        groupes pourront se voir attribuer le travail de peaufiner certains aspects de la mise en œuvre
+                        du projet.
+                        <br><br>
+                        Dans un quatrième temps, les étudiants pourraient apprendre à faire une synthèse des projets et
+                        à les regrouper en un mégaprojet, à avoir des synergies dans la mise en œuvre.
                     </p>
-                    <p>Le premier pas consiste à avoir le projet avec un plan d’affaires et une étude de marché. Il est
-                        préférable de recourir à des entreprises spécialisées de la place, tout en faisant attention au
-                        vol de vos idées.</p>
-                    <p>Le deuxième pas est la mise en œuvre qui requiert la mise en place de :</p>
-                    <ul>
-                        <li>Sommet stratégique où l’on s’accorde sur la vision et l’orientation.</li>
-                        <li>Technostructure où l’on transforme la vision en action avec capacité de suivi et
-                            d’évaluation.</li>
-                        <li>Centre opérationnel où les actions de production sont entreprises.</li>
-                    </ul>
-                    <p>Ceci exige un savoir-faire éprouvé pour s’assurer que les ressources humaines et financières
-                        soient utilisées de façon optimale.</p>
-                    <p>Parlant de ressources techniques et financières, il est possible d’obtenir du financement externe
-                        et de l’encadrement technique.</p>
-                    <p>De nombreuses plateformes web de crowdfunding avec paiement de frais : Indiegogo (4%), Rock et
-                        Hub (4%), GoFundMe (5%), Razoo (3%), Crowdrise (5%), etc. permettent d’obtenir du financement,
-                        sous forme de dons, pour des projets entrepreneurs innovants et créatifs, culturels ou
-                        solidaires. <a href="#">Cliquer sur Crowd Funding</a></p>
-                    <p>Des institutions locales publiques et privées détaillées dans les tableaux ci-dessous fournissent
-                        aussi un encadrement technique et un encadrement financier.</p>
+                    <h5>Application à la société</h5>
+                    <p>
+                        Dans un cinquième et dernier temps, ce sera l’occasion pour l’étudiant d’apprendre à regarder
+                        au-delà de son environnement immédiat, de détecter la similarité entre son environnement et les
+                        autres, comment certaines solutions déjà testées pourraient être étendues et appliquées à tels
+                        environnements.
+                        <br><br>
+                        Il pourrait regarder les écoles, les universités, les hôpitaux, les mairies, les ministères,
+                        etc. Des concours inter-écoles et inter-facultés peuvent être envisagés.
+                        <br><br>
+                        Ce faisant, l’université et l’école encourageront les étudiants à apporter des solutions
+                        innovantes aux besoins de la collectivité stimulant ainsi la recherche et l’innovation.
+                        <br><br>
 
-                    <p><a href="#">Cliquez ici</a> et avisez-nous si vous êtes une entreprise ou un professionnel
-                        certifié et si vous voulez être notre partenaire dans un domaine.</p>
-                    <p>Vous pourrez commenter et partager toute information utile sur ce sujet dans la section
-                        commentaires.</p>
-
+                        Récemment, nous avons organisé plusieurs concours d’écriture qui pourraient servir de balise.
+                        Les textes avec les solutions proposées et les résultats sont publiés et disponibles ici
+                        <br><br>
+                        Si vous avez fait de bonnes expériences avec votre école et votre université (en Haïti ou à
+                        l’étranger), vous pourriez les partager ci-dessous.
+                    </p>
                 </div>
             </div>
         </section>
     </div>
+
+
     <footer class="main-footer background-black">
         <div class="main-footer__bg" style="background-image: url(../assets/images/backgrounds/footer-bg.jpg);"></div>
         <!-- /.main-footer__bg -->
@@ -440,7 +408,10 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/professionals.js"></script>
+
+    <script src="../scripts/nav.js"></script>
+
+    <script src="universities.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

@@ -103,8 +103,82 @@
                     Vous pourrez <a href="">commenter et de partager toute information utile</a> sur ce sujet à la fin
                     de la page.
                 </p>
-                <div class="row gutter-y-30" id="projects-container">
-                    <!-- JavaScript will populate this container -->
+                <div class="row gutter-y-30">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="../images/34FinalPhotos/IMG-20240409-WA0000.jpg" alt="hiredots">
+                            </div>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon">
+                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/1.jpg"
+                                        alt="icon">
+                                </div>
+                                <h3 class="feature-one__item__title">Orientation professionnelle</h3>
+                                <p class="feature-one__item__text">.</p>
+                                <a href="feature1.html" class="hiredots-btn"><span>Orientation
+                                        professionnelle</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="../images/34FinalPhotos/IMG-20240408-WA0005.jpg" alt="hiredots">
+                            </div>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon">
+                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/2.jpg"
+                                        alt="icon">
+                                </div>
+                                <h3 class="feature-one__item__title">Insertion
+                                    professionnelle</h3>
+                                <p class="feature-one__item__text">.</p>
+                                <a href="feature1.html" class="hiredots-btn"><span>Insertion
+                                        professionnelle</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="../images/34FinalPhotos/IMG-20240408-WA0004.jpg" alt="hiredots">
+                            </div>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon">
+                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/5.jpg"
+                                        alt="icon">
+                                </div>
+                                <h3 class="feature-one__item__title">Gestion de
+                                    carrière</h3>
+                                <p class="feature-one__item__text">.</p>
+                                <a href="feature1.html" class="hiredots-btn"><span>Gestion de
+                                        carrière</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                        <div class="feature-one__item text-center">
+                            <div class="feature-one__item__img">
+                                <img src="../images/34FinalPhotos/IMG-20240320-WA0054.jpg" alt="hiredots">
+                            </div>
+                            <div class="feature-one__item__content">
+                                <div class="feature-one__item__ball"></div>
+                                <div class="feature-one__item__icon">
+                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/6.jpg"
+                                        alt="icon">
+                                </div>
+                                <h3 class="feature-one__item__title">Conseils
+                                    emploi</h3>
+                                <p class="feature-one__item__text">.</p>
+                                <a href="feature1.html" class="hiredots-btn"><span>Conseils
+                                        emploi</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="my-5">
                     <h5>L’orientation professionnelle</h5>

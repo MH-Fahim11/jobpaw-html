@@ -68,13 +68,13 @@
                 <img src="./images/shapes/page-header-shape.png" alt="hiredots">
             </div>
             <div class="container">
-                <h2 class="page-header__title">Monter son entreprise</h2>
+                <h2 class="page-header__title">Renforcer son entreprise</h2>
                 <ul class="hiredots-breadcrumb list-unstyled">
                     <li>
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <span>Professionals / Monter son entreprise</span>
+                        <span>Professionals / Renforcer son entreprise</span>
                     </li>
                 </ul>
             </div>
@@ -83,150 +83,186 @@
     <!-- main-slider-end -->
     <!-- Feature Start -->
     <div class="my-5">
-        <section class="">
+        <section>
             <div class="container">
-                <div>
-                    Monter une entreprise requiert trois éléments fondamentaux que nous allons développer : Quoi – Quoi
-                    produire, dans quel secteur porteur investir ou entreprendre, Qui – Avec qui produire, avec qui
-                    collaborer et s’associer pour produire et Comment – Comment produire, comment combiner ressources
-                    humaines, techniques et financières pour produire. <br /><br />
-                    Cliquez ici et avisez-nous si êtes une entreprise ou un professionnel certifié et si vous voulez
-                    être notre partenaire dans un domaine. <br /><br />
-                    Vous pourrez commenter et partager toute information utile sur ce sujet dans la section commentaires
+                <div class="mb-5">
+                    Toute entreprise à but lucratif a trois objectifs principaux : satisfaire sa clientèle, augmenter
+                    ses
+                    ventes et réduire ses couts que nous développerons. <br /><br />
+
+                    Cliquez ici et avisez-nous si êtes une entreprise ou un professionnel certifié et que vous voulez
+                    être
+                    notre partenaire dans un domaine. <br /><br />
+
+                    Vous pourrez commenter et partager toute information utile sur ce sujet dans la section
+                    commentaires.
                 </div>
-                <div class="row gutter-y-30">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240409-WA0000.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/1.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Quoi produire?</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Quoi produire?</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240408-WA0005.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/2.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Avec qui produire?</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Avec qui produire?</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240408-WA0004.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/5.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Comment produire?</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Comment produire?</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0054.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/6.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Opportunités d’affaires</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Opportunités d’affaires</span></a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row gutter-y-30" id="projects-container">
+                    <!-- JavaScript will populate this container -->
                 </div>
-                <div class="my-5">
-                    <h5>Monter une entreprise</h5>
-                    <p>Monter une entreprise requiert trois éléments fondamentaux que nous allons développer :</p>
+                <div class="mt-5">
+                    <h5>Réduire ses couts</h5>
+                    <p>
 
-                    <h5>Quoi produire ?</h5>
-                    <p>A propos de l’enjeu de <strong>quoi</strong>, du secteur profitable dans lequel investir, des
-                        récentes recherches ont suggéré de donner priorité aux secteurs à forte demande induite. Il
-                        s’agit de regarder les biens et services très demandés et chercher une option d’offrir un bien
-                        ou service dérivé.</p>
-                    <p>Un simple coup d’œil autour de son environnement immédiat devrait aider à identifier ces biens.
-                        Une analyse approfondie des statistiques sur le PIB (source IHSI, BRH, MEF, etc.) permet aussi
-                        de voir les biens (et leurs secteurs) produits et demandés dans l’économie.</p>
-                    <p>Les entrepreneurs aguerris ou sophistiqués pourront aller au-delà des biens à forte demande
-                        dérivée pour explorer des biens innovants.</p>
-                    <p>L’examen des projets (incluant actions et mesures) de l’Etat inclus dans le budget et relayées <a
-                            href="#">ici</a> donne une idée des orientations des dépenses et des achats.</p>
-                    <p>La connaissance anticipée des biens et services qui seront achetés dans une économie donne une
-                        opportunité de les produire ou de se préparer à les produire. Voir Waddle (2017).</p>
+                        Réduire ses couts implique un diagnostic interne de la chaine de production de biens et de
+                        services
+                        afin d’optimiser la production. <br /> <br />
 
-                    <h5>Avec qui produire ?</h5>
-                    <p>Sur l’enjeu de <strong>qui</strong>, des potentiels collaborateurs et associés, il est
-                        généralement conseillé de discuter, de peaufiner ses idées avec ses plus proches à compétences
-                        complémentaires.</p>
-                    <p>Les proches ne sont pas nécessairement des membres de sa famille. Ils peuvent être aussi et
-                        devraient être des camarades de classe, des collègues de travail reconnus pour leur compétence
-                        et leur honnêteté. Ces deux valeurs à chercher chez tous les associés sont la clé de la réussite
-                        de la nouvelle entreprise et de sa consolidation.</p>
-                    <p>Vous pouvez élargir ce petit cercle fermé à d’autres professionnels compétents qui se retrouvent
-                        dans la vision de la nouvelle entreprise.</p>
-                    <p>La plateforme JobPaw dispose d’une solide base de données de professionnels intéressés par
-                        l’entreprenariat. Elle peut ainsi créer le lien entre eux et faciliter leur rencontre.</p>
+                        Cela exige un point de référence, de comparaison par rapport à des entreprises évoluant dans des
+                        secteurs similaires. <br /><br />
 
-                    <h5>Comment produire ?</h5>
-                    <p>Le dernier enjeu <strong>comment</strong>, sur comment combiner les ressources pour produire, est
-                        le plus important. Il s’agit de passer de la parole (rêve, idées, projet) aux actions (mise en
-                        œuvre).</p>
-                    <p>Ceci nécessite un savoir-faire technique acquis à travers l’étude, l’observation et l’expérience.
+                        Cela implique parfois l’investissement dans un système compétitif de recrutement (pour attirer
+                        les
+                        meilleurs professionnels), la formation des employés et de nouvelles technologies.
+
+
                     </p>
-                    <p>Le premier pas consiste à avoir le projet avec un plan d’affaires et une étude de marché. Il est
-                        préférable de recourir à des entreprises spécialisées de la place, tout en faisant attention au
-                        vol de vos idées.</p>
-                    <p>Le deuxième pas est la mise en œuvre qui requiert la mise en place de :</p>
-                    <ul>
-                        <li>Sommet stratégique où l’on s’accorde sur la vision et l’orientation.</li>
-                        <li>Technostructure où l’on transforme la vision en action avec capacité de suivi et
-                            d’évaluation.</li>
-                        <li>Centre opérationnel où les actions de production sont entreprises.</li>
-                    </ul>
-                    <p>Ceci exige un savoir-faire éprouvé pour s’assurer que les ressources humaines et financières
-                        soient utilisées de façon optimale.</p>
-                    <p>Parlant de ressources techniques et financières, il est possible d’obtenir du financement externe
-                        et de l’encadrement technique.</p>
-                    <p>De nombreuses plateformes web de crowdfunding avec paiement de frais : Indiegogo (4%), Rock et
-                        Hub (4%), GoFundMe (5%), Razoo (3%), Crowdrise (5%), etc. permettent d’obtenir du financement,
-                        sous forme de dons, pour des projets entrepreneurs innovants et créatifs, culturels ou
-                        solidaires. <a href="#">Cliquer sur Crowd Funding</a></p>
-                    <p>Des institutions locales publiques et privées détaillées dans les tableaux ci-dessous fournissent
-                        aussi un encadrement technique et un encadrement financier.</p>
+                    <h5>Augmenter ses ventes</h5>
+                    <p>
+                        Augmenter ses ventes implique un accroissement préalable ou un ajustement de la capacité de
+                        production, un ajustement organisationnel et la révision du système de communication de manière
+                        à mieux desservir la clientèle <br><br>
 
-                    <p><a href="#">Cliquez ici</a> et avisez-nous si vous êtes une entreprise ou un professionnel
-                        certifié et si vous voulez être notre partenaire dans un domaine.</p>
-                    <p>Vous pourrez commenter et partager toute information utile sur ce sujet dans la section
-                        commentaires.</p>
+                        Cela suppose une analyse de la chaine de vents, de tout le circuit de la commande à la
+                        livraison. Cela implique la réduction du délai et aussi la simplification des procédures.
+                        <br><br>
+
+                        Cela implique parfois l’investissement dans les systèmes de paiement en ligne. <br><br>
+
+                        Dans les marchés cloisonnés, il faut apprendre à diversifier, à chercher de nouveaux marchés.
+                        <br><br>
+
+                        L’examen des projets (incluant mesures et actions) de l’Etat inclus dans le budget et relayées
+                        ici donne une idée des orientations des dépenses et des achats. <br><br>
+
+                        La connaissance anticipée des biens et des services directs (et aussi dérivés) qui seront
+                        achetés dans l’économie donne l’opportunité de les produire ou de se préparer à les produire.
+                        Voir Waddle (2017).
+                    </p>
+                    <h5>Satisfaire sa clientèle</h5>
+                    <p>
+
+                        Satisfaire sa clientèle implique la connaissance préalable des goûts et préférences de ses
+                        clients. <br><br>
+
+
+                        Cela suppose des enquêtes électroniques avec des questions bien précises et des stratégies pour
+                        capter l’information. Ceci permettrait de mieux desservir la clientèle et de la rendre captive.
+                        <br><br>
+
+                        Cela implique aller au-delà de l’informel (bouche à oreille) pour avoir un système formalisé.
+                        <br><br>
+
+                        Les jeunes diplômés en marketing, ventes, statistiques, etc. combinés avec des professionnels
+                        seniors pourraient être utilisés pour mettre en œuvre des systèmes électroniques d’enquête.
+                        <br><br>
+
+                        Cela implique aussi une capacité analytique des données recueillies avec des recommandations et
+                        une capacité de mise en œuvre et de suivi des stratégies de communication et de ventes qui en
+                        découlent. <br><br>
+
+                        Que ce soit pour aider à réduire les couts ou augmenter les ventes ou satisfaire la clientèle,
+                        il existe des institutions publiques ou privées spécialisées auxquelles une entreprise peut
+                        faire appel, comme le montre le tableau ci-dessous:
+                    </p>
+                </div>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Categorie</th>
+                            <th scope="col">Institutions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Formation classique</td>
+                            <td>Universités et Ecoles techniques</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="19">Formation executive</td>
+                            <td>ADA Consulting</td>
+                        </tr>
+                        <tr>
+                            <td>ANACAPH</td>
+                        </tr>
+                        <tr>
+                            <td>Ayitic</td>
+                        </tr>
+                        <tr>
+                            <td>BANJ</td>
+                        </tr>
+                        <tr>
+                            <td>Caribbean Open Institute</td>
+                        </tr>
+                        <tr>
+                            <td>CEDEL</td>
+                        </tr>
+                        <tr>
+                            <td>Centre Specialiste Leadership/CSL</td>
+                        </tr>
+                        <tr>
+                            <td>DID</td>
+                        </tr>
+                        <tr>
+                            <td>Economic Growth Initiative/EGI</td>
+                        </tr>
+                        <tr>
+                            <td>ESIH</td>
+                        </tr>
+                        <tr>
+                            <td>FENACAPH</td>
+                        </tr>
+                        <tr>
+                            <td>Grameen Creative Lab</td>
+                        </tr>
+                        <tr>
+                            <td>Group Croissance</td>
+                        </tr>
+                        <tr>
+                            <td>Incubateur Virtuel de la Francophonie pour l’Entrepreneuriat (IVFE)</td>
+                        </tr>
+                        <tr>
+                            <td>KNFP</td>
+                        </tr>
+                        <tr>
+                            <td>Profin</td>
+                        </tr>
+                        <tr>
+                            <td>SOFIHDES</td>
+                        </tr>
+                        <tr>
+                            <td>Technoserve</td>
+                        </tr>
+                        <tr>
+                            <td>Transversal</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>Wikitech</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>JobPaw</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <h5> Vous pouvez cliquer ici et nous contacter si :</h5>
+                    1. Vous cherchez une formation sur mesure pour mettre à jour vos propres connaissances ou celles de
+                    vos employés
+                    . <br>
+                    2. Vous voulez améliorer la performance de votre entreprise et cherchez une séance personnalisée
+                    pour vous aider à revoir votre stratégie.
+                    <br>
+                    3. Vous voulez appliquer pour un appel d’offres et cherchez de l’aide dans le montage du dossier
+                    d’appel d’offres.
+                    <br>
+                    4. Vous voulez monter ou renforcer votre entreprise et cherchez de l’aide pour l’élaboration ou la
+                    mise à jour de votre plan d’affaires.
+                    <br>
+                    5. Vous êtes un professionnel certifié ou une entreprise certifiée et si vous voulez être notre
+                    partenaire dans un des quatre domaines ci-dessus.
+
 
                 </div>
             </div>

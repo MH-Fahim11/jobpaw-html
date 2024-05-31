@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobpaw | professionals</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
     <meta name="description"
@@ -65,16 +65,16 @@
         <section class="page-header">
             <div class="page-header__bg"></div>
             <div class="page-header__shape">
-                <img src="./images/shapes/page-header-shape.png" alt="hiredots">
+                <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
             </div>
             <div class="container">
-                <h2 class="page-header__title">Monter son entreprise</h2>
+                <h2 class="page-header__title">Valoriser les diplomés</h2>
                 <ul class="hiredots-breadcrumb list-unstyled">
                     <li>
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <span>Professionals / Monter son entreprise</span>
+                        <span>Universities / Valoriser les diplomés</span>
                     </li>
                 </ul>
             </div>
@@ -85,17 +85,22 @@
     <div class="my-5">
         <section class="">
             <div class="container">
-                <div>
-                    Monter une entreprise requiert trois éléments fondamentaux que nous allons développer : Quoi – Quoi
-                    produire, dans quel secteur porteur investir ou entreprendre, Qui – Avec qui produire, avec qui
-                    collaborer et s’associer pour produire et Comment – Comment produire, comment combiner ressources
-                    humaines, techniques et financières pour produire. <br /><br />
-                    Cliquez ici et avisez-nous si êtes une entreprise ou un professionnel certifié et si vous voulez
-                    être notre partenaire dans un domaine. <br /><br />
-                    Vous pourrez commenter et partager toute information utile sur ce sujet dans la section commentaires
+                <div class="my-5">
+                    <p>
+                        Ce répertoire des professionnels et des consultants donne une idée des ressources humaines en
+                        Haïti et dans la Diaspora.
+                        <br><br>
+                        Il sert à l’Etat dans le choix et la mise en œuvre de la politique publique en éducation.
+                        <br><br>
+                        Il aide les entreprises et les organisations à recruter en toute discrétion et aussi à élaborer
+                        leur plan de recrutement.
+                        <br><br>
+                        Il aide les universités/écoles à faire la promotion des diplômés. Vous pourrez ajouter ici votre
+                        CV.
+                    </p>
                 </div>
                 <div class="row gutter-y-30">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240409-WA0000.jpg" alt="hiredots">
@@ -106,13 +111,13 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/1.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Quoi produire?</h3>
+                                <h3 class="feature-one__item__title">Recruter via base de CV</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Quoi produire?</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Recruter via base de CV</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240408-WA0005.jpg" alt="hiredots">
@@ -123,13 +128,13 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/2.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Avec qui produire?</h3>
+                                <h3 class="feature-one__item__title">Recruter via Head Hunter</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Avec qui produire?</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Recruter via Head Hunter</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
                                 <img src="../images/34FinalPhotos/IMG-20240408-WA0004.jpg" alt="hiredots">
@@ -140,98 +145,26 @@
                                     <img width="100" height="100" class="rounded-circle" src="../images/5x/5.jpg"
                                         alt="icon">
                                 </div>
-                                <h3 class="feature-one__item__title">Comment produire?</h3>
+                                <h3 class="feature-one__item__title">Publier offre d’emploi</h3>
                                 <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Comment produire?</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
-                        <div class="feature-one__item text-center">
-                            <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0054.jpg" alt="hiredots">
-                            </div>
-                            <div class="feature-one__item__content">
-                                <div class="feature-one__item__ball"></div>
-                                <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/6.jpg"
-                                        alt="icon">
-                                </div>
-                                <h3 class="feature-one__item__title">Opportunités d’affaires</h3>
-                                <p class="feature-one__item__text">.</p>
-                                <a href="feature1.html" class="hiredots-btn"><span>Opportunités d’affaires</span></a>
+                                <a href="feature1.html" class="hiredots-btn"><span>Publier offre d’emploi</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="my-5">
-                    <h5>Monter une entreprise</h5>
-                    <p>Monter une entreprise requiert trois éléments fondamentaux que nous allons développer :</p>
-
-                    <h5>Quoi produire ?</h5>
-                    <p>A propos de l’enjeu de <strong>quoi</strong>, du secteur profitable dans lequel investir, des
-                        récentes recherches ont suggéré de donner priorité aux secteurs à forte demande induite. Il
-                        s’agit de regarder les biens et services très demandés et chercher une option d’offrir un bien
-                        ou service dérivé.</p>
-                    <p>Un simple coup d’œil autour de son environnement immédiat devrait aider à identifier ces biens.
-                        Une analyse approfondie des statistiques sur le PIB (source IHSI, BRH, MEF, etc.) permet aussi
-                        de voir les biens (et leurs secteurs) produits et demandés dans l’économie.</p>
-                    <p>Les entrepreneurs aguerris ou sophistiqués pourront aller au-delà des biens à forte demande
-                        dérivée pour explorer des biens innovants.</p>
-                    <p>L’examen des projets (incluant actions et mesures) de l’Etat inclus dans le budget et relayées <a
-                            href="#">ici</a> donne une idée des orientations des dépenses et des achats.</p>
-                    <p>La connaissance anticipée des biens et services qui seront achetés dans une économie donne une
-                        opportunité de les produire ou de se préparer à les produire. Voir Waddle (2017).</p>
-
-                    <h5>Avec qui produire ?</h5>
-                    <p>Sur l’enjeu de <strong>qui</strong>, des potentiels collaborateurs et associés, il est
-                        généralement conseillé de discuter, de peaufiner ses idées avec ses plus proches à compétences
-                        complémentaires.</p>
-                    <p>Les proches ne sont pas nécessairement des membres de sa famille. Ils peuvent être aussi et
-                        devraient être des camarades de classe, des collègues de travail reconnus pour leur compétence
-                        et leur honnêteté. Ces deux valeurs à chercher chez tous les associés sont la clé de la réussite
-                        de la nouvelle entreprise et de sa consolidation.</p>
-                    <p>Vous pouvez élargir ce petit cercle fermé à d’autres professionnels compétents qui se retrouvent
-                        dans la vision de la nouvelle entreprise.</p>
-                    <p>La plateforme JobPaw dispose d’une solide base de données de professionnels intéressés par
-                        l’entreprenariat. Elle peut ainsi créer le lien entre eux et faciliter leur rencontre.</p>
-
-                    <h5>Comment produire ?</h5>
-                    <p>Le dernier enjeu <strong>comment</strong>, sur comment combiner les ressources pour produire, est
-                        le plus important. Il s’agit de passer de la parole (rêve, idées, projet) aux actions (mise en
-                        œuvre).</p>
-                    <p>Ceci nécessite un savoir-faire technique acquis à travers l’étude, l’observation et l’expérience.
+                <div class="mt-5">
+                    <p>Vous pourrez découvrir ici et utiliser la banque de ressources humaines pour recruter en toute
+                        discrétion.
+                        <br> <br>
+                        Vous pouvez la tester en recherchant un professionnel en filtrant par expérience, spécialité,
+                        éducation, université/école, etc.
                     </p>
-                    <p>Le premier pas consiste à avoir le projet avec un plan d’affaires et une étude de marché. Il est
-                        préférable de recourir à des entreprises spécialisées de la place, tout en faisant attention au
-                        vol de vos idées.</p>
-                    <p>Le deuxième pas est la mise en œuvre qui requiert la mise en place de :</p>
-                    <ul>
-                        <li>Sommet stratégique où l’on s’accorde sur la vision et l’orientation.</li>
-                        <li>Technostructure où l’on transforme la vision en action avec capacité de suivi et
-                            d’évaluation.</li>
-                        <li>Centre opérationnel où les actions de production sont entreprises.</li>
-                    </ul>
-                    <p>Ceci exige un savoir-faire éprouvé pour s’assurer que les ressources humaines et financières
-                        soient utilisées de façon optimale.</p>
-                    <p>Parlant de ressources techniques et financières, il est possible d’obtenir du financement externe
-                        et de l’encadrement technique.</p>
-                    <p>De nombreuses plateformes web de crowdfunding avec paiement de frais : Indiegogo (4%), Rock et
-                        Hub (4%), GoFundMe (5%), Razoo (3%), Crowdrise (5%), etc. permettent d’obtenir du financement,
-                        sous forme de dons, pour des projets entrepreneurs innovants et créatifs, culturels ou
-                        solidaires. <a href="#">Cliquer sur Crowd Funding</a></p>
-                    <p>Des institutions locales publiques et privées détaillées dans les tableaux ci-dessous fournissent
-                        aussi un encadrement technique et un encadrement financier.</p>
-
-                    <p><a href="#">Cliquez ici</a> et avisez-nous si vous êtes une entreprise ou un professionnel
-                        certifié et si vous voulez être notre partenaire dans un domaine.</p>
-                    <p>Vous pourrez commenter et partager toute information utile sur ce sujet dans la section
-                        commentaires.</p>
-
                 </div>
             </div>
         </section>
     </div>
+
+
     <footer class="main-footer background-black">
         <div class="main-footer__bg" style="background-image: url(../assets/images/backgrounds/footer-bg.jpg);"></div>
         <!-- /.main-footer__bg -->
@@ -440,7 +373,10 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/professionals.js"></script>
+
+    <script src="../scripts/nav.js"></script>
+
+    <script src="universities.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>
