@@ -86,8 +86,9 @@
 
        
        <?php
-            include_once('../component/footer.php') ; 
-        ?> 
+            $logo ="./../assets/images/logos/logo-dark.png";
+            include_once('./../component/footer.php') ; 
+        ?>
 
     </div>
     <!-- /.page-wrapper -->

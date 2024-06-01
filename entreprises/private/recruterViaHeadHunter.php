@@ -57,10 +57,10 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
+                    <img src="./../../images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">Entreprises</h2>
+                    <h2 class="page-header__title">Recruter via Head Hunter</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
@@ -68,35 +68,72 @@
                         <li>
                             <span>Erofessionals</span>
                         </li>
+                        <li>
+                            <span>Recruter via Head Hunter</span>
+                        </li>
                     </ul>
                 </div>
             </section>
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-        <div class="container mt-5">
-            <h2>Welcome, Mehetaj Khandaker</h2>
-            <p>A partir de cette interface, vous pouvez mettre à jour votre profil. Vous découvrirez un univers d’opportunités: publier offre, appel d’offres, séminaire; trouver contrats et marchés; publicité via bannière web, publicité via blast-email; recruter via Head Hunter, recruter via accès au CV, recruter via publication, etc.</p> <br>
-            <p>La plateforme vous guide dans vos décisions: recrutement, achat, formation, publicité, coaching, etc. Si vous voulez changer votre e-mail (login), écrivez-nous sur: webmaster@jobpaw.com.</p>
-        </div>
-       <div class="my-5">
-        <section class="feature-one">
-            <div class="container">
-                <div class="row gutter-y-30" id="entreprises-private-container">
-                    <!-- JavaScript will populate this container -->
+        <div class="container my-5">
+            <h2>Recruter via Head Hunter</h2>
+            <p> Vous cherchez rapidement un professionnel, mais, vous n’avez pas le temps ni pour publier une offre d’emploi, ni pour recruter via accès au CV de JobPaw à cause de la bureaucratie du traitement de dossier.</p>
+            <p>Alors, nous vous proposons de <span class=" text-danger">recruter ces professionnels à votre place en utilisant des tests de sélection et en faisant un background check </span>  avant de vous envoyer environ trois à quatre candidats correspondant au profil recherché.</p>
+            <p>Pour faire une requête de <span class=" text-danger">Recrutement via Head Hunter</span> , il suffit de remplir le formulaire proposé. Nous vous contacterons pour avoir <span class=" text-danger">une description du poste</span>  (fonctions, qualifications, etc.), <span class=" text-danger">une estimation du salaire</span> , le délai souhaité de réception des CV, la date d’entrevue, etc.<a href="https://www.jobpaw.com/assets/pdf/JobPaw-RecrutementCouts.pdf" class=" text-danger">Découvrez ici les conditions de ce service</a>  </p>
+            <form class="row g-3">
+                <div class="col-md-6 ">
+                    <label for="" class="form-label">Head Hunter - Prix de démarrage:</label>
+                    <input type="text" class="form-control " disabled id="" placeholder="USD 250">
                 </div>
-            </div>
-        </section>
-       </div>
-        <div class="container">
-            <p>Nous vous invitons à faire partie des contributeurs de la plateforme JobPaw en:</p>
-            <ul>
-                <li>Partageant, avec le bouton share, les pages de JobPaw avec vos contacts e-mail, Facebook, Twitter, Instagram, LinkedIn, etc.</li>
-                <li>Commentant, avec Disqus, les pages de JobPaw.com.</li>
-                <li>Suivant nos pages Facebook, Twitter, Instagram, LinkedIn</li>
-            </ul>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Coupon Rabais :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Nom <span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Prénom <span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Compagnie <span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">E-mail <span class=" text-danger">*</span> :</label>
+                    <input type="email" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Téléphone<span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+
+                
+                <div class="col-md-6">
+                    <label for="" class="form-label">Je voudrais <span class=" text-danger">*</span> :</label>
+                    <select id="inputState" class="form-select">
+                        <option selected value="Recruter via Head Hunter">Recruter via Head Hunter</option>
+            
+                    </select>
+                </div>
+               
+
+                <div class="col-md-12">
+                    <label for="" class="form-label">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">ENVOYER </button>
+                </div>
+            </form>
+        
         </div>
-       
+        
         <?php
             $logo ="./../../assets/images/logos/logo-dark.png";
             include_once('./../../component/footer.php') ; 
@@ -195,6 +232,7 @@
     <script src="../../scripts/entreprisesPrivate.js"></script>
     <!-- template js -->
     <script src="../../assets/js/hiredots.js"></script>
+    
 </body>
 
 </html>

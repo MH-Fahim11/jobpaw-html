@@ -57,10 +57,10 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
+                    <img src="./../../images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">Entreprises</h2>
+                    <h2 class="page-header__title">Les candidatures reçues par poste</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
@@ -68,35 +68,39 @@
                         <li>
                             <span>Erofessionals</span>
                         </li>
+                        <li>
+                            <span>Les candidatures reçues par poste</span>
+                        </li>
                     </ul>
                 </div>
             </section>
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-        <div class="container mt-5">
-            <h2>Welcome, Mehetaj Khandaker</h2>
-            <p>A partir de cette interface, vous pouvez mettre à jour votre profil. Vous découvrirez un univers d’opportunités: publier offre, appel d’offres, séminaire; trouver contrats et marchés; publicité via bannière web, publicité via blast-email; recruter via Head Hunter, recruter via accès au CV, recruter via publication, etc.</p> <br>
-            <p>La plateforme vous guide dans vos décisions: recrutement, achat, formation, publicité, coaching, etc. Si vous voulez changer votre e-mail (login), écrivez-nous sur: webmaster@jobpaw.com.</p>
+        <div class="container my-5 mb-5">
+            <h3>Les candidatures reçues par poste</h3>
+            <p>Cliquer sur le titre du poste pour voir les candidatures reçues par poste et accéder aussi au système de filtrage multi-critères.e</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Poste</th>
+                    <th scope="col">Candidatures</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                </tbody>
+            </table>
         </div>
-       <div class="my-5">
-        <section class="feature-one">
-            <div class="container">
-                <div class="row gutter-y-30" id="entreprises-private-container">
-                    <!-- JavaScript will populate this container -->
-                </div>
-            </div>
-        </section>
-       </div>
-        <div class="container">
-            <p>Nous vous invitons à faire partie des contributeurs de la plateforme JobPaw en:</p>
-            <ul>
-                <li>Partageant, avec le bouton share, les pages de JobPaw avec vos contacts e-mail, Facebook, Twitter, Instagram, LinkedIn, etc.</li>
-                <li>Commentant, avec Disqus, les pages de JobPaw.com.</li>
-                <li>Suivant nos pages Facebook, Twitter, Instagram, LinkedIn</li>
-            </ul>
-        </div>
-       
+        
         <?php
             $logo ="./../../assets/images/logos/logo-dark.png";
             include_once('./../../component/footer.php') ; 
@@ -195,6 +199,7 @@
     <script src="../../scripts/entreprisesPrivate.js"></script>
     <!-- template js -->
     <script src="../../assets/js/hiredots.js"></script>
+    
 </body>
 
 </html>

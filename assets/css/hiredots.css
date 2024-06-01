@@ -10820,6 +10820,13 @@ body.megamenu-popup-active .mobile-nav__content {
   display: block;
 }
 
+
+.text-th{
+  color: #000;
+}
+.text-th:hover {
+  color: red;
+  }
 @media (max-width: 767px) {
  
 }

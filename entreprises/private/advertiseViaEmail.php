@@ -57,10 +57,10 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
+                    <img src="./../../images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">Entreprises</h2>
+                    <h2 class="page-header__title">Advertise Via Email</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
@@ -68,35 +68,71 @@
                         <li>
                             <span>Erofessionals</span>
                         </li>
+                        <li>
+                            <span>Advertise Via Email</span>
+                        </li>
                     </ul>
                 </div>
             </section>
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-        <div class="container mt-5">
-            <h2>Welcome, Mehetaj Khandaker</h2>
-            <p>A partir de cette interface, vous pouvez mettre à jour votre profil. Vous découvrirez un univers d’opportunités: publier offre, appel d’offres, séminaire; trouver contrats et marchés; publicité via bannière web, publicité via blast-email; recruter via Head Hunter, recruter via accès au CV, recruter via publication, etc.</p> <br>
-            <p>La plateforme vous guide dans vos décisions: recrutement, achat, formation, publicité, coaching, etc. Si vous voulez changer votre e-mail (login), écrivez-nous sur: webmaster@jobpaw.com.</p>
-        </div>
-       <div class="my-5">
-        <section class="feature-one">
-            <div class="container">
-                <div class="row gutter-y-30" id="entreprises-private-container">
-                    <!-- JavaScript will populate this container -->
+        <div class="container my-5">
+            <p>You have worked hard to find the right sector ( What ), the right collaborators and partners ( Who ) and the right combination of human, technical and financial resources to produce ( How ). You start producing quality goods and services. All you have to do is: make your goods and services known and penetrate the market .</p>
+            <p>In addition to the option of advertising via a web banner on our home page visible to more than 15,000 potential consumers per day, we offerfurther target your consumers by sending them a personalized message. We offer youcompany contactsclassified by sector and city, a service ofselection of companiestargeted and a service ofpost revisionto send.</p>
+            <p>To make aAdvertising query via email blast, simply complete the form provided. We will contact you to finalize and implement the service.Discover the conditions of this service here.</p>
+            <form class="row g-3">
+                <div class="col-md-12 ">
+                    <label for="" class="form-label">Blast e-mail - Prix d’un envoi de 100 e-mails :</label>
+                    <input type="text" class="form-control " disabled id="" placeholder="USD 250">
                 </div>
-            </div>
-        </section>
-       </div>
-        <div class="container">
-            <p>Nous vous invitons à faire partie des contributeurs de la plateforme JobPaw en:</p>
-            <ul>
-                <li>Partageant, avec le bouton share, les pages de JobPaw avec vos contacts e-mail, Facebook, Twitter, Instagram, LinkedIn, etc.</li>
-                <li>Commentant, avec Disqus, les pages de JobPaw.com.</li>
-                <li>Suivant nos pages Facebook, Twitter, Instagram, LinkedIn</li>
-            </ul>
+                <div class="col-md-12">
+                    <label for="" class="form-label">Coupon Rabais :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-12">
+                    <label for="" class="form-label">Nom <span className=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-12">
+                    <label for="" class="form-label">Prénom <span className=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-12">
+                    <label for="" class="form-label">Compagnie <span className=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-12">
+                    <label for="" class="form-label">E-mail <span className=" text-danger">*</span> :</label>
+                    <input type="email" class="form-control" id="">
+                </div>
+                <div class="col-md-12">
+                    <label for="" class="form-label">Téléphone<span className=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+
+                
+                <div class="col-md-12">
+                    <label for="" class="form-label">Publicité via Blast e-mail <span className=" text-danger">*</span> :</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Publicité via Blast e-mail</option>
+            
+                    </select>
+                </div>
+               
+
+                <div class="col-md-12">
+                    <label for="" class="form-label">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">ENVOYER </button>
+                </div>
+            </form>
+        
         </div>
-       
+        
         <?php
             $logo ="./../../assets/images/logos/logo-dark.png";
             include_once('./../../component/footer.php') ; 
@@ -195,6 +231,7 @@
     <script src="../../scripts/entreprisesPrivate.js"></script>
     <!-- template js -->
     <script src="../../assets/js/hiredots.js"></script>
+    
 </body>
 
 </html>

@@ -584,6 +584,7 @@ Time: 10:00 AM - 4:00 PM
         </div><!-- /.client-carousel -->
 
         <?php
+            $logo ="assets/images/logos/logo-dark.png";
             include_once('./component/footer.php') ; 
         ?> 
 

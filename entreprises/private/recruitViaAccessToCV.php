@@ -57,10 +57,10 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
+                    <img src="./../../images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">Entreprises</h2>
+                    <h2 class="page-header__title">Recruter via Accès au CV</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
@@ -68,35 +68,72 @@
                         <li>
                             <span>Erofessionals</span>
                         </li>
+                        <li>
+                            <span>Recruter via Accès au CV</span>
+                        </li>
                     </ul>
                 </div>
             </section>
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-        <div class="container mt-5">
-            <h2>Welcome, Mehetaj Khandaker</h2>
-            <p>A partir de cette interface, vous pouvez mettre à jour votre profil. Vous découvrirez un univers d’opportunités: publier offre, appel d’offres, séminaire; trouver contrats et marchés; publicité via bannière web, publicité via blast-email; recruter via Head Hunter, recruter via accès au CV, recruter via publication, etc.</p> <br>
-            <p>La plateforme vous guide dans vos décisions: recrutement, achat, formation, publicité, coaching, etc. Si vous voulez changer votre e-mail (login), écrivez-nous sur: webmaster@jobpaw.com.</p>
-        </div>
-       <div class="my-5">
-        <section class="feature-one">
-            <div class="container">
-                <div class="row gutter-y-30" id="entreprises-private-container">
-                    <!-- JavaScript will populate this container -->
+        <div class="container my-5">
+            <h2>Recruter via Accès au CV</h2>
+            <p>Vous voulez recruter rapidement de manière confidentielle, raison stratégique oblige. Vous ne voulez pas que personne ne sache quel poste vous voulez combler. Vous voudriez juste <span class=" text-danger">avoir une liste significative de professionnels qualifiés à travers laquelle vous voulez choisir librement, en toute discrétion</span> </p>
+            <p>Alors, nous vous proposons d’explorer notre base de plus de 50,000 CV. Vous pouvez cliquer sur <a href="https://www.jobpaw.com/assets/pdf/Filtrage_Candidats_JOBPAW.jpg" class=" text-danger">le système de filtrage des CV</a>  par expérience, éducation, langue, etc. auquel vous aurez accès. Vous trouverez exactement le professionnel recherché en un clic.</p>
+            <p>Pour faire une requête de <span class=" text-danger">Recrutement via Accès au CV</span>, il suffit de remplir le formulaire proposé. Nous vous contacterons immédiatement pour finaliser l’inscription de votre entreprise à ce service.<span class=" text-danger">Découvrez ici les conditions de ce service</span> </p>
+            <form class="row g-3">
+                <div class="col-md-6 ">
+                    <label for="" class="form-label">Acces au CV - Prix (jusqu’à une semaine d’accès au CV):</label>
+                    <input type="text" class="form-control " disabled id="" placeholder="USD 500">
                 </div>
-            </div>
-        </section>
-       </div>
-        <div class="container">
-            <p>Nous vous invitons à faire partie des contributeurs de la plateforme JobPaw en:</p>
-            <ul>
-                <li>Partageant, avec le bouton share, les pages de JobPaw avec vos contacts e-mail, Facebook, Twitter, Instagram, LinkedIn, etc.</li>
-                <li>Commentant, avec Disqus, les pages de JobPaw.com.</li>
-                <li>Suivant nos pages Facebook, Twitter, Instagram, LinkedIn</li>
-            </ul>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Coupon Rabais :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Nom <span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Prénom <span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Compagnie <span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">E-mail <span class=" text-danger">*</span> :</label>
+                    <input type="email" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Téléphone<span class=" text-danger">*</span> :</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+
+                
+                <div class="col-md-6">
+                    <label for="" class="form-label">Je voudrais <span class=" text-danger">*</span> :</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Recruter via Accès au CV</option>
+            
+                    </select>
+                </div>
+               
+
+                <div class="col-md-12">
+                    <label for="" class="form-label">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">ENVOYER </button>
+                </div>
+            </form>
+        
         </div>
-       
+        
         <?php
             $logo ="./../../assets/images/logos/logo-dark.png";
             include_once('./../../component/footer.php') ; 
@@ -195,6 +232,7 @@
     <script src="../../scripts/entreprisesPrivate.js"></script>
     <!-- template js -->
     <script src="../../assets/js/hiredots.js"></script>
+    
 </body>
 
 </html>
