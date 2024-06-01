@@ -32,7 +32,7 @@ const projects = [
     {
         title: "Recruter via Base de CV",
         img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
-        path: "#",
+        path: "trouver-formation-continue.php",
         icon: "../images/5x/9.jpg"
     },
     {
