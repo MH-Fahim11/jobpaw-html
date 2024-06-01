@@ -49,15 +49,9 @@
         <div class="preloader__image" style="background-image: url(../assets/images/loader.png);"></div>
     </div>
     <header class="main-header sticky-header sticky-header--normal">
-        <?php
-        $title = 'Home';
-        $page = 'home';
-        $professionels = '/professionals';
-        $entreprises = '/entreprises';
-        $universities = '/universities';
-        $services = 'services.php';
-        $projects = '';
-        include_once ('../component/navBar.php');
+    <?php
+            $logo = "../assets/images/logos/logo-light.png";
+            include_once('../component/navBar.php') ; 
         ?>
     </header>
     <!-- main-slider-start -->

@@ -66,7 +66,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Erofessionals</span>
+                            <span>Entreprises</span>
                         </li>
                         <li>
                             <span>Publish a seminar</span>
@@ -185,7 +185,7 @@
                 <div class="col-md-6">
                     <label for="" class="form-label">Ville  <span class=" text-danger">*</span> :</label>
                     <select id="inputState" class="form-select">
-                    <option value="0">- - Choisir - -</option>
+                        <option value="0">- - Choisir - -</option>
                         <option value="212">Afrique du Sud - Pretoria</option>
                         <option value="208">Allemagne - Berlin</option>
                         <option value="37">Angleterre - Glasgow</option>

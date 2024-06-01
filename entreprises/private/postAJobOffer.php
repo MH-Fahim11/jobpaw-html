@@ -66,7 +66,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Erofessionals</span>
+                            <span>Entreprises</span>
                         </li>
                         <li>
                             <span>Publier une offre d’emploi</span>

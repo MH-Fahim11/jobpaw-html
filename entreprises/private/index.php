@@ -121,11 +121,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@hiredots.com">needhelp@hiredots.com</a>
+                    <a href="mailto:info@jobpaw.com">info@jobpaw.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel: +(509) 3701 9232"> +(509) 3701 9232</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">

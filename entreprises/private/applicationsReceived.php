@@ -66,7 +66,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Erofessionals</span>
+                            <span>Entreprises</span>
                         </li>
                         <li>
                             <span>Les candidatures reçues par poste</span>

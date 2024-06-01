@@ -11,62 +11,47 @@
                 <div class="main-header__menu">
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
-                            <li class="dropdown">
+                            <li>
                                 <a href="/professionals">Professionels</a>
                             </li>
                             
                             <li>
                                 <a href="/entreprises">Entreprises</a>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="/universities">Universities</a>
-                                <ul>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="jobs.html">Jobs</a></li>
-                                    <li><a href="history.html">History</a></li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                </ul>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="/services">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="service-d-consulting.html">HR Consulting</a></li>
-                                    <li><a href="service-d-resources.html">Tech Resources</a></li>
-                                    <li><a href="service-d-hydro-solution.html">Staffing Solution</a></li>
-                                    <li><a href="service-d-program.html">Corporate Program</a></li>
-                                    <li> <a href="service-d-training.html">Leadership Training</a></li>
-                                    <li><a href="service-d-management.html">Staff Management</a></li>
-                                </ul>
+                               
                             </li>
 
-                            <li class="dropdown">
-                                <a href="project.html">Projects</a>
-                                <ul>
-                                    <li><a href="project.html">Projects</a></li>
-                                    <li><a href="project-details.html">Projects Details</a></li>
-                                </ul>
+                            <li>
+                                <a href="/project">Projects</a>
+                            
                             </li>
                         </ul>
                     </nav>
-                    <div class="connexion">
-                        <div class="connexion-i1">
-    
-                            <p style="color: rgb(25, 164, 222);">Connexion</p>
-                            <div style="margin-top: -20px;">
-                                <select style="border: none;">
-                                    <option>Inscription</option>
-                                    <option>Entreprises</option>
-                                    <option>Professionnels</option>
-                                    <option>Universités</option>
-                                </select>
+                    
+                    <nav class="main-header__nav main-menu">
+                        <ul class="main-menu__list">
+                            <div class="nav-p">
+                                <li><a class="btn" href="auth/login/" style="color: rgb(25, 164, 222);">Connexion</a></li>
+                                <li class="dropdown">
+                                    <a class="btn" href="">Inscription ></a>
+                                    <ul>
+                                        <li><a href="/auth/singup/entreprises.php">Entreprises</a></li>
+                                        <li><a href="/auth/singup/professionnels.php">Professionnels</a></li>
+                                        <li><a href="/auth/singup/universites.php">Universités</a></li>
+                                    </ul>
+                                </li>
                             </div>
-                        </div>
-                        <div class="connexion-i2 lang-menu">
                             
-                                <div class="selected-lang">
-                                </div>
-                                <ul>
+
+                            <li class="dropdown lang-menu">
+                                <div class="selected-lang">>
+                                    </div>
+                                 <ul>
                                     <li>
                                         <a href="#" class="fr"></a>
                                     </li>
@@ -80,23 +65,23 @@
                                         <a href="" class="ht"></a>
                                     </li>
                                 </ul>
-                                
-                            
-                        </div>
-                    </div>
-                    
+
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
+                        
                 
                 <div class="connexion-m">
                     <div class="connexion-i1-m">
 
-                        <p style="color: rgb(25, 164, 222);">Connexion</p>
+                        <p style="color: rgb(25, 164, 222);"><a href="auth/login/">Connexion</a> </p>
                         <div style="margin-top: -20px;">
                             <select style="border: none;">
                                 <option>Inscription</option>
-                                <option>Entreprises</option>
-                                <option>Professionnels</option>
-                                <option>Universités</option>
+                                <option><a href="/auth/singup/entreprises.php">Entreprises</a></option>
+                                <option><a href="/auth/singup/professionnels.php">Professionnels</a></option>
+                                <option><a href="/auth/singup/universites.php">Universités</a></option>
                             </select>
                         </div>
                     </div>

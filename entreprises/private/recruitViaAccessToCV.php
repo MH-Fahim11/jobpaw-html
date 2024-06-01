@@ -66,7 +66,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Erofessionals</span>
+                            <span>Entreprises</span>
                         </li>
                         <li>
                             <span>Recruter via Accès au CV</span>

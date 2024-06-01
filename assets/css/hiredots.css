@@ -10750,8 +10750,9 @@ body.megamenu-popup-active .mobile-nav__content {
   content: '';
   display: inline-block;
   width: 32px;
-  height: 22px;
-  background-image: url(https://flagcdn.com/w20/us.png);
+  height: 32px;
+  /* border-radius: 50%; */
+  background-image: url(https://hatscripts.github.io/circle-flags/flags/us.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -10775,6 +10776,7 @@ body.megamenu-popup-active .mobile-nav__content {
   list-style: none;
   text-align: left;
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -10792,8 +10794,8 @@ body.megamenu-popup-active .mobile-nav__content {
 .lang-menu ul li a:before {
   content: '';
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width:32px;
+  height: 32px;
   vertical-align: middle;
   margin-right: 10px;
   background-size: contain;
@@ -10801,19 +10803,19 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .fr:before {
-  background-image: url(https://flagcdn.com/w20/fr.png);
+  background-image: url(https://hatscripts.github.io/circle-flags/flags/fr.svg);
 }
 
 .en:before {
-  background-image: url(https://flagcdn.com/w20/us.png);
+  background-image: url(https://hatscripts.github.io/circle-flags/flags/us.svg);
 }
 
 
 .es:before {
-  background-image: url(https://flagcdn.com/w20/es.png);
+  background-image: url(https://hatscripts.github.io/circle-flags/flags/es.svg);
 }
 .ht:before {
-  background-image: url(https://flagcdn.com/w20/ht.png);
+  background-image: url(https://hatscripts.github.io/circle-flags/flags/ht.svg);
 }
 
 .lang-menu:hover ul {
@@ -10829,4 +10831,32 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 @media (max-width: 767px) {
  
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.nav-p{
+  padding-right: 10px;
 }

@@ -48,15 +48,9 @@
     </div>
         <header class="main-header sticky-header sticky-header--normal">
         <?php
-            $title = 'Home';
-            $page = 'home';
-            $professionels = '/professionals'; 
-            $entreprises ='/entreprises';
-            $universities = '/universities';
-            $services ='services.php';
-            $projects = '';
+            $logo = "../assets/images/logos/logo-light.png";
             include_once('../component/navBar.php') ; 
-        ?>  
+        ?>
         </header>
         <!-- main-slider-start -->
         <div>

@@ -96,7 +96,7 @@
     <?php
             $logo = "../assets/images/logos/logo-light.png";
             include_once('../component/navBar.php') ; 
-        ?>     
+        ?>    
         </header>
       <section class="page-header">
         <div class="page-header__bg"></div>
