@@ -27,7 +27,7 @@
                         <div class="col-md-6 col-xl-5">
                             <div class="footer-widget footer-widget--about">
                                 <a href="index.html" class="footer-widget__logo">
-                                    <img src="assets/images/logos/logo-dark.png" width="200" alt="Hiredots HTML Template">
+                                    <img src= <?php echo  $logo?> width="200" alt="Hiredots HTML Template">
                                 </a>
                                 <!-- <p class="footer-widget__text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit <br>
                                     sed do eiusmod tempor incididunt ut labore.</p> -->

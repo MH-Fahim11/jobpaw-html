@@ -33,9 +33,18 @@
                             </div><!-- /.sec-title -->
                             <p class="why-choose-two__text">La plateforme JobPaw crée un pont, un lien entre formation, production et consommation en connectant les entreprises , , universités et professionnels entre eux et aux opportunités : offres d’emplois, appels d’offres, formations, séminaires, ressources humaines, travaux de recherche, projets et potentialités par région, etc. Elle fait interagir les acteurs entre eux pour bénéficier des opportunités directes et dérivées. Elle réduit ainsi les barrières au succès collectif et à la création de richesse collective.
                             </p>
-                           
+                           <div class="mt-3 d-flex align-items-center">
+                            <div class=" d-flex align-items-center px-2">
+                                <img width="75" height="75" style="borderRadius:50%" src="./assets/images/Profile-Avatar-PNG.png" alt="Images" />
+                                <p>Raisul abir <br> CO Founder</p>
+                            </div>
+                            
+                            <a href="services.html" class="hiredots-btn"><span>Discover More</span></a>
+                             
+                            </div>
                         </div><!-- /.why-choose-two__content -->
-                        <a href="services.html" class="hiredots-btn"><span>Discover More</span></a>
+                        
+                       
                     </div><!-- /.col-lg-6 -->
                    
                 </div><!-- /.row -->

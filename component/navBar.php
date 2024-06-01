@@ -1,7 +1,7 @@
 <div class="main-header__inner">
                 <div class="main-header__logo">
                     <a href="/">
-                        <img src="assets/images/logos/logo-light.png" alt="Hiredots HTML" width="125">
+                        <img src=<?php echo  $logo?> alt="Jobpaw Logo" width="125">
                     </a>
                 </div><!-- /.main-header__logo -->
                 <a href="#" class="search-toggler main-header__search">
@@ -12,9 +12,9 @@
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
                             <li class="dropdown">
-                                <a href=<?php echo  $professionels?>>Professionels</a>
+                                <a href="/professionals">Professionels</a>
                             </li>
-
+                            
                             <li>
                                 <a href="/entreprises">Entreprises</a>
                             </li>

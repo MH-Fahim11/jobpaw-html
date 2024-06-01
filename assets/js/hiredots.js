@@ -1,6 +1,7 @@
 (function ($) {
   "use strict";
 
+  
   /*-- Checkout Accoradin --*/
   if ($(".checkout-page__payment__title").length) {
     $(".checkout-page__payment__item")
