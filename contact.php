@@ -90,7 +90,7 @@
                                         <div class="contact-one__info__content">
                                             <p class="contact-one__info__text">Have Question?</p>
                                             <!-- /.contact-one__info__text -->
-                                            <h4 class="contact-one__info__title">Free <a href="tel:+92(8800)-8960">+23 (000)-9850</a></h4><!-- /.contact-one__info__title -->
+                                            <h4 class="contact-one__info__title">Free <a href="tel:+(509) 3701 9232">+(509) 3701 9232</a></h4><!-- /.contact-one__info__title -->
                                         </div><!-- /.contact-one__info__content -->
                                     </li>
                                     <li class="contact-one__info__item">
@@ -100,7 +100,7 @@
                                         <div class="contact-one__info__content">
                                             <p class="contact-one__info__text">Write Email </p>
                                             <!-- /.contact-one__info__text -->
-                                            <h4 class="contact-one__info__title"><a href="mailto:needhelp@company.com">needhelp@company.com</a></h4>
+                                            <h4 class="contact-one__info__title"><a href="mailto:info@jobpaw.com">info@jobpaw.com</a></h4>
                                             <!-- /.contact-one__info__title -->
                                         </div><!-- /.contact-one__info__content -->
                                     </li>
@@ -110,7 +110,7 @@
                                         </div><!-- /.contact-one__info__icon -->
                                         <div class="contact-one__info__content">
                                             <p class="contact-one__info__text">Visit Anytime</p> <!-- /.contact-one__info__text -->
-                                            <h4 class="contact-one__info__title"><a href="#">30 broklyn golden street. New York</a></h4><!-- /.contact-one__info__title -->
+                                            <h4 class="contact-one__info__title"><a href="#">-------</a></h4><!-- /.contact-one__info__title -->
                                         </div><!-- /.contact-one__info__content -->
                                     </li>
                                 </ul><!-- /.list-unstyled -->
