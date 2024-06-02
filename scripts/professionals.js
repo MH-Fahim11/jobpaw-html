@@ -2,13 +2,13 @@ const projects = [
     {
         title: "Voir statistiques opportunités",
         img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
-        path: "professionals/voir-statistiques-opportunites.php",
+        path: "/professionals/voir-statistiques-opportunites.php",
         icon: "../images/5x/1.jpg"
     },
     {
         title: "Choisir université ou école",
         img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
-        path: "professionals/universities.php",
+        path: "/professionals/universities.php",
         icon: "../images/5x/2.jpg"
     },
     {
@@ -20,7 +20,7 @@ const projects = [
     {
         title: "Trouver un emploi",
         img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
-        path: "professionals/find-job.php",
+        path: "/professionals/find-job.php",
         icon: "../images/5x/7.jpg"
     },
     {
@@ -50,7 +50,7 @@ const projects = [
     {
         title: "Consulter travaux recherche",
         img: "../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "professionals/consult-research-work.html",
+        path: "/professionals/consult-research-work.php",
         icon: "../images/5x/12.jpg"
     }
 ];

@@ -14,7 +14,7 @@ const projects = [
     {
         title: "Publier un séminaire",
         img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
-        path: "#",
+        path: "/entreprises/cv-paw.php",
         icon: "../images/5x/5.jpg"
     },
     {
@@ -72,6 +72,7 @@ const projects = [
         icon: "../images/5x/9.jpg"
     },
 ];
+
 
 const entreprisesContainer = document.getElementById('entreprises-container');
 

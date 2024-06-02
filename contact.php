@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact || Hiredots || Human Resources & Recruiting HTML Template</title>
+    <title>Contact || JobPaw</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -55,7 +55,7 @@
         </header>
         <section class="page-header">
             <div class="page-header__bg"></div>
-            <div class="page-header__shape"><img src="assets/images/shapes/page-header-shape.png" alt="hiredots"></div>
+            <div class="page-header__shape"><img src="assets/images/shapes/page-header-shape.png" alt="JobPaw"></div>
             <!-- /.page-header__bg -->
             <div class="container">
                 <h2 class="page-header__title">Contact</h2>
@@ -76,7 +76,7 @@
 
                                     <h6 class="sec-title__tagline">Contact us</h6><!-- /.sec-title__tagline -->
 
-                                    <h3 class="sec-title__title">Feel Free to Get in Touch <br> with Hiredots</h3><!-- /.sec-title__title -->
+                                    <h3 class="sec-title__title">Feel Free to Get in Touch <br> with JobPaw</h3><!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
                                 <p class="contact-one__text">Aliquam hendrerit a augue insuscipit. Etiam aliquam massa quis des
                                     mauris commodo venenatis ligula commodo leez sed blandit convallis dignissim onec vel

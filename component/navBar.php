@@ -36,9 +36,9 @@
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
                             <div class="nav-p">
-                                <li><a class="btn" href="auth/login/" style="color: rgb(25, 164, 222);">Connexion</a></li>
+                                <li><a class="btn" href="/auth/login/" style="color: rgb(25, 164, 222);">Connexion</a></li>
                                 <li class="dropdown">
-                                    <a class="btn" href="">Inscription ></a>
+                                    <a class="btn" href="">Inscription <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul>
                                         <li><a href="/auth/singup/entreprises.php">Entreprises</a></li>
                                         <li><a href="/auth/singup/professionnels.php">Professionnels</a></li>
@@ -49,7 +49,7 @@
                             
 
                             <li class="dropdown lang-menu">
-                                <div class="selected-lang">>
+                                <div class="selected-lang d-flex"><span class="ii">></span>
                                     </div>
                                  <ul>
                                     <li>
@@ -76,13 +76,21 @@
                     <div class="connexion-i1-m">
 
                         <p style="color: rgb(25, 164, 222);"><a href="auth/login/">Connexion</a> </p>
-                        <div style="margin-top: -20px;">
+                        <!-- <div style="margin-top: -20px;">
                             <select style="border: none;">
                                 <option>Inscription</option>
                                 <option><a href="/auth/singup/entreprises.php">Entreprises</a></option>
                                 <option><a href="/auth/singup/professionnels.php">Professionnels</a></option>
                                 <option><a href="/auth/singup/universites.php">Universités</a></option>
                             </select>
+                        </div> -->
+                        <div class="dropdown">
+                            <button class="btn-c">Inscription<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            <div class="dropdown-options">
+                            <a href="/auth/singup/entreprises.php">Entreprises</a>
+                            <a href="/auth/singup/professionnels.php">Professionnels</a>
+                            <a href="/auth/singup/universites.php">Universités</a>
+                        </div>
                         </div>
                     </div>
                     <div class="connexion-i2 lang-menu">

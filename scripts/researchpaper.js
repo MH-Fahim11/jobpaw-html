@@ -46,11 +46,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="blog-card__content">
                         <div style="width: 140px;" class="blog-card__date">${paper.publicationDate}</div>
                         <h3 class="blog-card__title mt-4">
-                            <a href="/professionnels/consult-research-work-details.html">${paper.title}</a>
+                            <a href="/professionals/consult-research-work-details.php">${paper.title}</a>
                         </h3>
                         <p class="blog-card__info">${paper.abstract.slice(0, 70)}...</p>
                         <p>Author: ${paper.authors}</p>
-                        <a href="/professionnels/consult-research-work-details.html" class="blog-card__link">
+                        <a href="/professionals/consult-research-work-details.php" class="blog-card__link">
                             Read more
                             <i class="icon-right-arrow"></i>
                         </a>

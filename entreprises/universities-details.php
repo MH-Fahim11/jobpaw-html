@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobpaw | professionals</title>
+    <title>Jobpaw | Universities</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
@@ -66,7 +66,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Universities</span>
+                            <span>Universities Details</span>
                         </li>
                     </ul>
                 </div>
@@ -74,24 +74,62 @@
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-       <div class="my-5">
-        <div class="container">
-            <div class="university-details">
-                <div class="logo">
-                    <img src="" alt="University Logo">
+       <div class="container my-5">
+        
+        <div style=" font-family: Arial, sans-serif; margin: auto;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="https://www.jobpaw.com/private/logoetablissement/418.png" alt="University Logo" style="width: 200px; border-radius: 10px;">
+            </div>
+            <h1 style="text-align: center; color: rgb(51, 51, 51); margin-bottom: 10px;">Bee Homemaking School</h1>
+            <div style="margin-bottom: 20px;">
+                <p><strong>Type of Training:</strong> Technical</p>
+                <p><strong>Phone:</strong> 2257 7260</p>
+                <p><strong>Address:</strong> Rue C. Mayard # 207, Pétion-Ville, Port-au-Prince, West</p>
+                <p><strong>Acronym:</strong> -</p>
+                <p><strong>Website:</strong> <a href="www.beehomamakingschool.com">www.beehomamakingschool.com</a></p>
+                <p><strong>Country:</strong> Haiti</p>
+                <p><strong>Fax:</strong> 999 00976 54</p>
+                <p><strong>Email:</strong> info@bee.com</p>
+            </div>
+            <div style="background-color: rgb(249, 249, 249); padding: 10px; border-radius: 5px;">
+                <div class="sec-title text-center">
+                    <h6 class="sec-title__tagline">Description</h6>
                 </div>
-                <div class="info">
-                    <h2 class="name"></h2>
-                    <p class="description"></p>
-                    <p class="address"></p>
-                    <p class="phone"></p>
-                    <p class="email"></p>
-                    <p class="website"></p>
+                <p>Diploma in Cooking, Pastry, Women's Confectionery Cutter</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <div class="sec-title text-center">
+                    <h6 class="sec-title__tagline">Training program</h6>
+                </div>
+                <div class="row gutter-y-30">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="service-one-card__image" style="padding-bottom: 10px;"></div>
+                        <div class="service-one-card__content">
+                            <h3 class="service-one-card__title"><span>Women's confect</span></h3>
+                            <p class="service-one-card__text">Arts, culture, design, fashion</p>
+                            <div style="margin-top: 10px; display: flex; flex-direction: column; gap: 5px;"><span>Date: 2</span><span>Time: Technical</span></div>
+                        </div>
+                        <span class="service-one-card__link">Book now<i class="icon-right-arrow"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="1ms">
+                        <div class="service-one-card__image" style="padding-bottom: 10px;"></div>
+                        <div class="service-one-card__content">
+                            <h3 class="service-one-card__title"><span>Women's confect</span></h3>
+                            <p class="service-one-card__text">Arts, culture, design, fashion</p>
+                            <div style="margin-top: 10px; display: flex; flex-direction: column; gap: 5px;"><span>Date: 2</span><span>Time: Technical</span></div>
+                        </div>
+                        <span class="service-one-card__link">Book now<i class="icon-right-arrow"></i></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <a href="universities.html" class="back-button">Back to Universities</a>
+            </div>
+
+
         </div>
-       </div>
        <?php
             $logo ="../assets/images/logos/logo-dark.png";
             include_once('./../component/footer.php') ; 
@@ -148,7 +186,6 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/universityDetails.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

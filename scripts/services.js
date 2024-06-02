@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
       title: "Contactez-nous",
       icon: "../images/5x/2.jpg",
-      path: "/professionals/cv-paw.php",
+      path: "../contact.php",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",

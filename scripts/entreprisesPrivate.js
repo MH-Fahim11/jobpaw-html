@@ -20,55 +20,55 @@ const projects = [
     {
         title: "Publicité via Bannière web",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
-        path: "#",
+        path: "/entreprises/private/addAdvertisingBanner.php",
         icon: "../../images/5x/7.jpg"
     },
     {
         title: "Publicité via Blast e-mail",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
-        path: "#",
+        path: "/entreprises/private/advertiseViaEmail.php",
         icon: "../../images/5x/8.jpg"
     },
     {
         title: "Publier un séminaire",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
-        path: "#",
+        path: "/entreprises/private/publishaSeminar.php",
         icon: "../../images/5x/9.jpg"
     },
     {
         title: "Recruter via Accès au CV",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
-        path: "#",
+        path: "/entreprises/private/publishaSeminar.php",
         icon: "../../images/5x/10.jpg"
     },
     {
         title: "Recruter via Head Hunter",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0027.jpg",
-        path: "#",
+        path: "/entreprises/private/recruterViaHeadHunter.php",
         icon: "../../images/5x/11.jpg"
     },
     {
         title: "Publier une offre d’emploi",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "#",
+        path: "/entreprises/private/postAJobOffer.php",
         icon: "../../images/5x/12.jpg"
     },
     {
         title: "Candidatures reçues par offre",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
-        path: "#",
+        path: "/entreprises/private/applicationsReceived.php",
         icon: "../../images/5x/11.jpg"
     },
     {
         title: "Publier un appel d’offres",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "#",
+        path: "/entreprises/private/publishACallForTendersOrConsultation.php",
         icon: "../../images/5x/5.jpg"
     },
     {
         title: "S’abonner aux appels d’offres",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "#",
+        path: "/entreprises/private/subscriptions.php",
         icon: "../../images/5x/9.jpg"
     },
     {
@@ -80,13 +80,13 @@ const projects = [
     {
         title: "Modifier info compagnie",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "#",
+        path: "/entreprises/private/updateRepresentativeData.php",
         icon: "../../images/5x/9.jpg"
     },
     {
         title: "Ajouter/Modifier logo compagnie",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
-        path: "#",
+        path: "/entreprises/private/updateProfile.php",
         icon: "../../images/5x/9.jpg"
     },
     {

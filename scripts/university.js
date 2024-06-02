@@ -194,13 +194,13 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="service-one-card service-card-two">
               <div class="service-one-card__content">
                   <h3 style="height: 40px;" class="service-one-card__title">
-                      <a href="university.html" onclick="showDetails(${index})">${school.name}</a>
+                      <a href="universities-details.php" onclick="showDetails(${index})">${school.name}</a>
                   </h3>
                   <p style="height: 50px;" class="service-one-card__text">
                       ${school.description}...
                   </p>
               </div>
-              <a href="university.html" onclick="showDetails(${index})" class="service-one-card__link">
+              <a href="universities-details.php" onclick="showDetails(${index})" class="service-one-card__link">
                   View details
                   <i class="icon-right-arrow"></i>
               </a>

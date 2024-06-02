@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicons/site.webmanifest">
-    <meta name="description" content="Hiredots is a modern HTML Template HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses.">
+    <meta name="description" content="JobPaw is a modern HTML Template HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses.">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,90 +54,9 @@
         ?>    
         </header>
 
-        <!-- main-slider-start -->
-        <section class="main-slider-one">
-            <div class="main-slider-one__carousel hiredots-owl__carousel owl-carousel" data-owl-options='{
-		"loop": true,
-		"animateOut": "slideOutDown",
-		"animateIn": "fadeIn",
-		"items": 1,
-		"autoplay": true,
-		"autoplayTimeout": 6000,
-		"smartSpeed": 1000,
-		"nav": false,
-        "navText": false,
-		"dots": false,
-		"dotsData": true,
-		"margin": 0
-	    }'>
-                <div class="item" data-dot="<button>1/</button>">
-                    <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0038.jpg);"></div>
-                        <!-- <div class="main-slider-one__overlay"></div> -->
-                        <!-- <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div> -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="main-slider-one__content">
-                                        <!-- <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div>slider-layer -->
-                                        <h2 class="main-slider-one__title">
-                                                Recrutez en publiant vos offres d'emploi <br/>
-                                                <span class='text-danger'>Achetez en publiant vos appels d'offres</span> <br/>
-                                                Signalez en publiant vos plans annuels d'achats <br/>
-                                                <span className='text-danger'>Placez en adaptant vos formations aux marchés</span>
-                                            </h2>
-                                        <div class="main-slider-one__btn">
-                                            <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-dot="<button>2/</button>">
-                    <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0035.jpg);"></div>
-                        <div class="main-slider-one__overlay"></div>
-                        <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="main-slider-one__content">
-                                        <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div><!-- slider-layer -->
-                                        <h2 class="main-slider-one__title">Right<br> People for<br> the Business</h2><!-- slider-title -->
-                                        <div class="main-slider-one__btn">
-                                            <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-dot="<button>3</button>">
-                    <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0053.jpg);"></div>
-                        <div class="main-slider-one__overlay"></div>
-                        <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="main-slider-one__content">
-                                        <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div><!-- slider-layer -->
-                                        <h2 class="main-slider-one__title">Right<br> People for<br> the Business</h2><!-- slider-title -->
-                                        <div class="main-slider-one__btn">
-                                            <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- main-slider-end -->
+        <?php
+            include_once('component/slider.php') ; 
+        ?> 
         <!-- Feature Start -->
         <section class="feature-one">
             <div class="container">
@@ -145,7 +64,9 @@
                     <h6 class="sec-title__tagline">STATISTIQUES</h6>
                     <h3 class="sec-title__title">How we can help you</h3>
                 </div>
-                <div class="d-md-flex" id="services-container"></div>
+                <div class="d-md-flex" id="services-container">
+                    <!-- js will fill this  -->
+                </div>
             </div>
         </section>
         <!-- Feature End -->
@@ -410,29 +331,29 @@ Time: 10:00 AM - 4:00 PM
 
                     <h3 class="sec-title__title">Latest Articles & <br>News from the Blogs</h3><!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
-                <div class="blog-one__carousel hiredots-owl__carousel hiredots-owl__carousel--with-shadow hiredots-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-			"items": 1,
-			"margin": 0,
-			"loop": false,
-			"smartSpeed": 700,
-			"nav": true,
-			"navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
-			"dots": false,
-			"autoplay": false,
-			"responsive": {
-				"0": {
-					"items": 1
-				},
-				"576": {
-					"items": 2,
-					"margin": 30
-				},
-				"992": {
-					"items": 3,
-					"margin": 30
-				}
-			}
-			}'>
+                <div class="blog-one__carousel hiredots-owl__carousel hiredots-owl__carousel--with-shadow hiredots-owl__carousel--basic-nav owl-carousel owl-theme d-flex flex-column" data-owl-options='{
+                        "items": 1,
+                        "margin": 0,
+                        "loop": false,
+                        "smartSpeed": 700,
+                        "nav": true,
+                        "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                        "dots": false,
+                        "autoplay": false,
+                        "responsive": {
+                            "0": {
+                                "items": 1
+                            },
+                            "576": {
+                                "items": 2,
+                                "margin": 30
+                            },
+                            "992": {
+                                "items": 3,
+                                "margin": 30
+                            }
+                        }
+                        }'>
                     <div class="item">
                         <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
                             <div class="blog-card__image">
