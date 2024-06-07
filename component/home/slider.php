@@ -16,7 +16,7 @@
                 }'>
                 <div class="item" data-dot="<button>1/</button>">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0038.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(/assets/images/home/1.jpg);"></div>
                         <!-- <div class="main-slider-one__overlay"></div> -->
                         <!-- <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div> -->
                         <div class="container">
@@ -41,14 +41,14 @@
                 </div>
                 <div class="item" data-dot="<button>2/</button>">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0035.jpg);"></div>
-                        <div class="main-slider-one__overlay"></div>
-                        <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(/assets/images/home/3.jpg);"></div>
+                        <!-- <div class="main-slider-one__overlay"></div> -->
+                        <!-- <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div> -->
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="main-slider-one__content">
-                                        <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div><!-- slider-layer -->
+                                        <!-- <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div>slider-layer -->
                                         <h2 class="main-slider-one__title">Right<br> People for<br> the Business</h2><!-- slider-title -->
                                         <div class="main-slider-one__btn">
                                             <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->
@@ -61,14 +61,34 @@
                 </div>
                 <div class="item" data-dot="<button>3</button>">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(/images/34FinalPhotos/IMG-20240320-WA0053.jpg);"></div>
-                        <div class="main-slider-one__overlay"></div>
-                        <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(./assets/images/home/5.jpg);"></div>
+                        <!-- <div class="main-slider-one__overlay"></div> -->
+                        <!-- <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div> -->
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="main-slider-one__content">
-                                        <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div><!-- slider-layer -->
+                                        <!-- <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div>slider-layer -->
+                                        <h2 class="main-slider-one__title">Right<br> People for<br> the Business</h2><!-- slider-title -->
+                                        <div class="main-slider-one__btn">
+                                            <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-dot="<button>3</button>">
+                    <div class="main-slider-one__item">
+                        <div class="main-slider-one__bg" style="background-image: url(./assets/images/home/6.jpg);"></div>
+                        <!-- <div class="main-slider-one__overlay"></div> -->
+                        <!-- <div class="main-slider-one__shape" style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div> -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="main-slider-one__content">
+                                        <!-- <div class="main-slider-one__image"><img src="assets/images/shapes/slider-1-shape-2.png" alt="hiredots"></div>slider-layer -->
                                         <h2 class="main-slider-one__title">Right<br> People for<br> the Business</h2><!-- slider-title -->
                                         <div class="main-slider-one__btn">
                                             <a href="services.html" class="hiredots-btn"><span>Discover More</span></a><!-- slider-btn -->

@@ -126,7 +126,7 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/cvpaw.js"></script>
+    <script src="../assets/js/cvpaw.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

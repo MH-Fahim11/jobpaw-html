@@ -573,7 +573,7 @@ A obtenu des contrats d’appels d’offres sur JobPaw</b>
     <script src="../../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
 
-    <script src="../../scripts/entreprisesPrivate.js"></script>
+    <script src="../../assets/js/entreprisesPrivate.js"></script>
     <!-- template js -->
     <script src="../../assets/js/hiredots.js"></script>
     

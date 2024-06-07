@@ -30,6 +30,11 @@
                                 <a href="/project">Projects</a>
                             
                             </li>
+
+                            <li>
+                                <a href="/propos">A propos</a>
+                            
+                            </li>
                         </ul>
                     </nav>
                     

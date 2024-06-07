@@ -86,7 +86,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/1.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
@@ -108,7 +108,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/2.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
@@ -130,7 +130,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/3.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
@@ -168,7 +168,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/4.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -188,7 +188,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0038.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/5.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -208,7 +208,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/6.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3 class="service-one-card__title">
@@ -244,11 +244,11 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/1.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
-                                    <a href="${job.link}">Introduction to Data Science Workshop</a>
+                                    <a href="">Introduction to Data Science Workshop</a>
                                 </h3>
                                 <p>
                                     TechMaster Bootcamp is an intensive training program designed to equip...
@@ -268,7 +268,7 @@ Time: 10:00 AM - 4:00 PM
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/4.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -292,7 +292,7 @@ Time: 10:00 AM - 4:00 PM
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="${index}ms">
                             <div class="service-one-card__image">
-                                <img src="./images/34FinalPhotos/IMG-20240320-WA0018.jpg" alt="${job.title}">
+                                <img src="./assets/images/home/6.jpg" alt="${job.title}">
                             </div>
                             <div class="service-one-card__content">
                                 <h3  class="service-one-card__title">
@@ -492,8 +492,8 @@ Time: 10:00 AM - 4:00 PM
     <script src="assets/vendors/countdown/countdown.min.js"></script>
     <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="./scripts/home.js"></script>
-    <script src="./scripts/nav.js"></script>
+    <script src="./assets/js/home.js"></script>
+    <script src="./assets/js/nav.js"></script>
     <script src="./component/home/services.js"></script>
     <!-- template js -->
     <script src="assets/js/hiredots.js"></script>
