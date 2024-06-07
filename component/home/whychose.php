@@ -17,7 +17,7 @@
 								"forceWidth": true,
 								"forceHeight": true
 							}'>
-                                        new human resources theme
+                                        JobPaw
                                     </div>
                                 </div><!-- curved-circle end-->
                             </div><!-- /.video-one__btn -->

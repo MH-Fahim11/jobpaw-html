@@ -7998,6 +7998,17 @@ body.megamenu-popup-active .mobile-nav__content {
   object-fit: cover;
   border-radius: 10px;
 }
+.feature-one__item__img3 {
+  position: relative;
+  overflow: hidden;
+}
+.feature-one__item__img3 img {
+  width: 230px;
+  height: 280px;
+  /* min-height: 320px; */
+  object-fit: cover;
+  border-radius: 10px;
+}
 .feature-one__item__content {
   position: absolute;
   left: 0;
