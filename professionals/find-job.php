@@ -85,8 +85,10 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="jobs__control Jobs__control--full">
-                                <input type="text" name="location" placeholder="Any Location">
+                            <div>
+                                <select class="jobs__control Jobs__control--full" name="" id="">
+                                    <option value="">x</option>
+                                </select>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Services || Hiredots || Human Resources & Recruiting HTML Template
+    A Propos || JobPaw
     </title>
     <!-- favicons Icons -->
     <link
@@ -111,7 +111,7 @@
           <h2 class="page-header__title">Services</h2>
           <ul class="hiredots-breadcrumb list-unstyled">
             <li><a href="index.html">Home</a></li>
-            <li><span>Services</span></li>
+            <li><span>A Propos</span></li>
           </ul>
           <!-- /.thm-breadcrumb list-unstyled -->
         </div>
@@ -121,7 +121,7 @@
 
       <section class="service-one service-one--page">
         <div class="container">
-          <div class="row gutter-y-30" id="service-list">
+          <div class="row gutter-y-30" id="propos-list">
             <!-- Service items will be inserted here by JavaScript -->
             
           </div>
@@ -160,12 +160,12 @@
     </div>
     <!-- /.search-popup -->
 
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+    <!-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
       <span class="scroll-to-top__text">back top</span>
       <span class="scroll-to-top__wrapper"
         ><span class="scroll-to-top__inner"></span
       ></span>
-    </a>
+    </a> -->
 
     <script src="../assets/vendors/jquery/jquery-3.7.0.min.js"></script>
     <script src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -187,7 +187,7 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../assets/js/services.js"></script>
+    <script src="../assets/js/propos.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
   </body>

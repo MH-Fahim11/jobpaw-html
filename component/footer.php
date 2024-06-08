@@ -1,5 +1,5 @@
 <footer class="main-footer background-black">
-            <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
+            <div class="main-footer__bg" style="background-color: #000052;"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__subscribe">
                 <div class="container">
