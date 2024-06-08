@@ -66,7 +66,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <span>Erofessionals</span>
+                            <span>Entreprises</span>
                         </li>
                         <li>
                             <span>Publish a seminar</span>
@@ -185,7 +185,7 @@
                 <div class="col-md-6">
                     <label for="" class="form-label">Ville  <span class=" text-danger">*</span> :</label>
                     <select id="inputState" class="form-select">
-                    <option value="0">- - Choisir - -</option>
+                        <option value="0">- - Choisir - -</option>
                         <option value="212">Afrique du Sud - Pretoria</option>
                         <option value="208">Allemagne - Berlin</option>
                         <option value="37">Angleterre - Glasgow</option>
@@ -440,48 +440,10 @@
 
 
 
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="../../assets/images/logos/logo-for-dark.png" width="155" alt=""></a>
-            </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@hiredots.com">needhelp@hiredots.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__social">
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://pinterest.com">
-                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-            </div><!-- /.mobile-nav__social -->
-        </div>
-        <!-- /.mobile-nav__content -->
-    </div>
+    <?php
+            $logo ="./../../assets/images/logos/logo-dark.png";
+            include_once('./../../component/mobileNav.php') ; 
+        ?>
     <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
@@ -525,7 +487,7 @@
     <script src="../../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
 
-    <script src="../../scripts/entreprisesPrivate.js"></script>
+    <script src="../../assets/js/entreprisesPrivate.js"></script>
     <!-- template js -->
     <script src="../../assets/js/hiredots.js"></script>
     

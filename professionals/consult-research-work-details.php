@@ -47,106 +47,10 @@
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
         <header class="main-header sticky-header sticky-header--normal">
-            <div class="main-header__inner">
-                <div class="main-header__logo">
-                    <a href="index.html">
-                        <img src="../assets/images/logos/logo-light.png" alt="Hiredots HTML" width="125">
-                    </a>
-                </div><!-- /.main-header__logo -->
-                <a href="#" class="search-toggler main-header__search">
-                    <i class="icon-magnifying-glass" aria-hidden="true"></i>
-                    <span class="sr-only">Search</span>
-                </a><!-- /.search-toggler -->
-                <div class="main-header__menu">
-                    <nav class="main-header__nav main-menu">
-                        <ul class="main-menu__list">
-                            <li class="dropdown">
-                                <a href="/professionnels">Professionels</a>
-                            </li>
-
-                            <li>
-                                <a href="about.html">Entreprises</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Universities</a>
-                                <ul>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="jobs.html">Jobs</a></li>
-                                    <li><a href="history.html">History</a></li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="service-d-consulting.html">HR Consulting</a></li>
-                                    <li><a href="service-d-resources.html">Tech Resources</a></li>
-                                    <li><a href="service-d-hydro-solution.html">Staffing Solution</a></li>
-                                    <li><a href="service-d-program.html">Corporate Program</a></li>
-                                    <li> <a href="service-d-training.html">Leadership Training</a></li>
-                                    <li><a href="service-d-management.html">Staff Management</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="project.html">Projects</a>
-                                <ul>
-                                    <li><a href="project.html">Projects</a></li>
-                                    <li><a href="project-details.html">Projects Details</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="connexion">
-                        <div class="connexion-i1">
-    
-                            <p style="color: rgb(25, 164, 222);">Connexion</p>
-                            <div style="margin-top: -20px;">
-                                <select style="border: none;">
-                                    <option>Inscription</option>
-                                    <option>Entreprises</option>
-                                    <option>Professionnels</option>
-                                    <option>Universités</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="connexion-i2">
-                            <button style="border: none;">
-                            </button>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!-- <div class="main-header__link">
-                    <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
-                    
-                </div> -->
-                <div class="connexion-m">
-                    <div class="connexion-i1-m">
-
-                        <p style="color: rgb(25, 164, 222);">Connexion</p>
-                        <div style="margin-top: -20px;">
-                            <select style="border: none;">
-                                <option>Inscription</option>
-                                <option>Entreprises</option>
-                                <option>Professionnels</option>
-                                <option>Universités</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="connexion-i2-m">
-                        <button style="border: none;">
-                        </button>
-                    </div>
-                </div>
-
-                <div class="mobile-nav__btn mobile-nav__toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div><!-- /.mobile-nav__toggler -->
-            </div>
+        <?php
+            $logo = "../assets/images/logos/logo-light.png";
+            include_once('../component/navBar.php') ; 
+        ?>
         </header>
         <!-- main-slider-start -->
         <div>
@@ -170,173 +74,227 @@
         </div>
         <!-- main-slider-end -->
         <!-- Feature Start -->
-       <div class="my-5">
-        <div class="container">
-            <div id="jobs" class="jobs">
-                <!-- Content will be dynamically added here -->
-            </div>
-        </div>
-       </div>
-        <footer class="main-footer background-black">
-            <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
-            <!-- /.main-footer__bg -->
-            <div class="main-footer__subscribe">
-                <div class="container">
-                    <div class="main-footer__subscribe__wrapper">
-                        <div class="main-footer__subscribe__left">
-                            <span class="main-footer__subscribe__icon"><i class="icon-message"></i></span>
-                            <h3 class="main-footer__subscribe__title">Subscribe Now to Get <br>
-                                Latest Updates</h3>
-                        </div>
-                        <div class="main-footer__subscribe__right">
-                            <form action="#" data-url="MAILCHIMP_FORM_URL" class="main-footer__newsletter mc-form">
-                                <input type="text" name="EMAIL" placeholder="Email address">
-                                <button type="submit" class="fas fa-paper-plane">
-                                    <span class="sr-only">submit</span><!-- /.sr-only -->
-                                </button>
-                            </form><!-- /.footer-widget__newsletter mc-form -->
-                            <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-footer__top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-xl-5">
-                            <div class="footer-widget footer-widget--about">
-                                <a href="index.html" class="footer-widget__logo">
-                                    <img src="../assets/images/logo-light.png" width="125" alt="Hiredots HTML Template">
-                                </a>
-                                <p class="footer-widget__text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit <br>
-                                    sed do eiusmod tempor incididunt ut labore.</p>
-                                <div class="footer-widget__author">
-                                    <div class="footer-widget__author__img">
-                                        <img src="../assets/images/resources/footer-about-avata.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="footer-widget__author__info">
-                                            <span class="footer-widget__author__tagline">Need Help?</span>
-                                            <h3 class="footer-widget__author__title"><a href="contact.html">Book Appointment </a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="col-md-6 col-xl-2">
-                            <div class="footer-widget footer-widget--links">
-                                <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">About Company</a></li>
-                                    <li><a href="team.html">Meet the Team</a></li>
-                                    <li><a href="blog.html">News & Media</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="col-md-6 col-xl-2">
-                            <div class="footer-widget footer-widget--contact">
-                                <h2 class="footer-widget__title">Links</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">Apply Now</a></li>
-                                    <li><a href="contact.html">Contract to Hire</a></li>
-                                    <li><a href="team.html">Direct Hire</a></li>
-                                    <li><a href="history.html">Executive Search</a></li>
-                                    <li><a href="about.html">Our Solutions</a></li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="col-md-6 col-xl-3">
-                            <div class="footer-widget footer-widget--time">
-                                <h2 class="footer-widget__title">Contact</h2><!-- /.footer-widget__title -->
-                                <p class="footer-widget__text">66 Road Broklyn Street, 600 <br> New York, USA</p>
-                                <!-- /.footer-widget__text -->
-                                <ul class="list-unstyled footer-widget__info">
-                                    <li><i class="fas fa-envelope"></i> <a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                                    <li><i class="fas fa-phone-square"></i> <a href="tel:+92(8800)-6930">+ 92 ( 8800 ) - 6930</a></li>
-                                </ul><!-- /.list-unstyled -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__top -->
-            <div class="main-footer__bottom">
-                <div class="container">
-                    <div class="main-footer__bottom__inner">
-                        <div class="footer-widget__social">
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                            <a href="https://pinterest.com">
-                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                            <a href="https://instagram.com">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </div><!-- /.footer-widget__social -->
-                        <p class="main-footer__copyright">
-                            &copy; Copyright <span class="dynamic-year"></span> by Hiredots HTML Template.
-                        </p>
-                    </div><!-- /.main-footer__inner -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__bottom -->
-        </footer><!-- /.main-footer -->
+        <section class="blog-one blog-one--page">
+            <div class="container">
+                <div class="row gutter-y-60">
+                    <div class="col-lg-8">
+                        <div class="blog-details">
+                            <div class="blog-card blog-card-two @@extraClassName">
+                                <div class="blog-card__image">
+                                    <img src="../images/34FinalPhotos/IMG-20240320-WA0006.jpg" alt="Best place of true splander">
+
+                                </div><!-- /.blog-card__image -->
+                                <div class="blog-card-two__content">
+                                    <div class="blog-card__date"><span>30</span>
+                                        Aug</div><!-- /.blog-card__date -->
+                                    <ul class="list-unstyled blog-card__meta">
+                                        <li><a href="blog.html"><i class="fas fa-tags"></i>Business</a></li>
+                                        <li><a href="blog.html"> <i class="fa fa-comments"></i> 2 Comments</a></li>
+                                    </ul><!-- /.list-unstyled blog-card__meta -->
+                                    <h3 class="blog-card__title">Guide to HR Adviser and Clients Lessening</h3>
+                                    <!-- /.blog-card__title -->
+                                    <p class="blog-card-two__text">Lorem ipsum is simply free dolor sit amet, consect pisicing elit. Lorem ipsum
+                                        dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of passages of Lorem
+                                        Ipsum available, but the majority have alteration in some injected or words which don't look even
+                                        slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                        anything embarrang hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+                                        repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                                        dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate
+                                        Lorem Ipsum which looks reasonable. </p><!-- /.blog-card-two__text -->
+                                    <p class="blog-card-two__text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type simen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                    <p class="blog-card-two__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        orem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a
+                                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                        but also the leap into unchanged.</p>
+                                    <!-- /.blog-card-two__text -->
+                                </div><!-- /.blog-card-two__content -->
+                            </div><!-- /.blog-card -->
+                            <div class="blog-details__meta">
+                                <div class="blog-details__tags">
+                                    <h4 class="blog-details__tags__title">Tags</h4><!-- /.blog-details__tags__title -->
+                                    <div class="sidebar__tags">
+                                        <a href="blog.html">Consulting</a>
+                                        <a href="blog.html">Contract</a>
+                                    </div><!-- /.sidebar__projects -->
+                                </div><!-- /.blog-details__tags -->
+                                <div class="blog-details__social">
+                                    <a href="https://twitter.com">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                    </a>
+                                    <a href="https://facebook.com">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                    </a>
+                                    <a href="https://pinterest.com">
+                                        <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                                        <span class="sr-only">Pinterest</span>
+                                    </a>
+                                    <a href="https://instagram.com">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                    </a>
+                                </div><!-- /.blog-details__social -->
+                            </div><!-- /.blog-details__meta -->
+
+                            <ul class="sidebar__posts list-unstyled blog-details__paginations">
+                                <li class="sidebar__posts__item">
+                                    <div class="sidebar__posts__content">
+                                        <h4 class="sidebar__posts__title"><a href="blog-details.html">Does my Business Need a Director of
+                                                Training?</a></h4><!-- /.sidebar__posts__title -->
+                                    </div><!-- /.sidebar__posts__content -->
+                                </li>
+                                <li class="sidebar__posts__item">
+                                    <div class="sidebar__posts__content">
+                                        <h4 class="sidebar__posts__title"><a href="blog-details.html">Get deep knowledge
+                                                of your beauty</a></h4><!-- /.sidebar__posts__title -->
+                                    </div><!-- /.sidebar__posts__content -->
+                                </li>
+                            </ul>
+                        </div><!-- /.blog-details -->
+
+                        <div class="comments-one">
+                            <h3 class="comments-one__title">2 Comments</h3><!-- /.comments-one__title -->
+                            <ul class="list-unstyled comments-one__list">
+                                <li class="comments-one__card">
+                                    <div class="comments-one__card__image">
+                                        <img src="assets/images/blog/blog-comment-1-1.jpg" alt="">
+                                    </div><!-- /.comments-one__card__image -->
+                                    <div class="comments-one__card__content">
+                                        <h3 class="comments-one__card__title">Kevin martin</h3><!-- /.comments-one__card__title -->
+                                        <p class="comments-one__card__text">It has survived not only five centuries, but also the leap into electronic typesetting simply fee text aunchanged. It was popularised in the sheets containing lorem ipsum is simply free text.
+                                        </p><!-- /.comments-one__card__text -->
+                                        <div class="comments-one__card__btn">
+                                            <a href="blog-details-right.html" class="hiredots-btn comments-one__card__reply"><span>Reply</span></a>
+                                        </div><!-- /.comments-one__card__btn -->
+                                    </div><!-- /.comments-one__card__content -->
+                                </li><!-- /.comments-one__card -->
+                                <li class="comments-one__card">
+                                    <div class="comments-one__card__image">
+                                        <img src="assets/images/blog/blog-comment-1-2.jpg" alt="">
+                                    </div><!-- /.comments-one__card__image -->
+                                    <div class="comments-one__card__content">
+                                        <h3 class="comments-one__card__title">Sarah albert</h3><!-- /.comments-one__card__title -->
+                                        <p class="comments-one__card__text">Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia
+                                            nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla, sollicitudin at euismod.
+                                        </p><!-- /.comments-one__card__text -->
+                                        <div class="comments-one__card__btn">
+                                            <a href="blog-details-right.html" class="hiredots-btn comments-one__card__reply"><span>Reply</span></a>
+                                        </div><!-- /.comments-one__card__btn -->
+                                    </div><!-- /.comments-one__card__content -->
+                                </li><!-- /.comments-one__card -->
+                            </ul><!-- /.list-unstyled comments-one__list -->
+                        </div><!-- /.comments-one -->
+
+                        <div class="comments-form">
+                            <h3 class="comments-form__title">Leave a comment</h3><!-- /.comments-form__title -->
+                            <form class="comments-form__form contact-form-validated form-one">
+                                <div class="form-one__group">
+                                    <div class="form-one__control">
+                                        <input type="text" name="name" placeholder="Your name">
+                                    </div><!-- /.form-one__control -->
+                                    <div class="form-one__control">
+                                        <input type="email" name="email" placeholder="Email address">
+                                    </div><!-- /.form-one__control -->
+                                    <div class="form-one__control form-one__control--full">
+                                        <textarea name="message" placeholder="Write  a message"></textarea><!-- /# -->
+                                    </div><!-- /.form-one__control -->
+                                    <div class="form-one__control form-one__control--full">
+                                        <button type="submit" class="hiredots-btn hiredots-btn--base"><span>Submit comment</span></button>
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.form-one__group -->
+                            </form>
+                            <div class="result"></div>
+                        </div><!-- /.comments-form -->
+                    </div><!-- /.col-lg-8 -->
+                    <div class="col-lg-4">
+                        <div class="sidebar">
+                            <aside class="widget-area">
+                                <div class="sidebar__single sidebar__search-wrap">
+                                    <form action="#" class="sidebar__search">
+                                        <input type="text" placeholder="Search here">
+                                        <button type="submit" aria-label="search submit">
+                                            <span><i class="icon-magnifying-glass"></i></span>
+                                        </button>
+                                    </form><!-- /.sidebar__search -->
+                                </div><!-- /.sidebar__single -->
+                                <div class="sidebar__single">
+                                    <h4 class="sidebar__title">Latest posts</h4><!-- /.sidebar__title -->
+                                    <ul class="sidebar__posts list-unstyled">
+                                        <li class="sidebar__posts__item">
+                                            <div class="sidebar__posts__image">
+                                                <img src="../assets/images/blog/lp-1-1.jpg" alt="hiredots">
+                                            </div><!-- /.sidebar__posts__image -->
+                                            <div class="sidebar__posts__content">
+                                                <p class="sidebar__posts__meta"><i class="fa fa-comments"></i>2 Comments</p><!-- /.sidebar__posts__comment -->
+                                                <h4 class="sidebar__posts__title"><a href="blog-details.html">Guide to HR Adviser
+                                                        and Clients Lessening</a></h4><!-- /.sidebar__posts__title -->
+                                            </div><!-- /.sidebar__posts__content -->
+                                        </li>
+                                        <li class="sidebar__posts__item">
+                                            <div class="sidebar__posts__image">
+                                                <img src="../assets/images/blog/lp-1-2.jpg" alt="hiredots">
+                                            </div><!-- /.sidebar__posts__image -->
+                                            <div class="sidebar__posts__content">
+                                                <p class="sidebar__posts__meta"><i class="fa fa-comments"></i>2 Comments</p><!-- /.sidebar__posts__comment -->
+                                                <h4 class="sidebar__posts__title"><a href="blog-details.html">Get deep knowledge
+                                                        of your beauty</a></h4><!-- /.sidebar__posts__title -->
+                                            </div><!-- /.sidebar__posts__content -->
+                                        </li>
+                                        <li class="sidebar__posts__item">
+                                            <div class="sidebar__posts__image">
+                                                <img src="../assets/images/blog/lp-1-3.jpg" alt="hiredots">
+                                            </div><!-- /.sidebar__posts__image -->
+                                            <div class="sidebar__posts__content">
+                                                <p class="sidebar__posts__meta"><i class="fa fa-comments"></i>2 Comments</p><!-- /.sidebar__posts__comment -->
+                                                <h4 class="sidebar__posts__title"><a href="blog-details.html">Get deep knowledge
+                                                        of your beauty</a></h4><!-- /.sidebar__posts__title -->
+                                            </div><!-- /.sidebar__posts__content -->
+                                        </li>
+                                    </ul><!-- /.sidebar__posts list-unstyled -->
+                                </div><!-- /.sidebar__single -->
+                                <div class="sidebar__single">
+                                    <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
+                                    <ul class="sidebar__categories list-unstyled">
+                                        <li><a href="blog.html">Consulting</a></li>
+                                        <li><a href="blog.html">Human Resource</a></li>
+                                        <li><a href="blog.html">Contracts</a></li>
+                                        <li><a href="blog.html">Direct Hiring</a></li>
+                                        <li><a href="blog.html">Advisers</a></li>
+                                    </ul><!-- /.sidebar__categories list-unstyled -->
+                                </div><!-- /.sidebar__single -->
+                                <div class="sidebar__single">
+                                    <h4 class="sidebar__title">Tags</h4><!-- /.sidebar__title -->
+                                    <div class="sidebar__tags">
+                                        <a href="blog.html">Consulting</a>
+                                        <a href="blog.html">Contract</a>
+                                        <a href="blog.html">Hiring</a>
+                                        <a href="blog.html">Human resource</a>
+                                        <a href="blog.html">Adviser</a>
+                                    </div><!-- /.sidebar__tags -->
+                                </div><!-- /.sidebar__single -->
+                            </aside><!-- /.widget-area -->
+                        </div><!-- /.sidebar -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section>
+       <?php
+            $logo ="../assets/images/logos/logo-dark.png";
+            include_once('./../component/footer.php') ; 
+        ?><!-- /.main-footer -->
 
     </div>
     <!-- /.page-wrapper -->
 
 
 
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="../assets/images/logos/logo-for-dark.png" width="155" alt=""></a>
-            </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@hiredots.com">needhelp@hiredots.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__social">
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://pinterest.com">
-                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-            </div><!-- /.mobile-nav__social -->
-        </div>
-        <!-- /.mobile-nav__content -->
-    </div>
+        <?php
+            $logo ="../assets/images/logos/logo-dark.png";
+            include_once('./../component/mobileNav.php') ; 
+        ?>
     <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
@@ -379,7 +337,7 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../scripts/findjob.js"></script>
+    
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>
