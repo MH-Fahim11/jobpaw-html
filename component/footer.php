@@ -40,10 +40,13 @@
                                             <span class="footer-widget__author__tagline">Need Help?</span>
                                             <h3 class="footer-widget__author__title"><a href="contact.html">Book Appointment </a></h3>
                                         </div> -->
-                                        <ul class="list-unstyled footer-widget__info">
+                                        <!-- <ul class="list-unstyled footer-widget__info">
                                             <li><i class="fas fa-envelope"></i> <a href="mailto:info@jobpaw.com">info@jobpaw.com</a></li>
                                             <li><i class="fas fa-phone-square"></i> <a href="tel:+92(8800)-6930">+(509) 3701 9232</a></li>
-                                        </ul><!-- /.list-unstyled -->
+                                        </ul> -->
+                                        <!-- /.list-unstyled -->
+                                         <br>
+                                         <hr>
                                         <div class="footer-widget__social">
                                             <a href="https://twitter.com">
                                                 <i class="fab fa-twitter" aria-hidden="true"></i>

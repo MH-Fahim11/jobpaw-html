@@ -1,7 +1,7 @@
 <div class="main-header__inner">
                 <div class="main-header__logo">
                     <a href="/">
-                        <img src=<?php echo  $logo?> alt="Jobpaw Logo" width="125">
+                        <img src=<?php echo  $logo?> alt="Jobpaw Logo">
                     </a>
                 </div><!-- /.main-header__logo -->
                 <a href="#" class="search-toggler main-header__search">
@@ -90,7 +90,7 @@
                             </select>
                         </div> -->
                         <div class="dropdown">
-                            <button class="btn-c">Inscription<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            <button class="btn-c">Inscription</button>
                             <div class="dropdown-options">
                             <a href="/auth/singup/entreprises.php">Entreprises</a>
                             <a href="/auth/singup/professionnels.php">Professionnels</a>

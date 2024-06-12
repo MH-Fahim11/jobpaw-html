@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobpaw | Seminer</title>
+    <title>Seminer Details || Jobpaw</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
-    <meta name="description" content="Hiredots is a modern HTML Template HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses.">
+    <meta name="description" content="Jobpaw HR services, Recruiting Agency, Recruiting Business, Hire Employees, Recruiting Consulting, Job Posting, Interviewing Services websites and businesses.">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="../assets/vendors/hiredots-icons/style.css">
     <link rel="stylesheet" href="../assets/vendors/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="../assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-    
+
     <!-- template styles -->
     <link rel="stylesheet" href="../assets/css/hiredots.css">
 </head>
@@ -44,66 +44,55 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(../assets/images/loader.png);"></div>
     </div>
-        <header class="main-header sticky-header sticky-header--normal">
-        <?php
-            $logo = "../assets/images/logos/logo-light.png";
-            include_once('../component/navBar.php') ; 
-        ?>
-        </header>
-        <!-- main-slider-start -->
-        <div>
-            <section class="page-header">
-                <div class="page-header__bg"></div>
-                <div class="page-header__shape">
-                    <img src="../images/shapes/page-header-shape.png" alt="hiredots">
-                </div>
-                <div class="container">
-                    <h2 class="page-header__title">Seminer</h2>
-                    <ul class="hiredots-breadcrumb list-unstyled">
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li>
-                            <span>Professionals / Seminer</span>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- main-slider-end -->
-        <!-- Feature Start -->
-       <div class="my-5">
-        <div class="container">
-            <div class="sec-title">
-                Les professionnels et les entreprises ont accès à différentes
-                informations (offres d’emploi, statistiques sur l’emploi,
-                potentialités du pays, projets du budget, etc.) pour choisir et offrir
-                des formations continues adaptées. <br /><br />
-                Ce répertoire de toutes les formations continues et séminaires offerts
-                en Haïti les aide à élaborer un plan de formation et un plan de
-                développement personnel. <br /><br />
-                Ils auront à l’avance un calendrier de toutes les formations et
-                peuvent plus facilement participer. Ce qui augmentera, du coup, la
-                visibilité et la rentabilité des formations. <br /><br />
-                Vous pourrez leur donner cette opportunité <a href="/login">en cliquant ici</a> et en publiant vos
-                séminaires et formations continues dans notre répertoire. <br />
-            </div>
 
-            <div class="row gutter-y-30" id="seminar-list">
-                <!-- Seminar items will be inserted here by JavaScript -->
+        <header class="main-header sticky-header sticky-header--normal">
+            <?php
+                $logo = "../../assets/images/logos/logo-light.png";
+                include_once('../component/navBar.php') ; 
+            ?> 
+        </header>
+        <section class="page-header">
+            <div class="page-header__bg"></div>
+            <div class="page-header__shape"><img src="../assets/images/shapes/page-header-shape.png" alt="hiredots"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <h2 class="page-header__title">Seminer Detail</h2>
+                <ul class="hiredots-breadcrumb list-unstyled">
+                    <li><a href="index.php">Home</a></li>
+                    <li><span>Seminer Detail</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+
+        
+        <div class="container my-5">
+            <div class="sec-title text-center">
+                <h2 class="sec-title__tagline">Introduction to Data Science Workshop</h2>
             </div>
-            
+            <p><span style="font-weight: bold;">Description:</span> TechMaster Bootcamp is an intensive training program designed to equip participants with the skills and knowledge needed to excel in the rapidly evolving field of technology. Whether you're a beginner looking to kickstart your career or a seasoned professional aiming to enhance your expertise, our bootcamp offers a comprehensive curriculum tailored to meet your needs.</p>
+            <div>
+                <p><span style="font-weight: bold;">Date:</span> May 10, 2024</p>
+                <p><span style="font-weight: bold;">Time:</span> 10:00 AM - 4:00 PM</p>
+                <p><span style="font-weight: bold;">Location:</span> 123 Main Street, Cityville</p>
+            </div>
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                <a class="hiredots-btn" href="/seminars/introduction-to-data-science-workshop">Apply for join</a>
+            </div>
         </div>
-       </div>
-       <?php
+
+
+
+
+
+
+        <?php
             $logo ="../assets/images/logos/logo-dark.png";
             include_once('./../component/footer.php') ; 
-        ?><!-- /.main-footer -->
+        ?> <!-- /.main-footer -->
 
-    </div>
-    <!-- /.page-wrapper -->
+    </div><!-- /.page-wrapper -->
 
 
 
@@ -127,10 +116,10 @@
     </div>
     <!-- /.search-popup -->
 
-    <!-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">back top</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-    </a> -->
+    </a>
 
 
     <script src="../assets/vendors/jquery/jquery-3.7.0.min.js"></script>
@@ -153,7 +142,6 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../assets/js/seminer.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

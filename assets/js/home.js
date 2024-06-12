@@ -1,29 +1,62 @@
 const data = [
     {
-        name: "Publier offre d emploi",
-        image: "../images/5x/7.jpg",
+        name: "Publier un appel d'offres",
+        image: "../assets/images/icons/7.jpg",
         link: "/professionnels/find-job",
     },
     {
-        name: "Publier appel d offres",
-        image: "../images/5x/5.jpg",
+        name: "Publier une formation",
+        image: "../assets/images/icons/5.jpg",
         link: "/professionnels",
     },
     {
-        name: "Publier saminaire",
-        image: "../images/5x/4.jpg",
+        name: "Publier une offre d'emploi",
+        image: "../assets/images/icons/4.jpg",
         link: "/projets",
     },
     {
-        name: "Recruiter via head Hunter",
-        image: "../images/5x/3.jpg",
+        name: "Recruter via Head Hunter",
+        image: "../assets/images/icons/3.jpg",
         link: "/services",
     },
     {
-        name: "Monter son enterprise",
-        image: "../images/5x/11.jpg",
+        name: "Recruter via Base de CV",
+        image: "../assets/images/icons/11.jpg",
         link: "/enterprises",
     },
+    {
+        name: "Ajouter une bannière publicité",
+        image: "../assets/images/icons/8.jpg",
+        link: "/enterprises",
+    },
+];
+const data2 = [
+    {
+        name: "Emploi",
+        image: "../assets/images/icons/7.jpg",
+        link: "/professionnels/find-job",
+    },
+    {
+        name: "Professionnels",
+        image: "../assets/images/icons/5.jpg",
+        link: "/professionnels",
+    },
+    {
+        name: "Entreprises",
+        image: "../assets/images/icons/4.jpg",
+        link: "/projets",
+    },
+    {
+        name: "Salaires",
+        image: "../assets/images/icons/3.jpg",
+        link: "/services",
+    },
+    {
+        name: "Projets",
+        image: "../assets/images/icons/11.jpg",
+        link: "/enterprises",
+    },
+    
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -41,6 +74,24 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         container.appendChild(linkElement);
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const container2 = document.getElementById('services-container2');
+
+    data2.forEach((item, index) => {
+        const linkElement2 = document.createElement('a');
+        linkElement2.href = item.link;
+        linkElement2.className = 'service-link';
+        linkElement2.innerHTML = `
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img class="w-50 h-50" src="${item.image}" alt="${item.name}">
+            </div>
+            <h4 class="text-center">${item.name}</h4>
+        `;
+
+        container2.appendChild(linkElement2);
     });
 });
 

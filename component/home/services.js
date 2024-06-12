@@ -1,27 +1,27 @@
 const projects = [
     {
         title: "Recruitement",
-        img: "../assets/images/services/1.png",
+        img: "../assets/images/services/10.jpg",
         path: "#",
-        icon: "../images/5x/1.jpg"
+        icon: "../assets/images/icons/1.jpg"
     },
     {
         title: "Tenders",
-        img: "../assets/images/services/2.png",
+        img: "../assets/images/services/11.jpg",
         path: "#",
-        icon: "../images/5x/2.jpg"
+        icon: "../assets/images/icons/12.jpg"
     },
     {
         title: "Advertising",
-        img: "../assets/images/services/3.png",
+        img: "../assets/images/services/12.jpg",
         path: "#",
-        icon: "../images/5x/5.jpg"
+        icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Training",
-        img: "../assets/images/services/4.png",
+        img: "../assets/images/services/13.jpg",
         path: "#",
-        icon: "../images/5x/7.jpg"
+        icon: "../assets/images/icons/7.jpg"
     },
 ];
 

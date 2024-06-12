@@ -9,7 +9,7 @@
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
             <!-- /.mobile-nav__container -->
-            <ul class="mobile-nav__contact list-unstyled">
+            <!-- <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
                     <a href="mailto:info@jobpaw.com">info@jobpaw.com</a>
@@ -18,7 +18,8 @@
                     <i class="fa fa-phone-alt"></i>
                     <a href="tel:666-888-0000">+(509) 3701 9232</a>
                 </li>
-            </ul><!-- /.mobile-nav__contact -->
+            </ul> -->
+            <!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
                 <a href="https://twitter.com">
                     <i class="fab fa-twitter" aria-hidden="true"></i>

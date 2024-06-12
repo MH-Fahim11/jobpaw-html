@@ -3,37 +3,37 @@ const projects = [
         title: "Adapter les formations au marché",
         img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
         path: "/",
-        icon: "../images/5x/1.jpg"
+        icon: "../assets/images/icons/1.jpg"
     },
     {
         title: "Promouvoir son université ou son école",
         img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
         path: "",
-        icon: "../images/5x/2.jpg"
+        icon: "../assets/images/icons/2.jpg"
     },
     {
         title: "Stimuler recherche et innovation",
         img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
         path: "",
-        icon: "../images/5x/5.jpg"
+        icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Valoriser les diplomés",
         img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
         path: "",
-        icon: "../images/5x/7.jpg"
+        icon: "../assets/images/icons/7.jpg"
     },
     {
         title: "Partager les travaux de recherche",
         img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
         path: "",
-        icon: "../images/5x/8.jpg"
+        icon: "../assets/images/icons/8.jpg"
     },
     {
         title: "Opportunités d’affaires",
         img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
         path: "",
-        icon: "../images/5x/9.jpg"
+        icon: "../assets/images/icons/9.jpg"
     }
 ];
 

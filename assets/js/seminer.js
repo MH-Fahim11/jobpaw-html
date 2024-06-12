@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       date: "May 10, 2024",
       time: "10:00 AM - 4:00 PM",
       location: "123 Main Street, Cityville",
-      link: "/seminars/data-science-workshop",
+      link: "/professionals/seminer-details.php",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       date: "May 15, 2024",
       time: "9:00 AM - 5:00 PM",
       location: "456 Elm Street, Townsville",
-      link: "/seminars/web-development-bootcamp",
+      link: "/professionals/seminer-details.php",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       date: "May 15, 2024",
       time: "9:00 AM - 5:00 PM",
       location: "456 Elm Street, Townsville",
-      link: "/seminars/web-development-bootcamp",
+      link: "/professionals/seminer-details.php",
     },
   ];
 
@@ -64,9 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <span>Date: ${service.date}</span>
                         <span>Time: ${service.time}</span>
                     </div>
-                    <a href="/seminars/${createSlug(
-                      service.title
-                    )}" class="d-flex align-items-center">
+                    <a href="/professionals/seminer-details.php" class="d-flex align-items-center">
                         Book now <i class="icon-right-arrow"></i>
                     </a>
                 </div>

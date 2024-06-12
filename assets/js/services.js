@@ -3,25 +3,25 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
       title: "Recrutement",
-      icon: "../images/5x/1.jpg",
+      icon: "../assets/images/icons/1.jpg",
       path: "#",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
       title: "Achats",
-      icon: "../images/5x/2.jpg",
+      icon: "../assets/images/icons/2.jpg",
       path: "#",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
       title: "Publicite",
-      icon: "../images/5x/3.jpg",
+      icon: "../assets/images/icons/3.jpg",
       path: "#",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0042.jpg",
       title: "Formation",
-      icon: "../images/5x/4.jpg",
+      icon: "../assets/images/icons/4.jpg",
       path: "#",
     },
     

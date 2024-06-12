@@ -3,73 +3,73 @@ const projects = [
         title: "Publicité via Bannière web",
         img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
         path: "#",
-        icon: "../images/5x/1.jpg"
+        icon: "../assets/images/icons/1.jpg"
     },
     {
         title: "Publicité via Blast e-mail",
         img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
         path: "/entreprises/universities.php",
-        icon: "../images/5x/2.jpg"
+        icon: "../assets/images/icons/2.jpg"
     },
     {
         title: "Publier un séminaire",
         img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
         path: "/entreprises/cv-paw.php",
-        icon: "../images/5x/5.jpg"
+        icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Publier un appel d’offres",
         img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
         path: "#",
-        icon: "../images/5x/7.jpg"
+        icon: "../assets/images/icons/7.jpg"
     },
     {
         title: "Publier une offre d’emploi",
         img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
         path: "#",
-        icon: "../images/5x/8.jpg"
+        icon: "../assets/images/icons/8.jpg"
     },
     {
         title: "Recruter via Base de CV",
         img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
         path: "trouver-formation-continue.php",
-        icon: "../images/5x/9.jpg"
+        icon: "../assets/images/icons/9.jpg"
     },
     {
         title: "Recruter via Head Hunter",
         img: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
         path: "#",
-        icon: "../images/5x/10.jpg"
+        icon: "../assets/images/icons/10.jpg"
     },
     {
         title: "Trouver un appel d’offres",
         img: "../images/34FinalPhotos/IMG-20240320-WA0027.jpg",
         path: "#",
-        icon: "../images/5x/11.jpg"
+        icon: "../assets/images/icons/11.jpg"
     },
     {
         title: "Trouver formation continue",
         img: "../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
         path: "#",
-        icon: "../images/5x/12.jpg"
+        icon: "../assets/images/icons/12.jpg"
     },
     {
         title: "Renforcer son entreprise",
         img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
         path: "#",
-        icon: "../images/5x/11.jpg"
+        icon: "../assets/images/icons/11.jpg"
     },
     {
         title: "Profiter mieux de R&D",
         img: "../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
         path: "#",
-        icon: "../images/5x/5.jpg"
+        icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Bénéficier projets du Budget",
         img: "../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
         path: "#",
-        icon: "../images/5x/9.jpg"
+        icon: "../assets/images/icons/9.jpg"
     },
 ];
 

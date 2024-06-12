@@ -3,25 +3,25 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         image: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
         title: "One-pager",
-        icon: "../images/5x/1.jpg",
+        icon: "../assets/images/icons/1.jpg",
         path: "project-details.php",
       },
       {
         image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
         title: "MasterClass",
-        icon: "../images/5x/2.jpg",
+        icon: "../assets/images/icons/2.jpg",
         path: "project-details.php",
       },
       {
         image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
         title: "SiksèPaw-SiksèLòtyo",
-        icon: "../images/5x/3.jpg",
+        icon: "../assets/images/icons/3.jpg",
         path: "project-details.php",
       },
       {
         image: "../images/34FinalPhotos/IMG-20240320-WA0042.jpg",
         title: "Podcast SiksèPaw-SiksèLòtyo",
-        icon: "../images/5x/4.jpg",
+        icon: "../assets/images/icons/4.jpg",
         path: "project-details.php",
       },
       

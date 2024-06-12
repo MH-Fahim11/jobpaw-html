@@ -3,37 +3,37 @@ const projects = [
         title: "Stat dept sur professionnels",
         img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
         path: "professionals/voir-statistiques-opportunites.php",
-        icon: "../images/5x/1.jpg"
+        icon: "../assets/images/icons/1.jpg"
     },
     {
         title: "Stat nat sur professionnels",
         img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
         path: "professionals/universities.php",
-        icon: "../images/5x/2.jpg"
+        icon: "../assets/images/icons/2.jpg"
     },
     {
         title: "Stat sur emplois",
         img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
         path: "/professionals/cv-paw.html",
-        icon: "../images/5x/5.jpg"
+        icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Stat sur salaires",
         img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
         path: "professionals/find-job.html",
-        icon: "../images/5x/7.jpg"
+        icon: "../assets/images/icons/7.jpg"
     },
     {
         title: "Stat sur entreprises",
         img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
         path: "/professionnels/choose-school-or-universiry",
-        icon: "../images/5x/8.jpg"
+        icon: "../assets/images/icons/8.jpg"
     },
     {
         title: "Stat sur budget et projets",
         img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
         path: "/professionals/seminer.html",
-        icon: "../images/5x/9.jpg"
+        icon: "../assets/images/icons/9.jpg"
     }
 ];
 

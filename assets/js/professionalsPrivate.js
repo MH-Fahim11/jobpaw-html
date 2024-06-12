@@ -3,49 +3,49 @@ const projects = [
         title: "Voir mon CVPaw",
         img: "../../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
         path: "/professionals/private/updateYourProfile.php",
-        icon: "../../images/5x/1.jpg"
+        icon: "../../assets/images/icons/1.jpg"
     },
     {
         title: "Créer un CVPaw",
         img: "../../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
         path: "/professionals/private/updateYourProfile2.php",
-        icon: "../../images/5x/2.jpg"
+        icon: "../../assets/images/icons/2.jpg"
     },
     {
         title: "Modifier mon CVPaw",
         img: "../../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
         path: "/professionals/private/updateYourProfile2.php",
-        icon: "../../images/5x/5.jpg"
+        icon: "../../assets/images/icons/5.jpg"
     },
     {
         title: "S’abonner aux offres d’emploi",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
         path: "/professionals/private/JobAlerts.php",
-        icon: "../../images/5x/7.jpg"
+        icon: "../../assets/images/icons/7.jpg"
     },
     {
         title: "Appliquer pour un poste",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
         path: "/professionals/private/JobOffers.php",
-        icon: "../../images/5x/8.jpg"
+        icon: "../../assets/images/icons/8.jpg"
     },
     {
         title: "Lister mes applications",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
         path: "/professionals/private/myJobApplications.php",
-        icon: "../../images/5x/9.jpg"
+        icon: "../../assets/images/icons/9.jpg"
     },
     {
         title: "Publier un article/mémoire",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
         path: "/professionals/private/publishAnArticleOrReportAnalysis.php",
-        icon: "../../images/5x/10.jpg"
+        icon: "../../assets/images/icons/10.jpg"
     },
     {
         title: "Lister mes articles",
         img: "../../images/34FinalPhotos/IMG-20240320-WA0027.jpg",
         path: "/professionals/private/articles.php",
-        icon: "../../images/5x/11.jpg"
+        icon: "../../assets/images/icons/11.jpg"
     },
     
 ];
@@ -72,4 +72,3 @@ projects.forEach((itam, index) => {
 
     entreprisesPrivateContainer.appendChild(itamItem);
 });
-console,log("gggg")

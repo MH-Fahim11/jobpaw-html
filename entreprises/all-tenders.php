@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobpaw | Seminer</title>
+    <title>Jobpaw | Tenders</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
@@ -60,13 +60,13 @@
                     <img src="../images/shapes/page-header-shape.png" alt="hiredots">
                 </div>
                 <div class="container">
-                    <h2 class="page-header__title">Seminer</h2>
+                    <h2 class="page-header__title">Tenders</h2>
                     <ul class="hiredots-breadcrumb list-unstyled">
                         <li>
                             <a href="/">Home</a>
                         </li>
-                        <li>
-                            <span>Professionals / Seminer</span>
+                        <li> 
+                            <span>/ Tenders</span>
                         </li>
                     </ul>
                 </div>
@@ -76,25 +76,30 @@
         <!-- Feature Start -->
        <div class="my-5">
         <div class="container">
-            <div class="sec-title">
-                Les professionnels et les entreprises ont accès à différentes
-                informations (offres d’emploi, statistiques sur l’emploi,
-                potentialités du pays, projets du budget, etc.) pour choisir et offrir
-                des formations continues adaptées. <br /><br />
-                Ce répertoire de toutes les formations continues et séminaires offerts
-                en Haïti les aide à élaborer un plan de formation et un plan de
-                développement personnel. <br /><br />
-                Ils auront à l’avance un calendrier de toutes les formations et
-                peuvent plus facilement participer. Ce qui augmentera, du coup, la
-                visibilité et la rentabilité des formations. <br /><br />
-                Vous pourrez leur donner cette opportunité <a href="/login">en cliquant ici</a> et en publiant vos
-                séminaires et formations continues dans notre répertoire. <br />
+            <form  class="contact-form-validated" action="inc/sendemail.php" noValidate="novalidate">
+                <div class="jobs__form wow fadeInUp animated" data-wow-duration="1500ms">
+                    <div class="jobs__group row gutter-y-20">
+                        <div class="col-md-6">
+                            <div class="job__control Jobs__control--full">
+                                <input type="text" name="name" placeholder="All Jobs">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <select class="jobs__control Jobs__control--full" name="" id="">
+                                    <option value="">x</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jobs__form__checkbox">
+                    <!-- Checkbox items can be added here -->
+                </div>
+            </form>
+            <div id="tenders-container" class="jobs">
+                <!-- Content will be dynamically added here -->
             </div>
-
-            <div class="row gutter-y-30" id="seminar-list">
-                <!-- Seminar items will be inserted here by JavaScript -->
-            </div>
-            
         </div>
        </div>
        <?php
@@ -153,7 +158,7 @@
     <script src="../assets/vendors/countdown/countdown.min.js"></script>
     <script src="../assets/vendors/jquery-circleType/jquery.circleType.js"></script>
     <script src="../assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="../assets/js/seminer.js"></script>
+    <script src="../assets/js/all-tenders.js"></script>
     <!-- template js -->
     <script src="../assets/js/hiredots.js"></script>
 </body>

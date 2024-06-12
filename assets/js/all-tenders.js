@@ -1,16 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const jobsContainer = document.getElementById("jobs");
-
-  function createSlug(sentence) {
-    return sentence
-      .toLowerCase()
-      .replace(/[^a-zA-Z0-9 -]/g, "")
-      .replace(/\s+/g, "-")
-      .replace(/-+/g, "-")
-      .trim();
-  }
-
-  const jobslist = [
+const tenderslist = [
     {
       logo: "../assets/images/jobs/image-1.png",
       image: "../images/34FinalPhotos/IMG-20240320-WA0018.jpg",
@@ -145,70 +133,51 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  const jobsListContainer = document.createElement("div");
-  jobsListContainer.className = "container";
-  jobsContainer.appendChild(jobsListContainer);
 
-  const jobsList = document.createElement("div");
-  jobsList.className = "jobs-list";
-  jobsListContainer.appendChild(jobsList);
 
-  jobslist.forEach((job, index) => {
-    const jobCard = document.createElement("div");
-    jobCard.className = "jobs-list__card";
-    jobsList.appendChild(jobCard);
+  const tendersContainer = document.getElementById('tenders-container');
 
-    const jobLeft = document.createElement("div");
-    jobLeft.className = "jobs-list__left";
-    jobCard.appendChild(jobLeft);
+  tenderslist.forEach((itam, index) => {
+    const itamItem = document.createElement('div');
+    // itamItem.class = 'col-lg-4 col-md-6 wow fadeInUp';
+    // itamItem.style.animationDelay = `${100 * (index + 1)}ms`;
 
-    const jobLogo = document.createElement("div");
-    jobLogo.className = "jobs-list__logo";
-    jobLeft.appendChild(jobLogo);
+    itamItem.innerHTML = `
+    <div class="jobs-list__card">
+              <div class="jobs-list__left">
+                <div class="jobs-list__logo">
+                  <img src=${itam.logo} alt="" />
+                </div>
+                <div class="jobs-list__content">
 
-    const logoImg = document.createElement("img");
-    logoImg.src = job.logo;
-    logoImg.alt = "Job Logo";
-    jobLogo.appendChild(logoImg);
+                  <h3
+                    style={{ marginBottom: "10px" }}
+                    class="jobs-list__title"
+                  >
+                    ${itam.title} <br />
+                    <span style={{ fontSize: "18px" }}>at ${itam.company}</span>
+                  </h3>
+                  <span class="jobs-list__location">
+                    Location: ${itam.location}
+                  </span>
+                  <p class="jobs-list__location">
+                    Deadline: ${itam.deadline}
+                  </p>
+                </div>
+              </div>
+              <div class="jobs-list__right">
+                <span class="jobs-list__price">
+                  <b>$85,000 - $90,000</b> Per Year
+                </span>
+                <a
+                  href="/entreprises/tenders-details.php"
+                  class="hiredots-btn"
+                >
+                  View Details
+                </a>
+              </div>
+            </div>
+    `;
 
-    const jobContent = document.createElement("div");
-    jobContent.className = "jobs-list__content";
-    jobLeft.appendChild(jobContent);
-
-    const jobTime = document.createElement("span");
-    jobTime.className = "jobs-list__time";
-    jobTime.innerHTML = '<i class="fas fa-clock"></i> Posted 3 days ago';
-    jobContent.appendChild(jobTime);
-
-    const jobTitle = document.createElement("h3");
-    jobTitle.className = "jobs-list__title";
-    jobTitle.style.marginBottom = "10px";
-    jobTitle.innerHTML = `${job.title} <br> <span style="font-size: 18px;">at ${job.company}</span>`;
-    jobContent.appendChild(jobTitle);
-
-    const jobLocation = document.createElement("span");
-    jobLocation.className = "jobs-list__location";
-    jobLocation.textContent = `Location: ${job.location}`;
-    jobContent.appendChild(jobLocation);
-
-    const jobDeadline = document.createElement("p");
-    jobDeadline.className = "jobs-list__location";
-    jobDeadline.textContent = `Deadline: ${job.deadline}`;
-    jobContent.appendChild(jobDeadline);
-
-    const jobRight = document.createElement("div");
-    jobRight.className = "jobs-list__right";
-    jobCard.appendChild(jobRight);
-
-    const jobPrice = document.createElement("span");
-    jobPrice.className = "jobs-list__price";
-    jobPrice.innerHTML = `<b>$85,000 - $90,000</b> Per Year`;
-    jobRight.appendChild(jobPrice);
-
-    const viewDetailsLink = document.createElement("a");
-    viewDetailsLink.href = `/professionals/job-details.php`;
-    viewDetailsLink.className = "hiredots-btn";
-    viewDetailsLink.textContent = "View Details";
-    jobRight.appendChild(viewDetailsLink);
-  });
+    tendersContainer.appendChild(itamItem);
 });

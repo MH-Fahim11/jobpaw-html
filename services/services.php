@@ -74,7 +74,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay="0ms">
                             <div class="service-one-card__image">
-                                <img src="./../assets/images/services/sv-1.jpg" alt="HR Consulting">
+                                <img src="./../assets/images/services/1.png" alt="HR Consulting">
                             </div><!-- /.service-one-card__image -->
                             <div class="service-one-card__content">
                                 <div class="service-one-card__icon">
