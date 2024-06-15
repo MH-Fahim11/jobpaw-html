@@ -2,39 +2,39 @@ document.addEventListener("DOMContentLoaded", function () {
   const services = [
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
-      title: "A propos de JobPaW",
+      title: "A propos de nous",
       icon: "../assets/images/icons/1.jpg",
       path: "../about.php",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
-      title: "Contactez-nous",
+      title: "Notre histoire",
       icon: "../assets/images/icons/2.jpg",
-      path: "../contact.php",
+      path: "",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
-      title: "Questions-Réponses",
+      title: "Notre équipe",
       icon: "../assets/images/icons/3.jpg",
       path: "../faq.php",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0042.jpg",
-      title: "Témoignage",
+      title: "FAQ",
       icon: "../assets/images/icons/4.jpg",
-      path: "testimonials.php",
+      path: "",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0045.jpg",
-      title: "Mettre publicité sur JobPaw",
+      title: "Témoignages",
       icon: "../assets/images/icons/5.jpg",
-      path: "/services/advertise-on-jobpaw.php",
+      path: "/testimonials.php",
     },
     {
       image: "../images/34FinalPhotos/IMG-20240320-WA0046.jpg",
-      title: "Cartographie des opportunités",
+      title: "Contactez-nous",
       icon: "../assets/images/icons/6.jpg",
-      path: "/services/advertise-on-jobpaw",
+      path: "../contact.php",
     },
   ];
 

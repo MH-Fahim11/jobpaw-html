@@ -57,7 +57,7 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="../images/shapes/page-header-shape.png" alt="hiredots">
+                    <img src="../assets/images/shapes/page-header-shape.png" alt="hiredots">
                 </div>
                 <div class="container">
                     <h2 class="page-header__title">Find Job</h2>
@@ -78,19 +78,58 @@
         <div class="container">
             <form  class="contact-form-validated" action="inc/sendemail.php" noValidate="novalidate">
                 <div class="jobs__form wow fadeInUp animated" data-wow-duration="1500ms">
-                    <div class="jobs__group row gutter-y-20">
-                        <div class="col-md-6">
-                            <div class="job__control Jobs__control--full">
-                                <input type="text" name="name" placeholder="All Jobs">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div>
-                                <select class="jobs__control Jobs__control--full" name="" id="">
-                                    <option value="">x</option>
+                    <div class="jobs__group row gutter-y-20 mb-2">
+                            <div class="col-12 col-md-4 ">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Compagnie</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
                                 </select>
                             </div>
-                        </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Secteur</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Domaine</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4">
+                            <select class="form-select" aria-label="Default select example">
+                                    <option selected>Spécialité</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Ville</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <input type="text" class=" form-control-sm" placeholder="Recherche">
+                            </div>
+                            <div class="col-12 col-md-4">
+                            <button class="btn btn-primary" type="submit">Recherche</button>
+                            </div>
+
                     </div>
                 </div>
                 <div class="jobs__form__checkbox">

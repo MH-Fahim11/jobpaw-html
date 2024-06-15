@@ -71,34 +71,36 @@
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-6 col-xl-2">
                             <div class="footer-widget footer-widget--links">
-                                <!-- <h2 class="footer-widget__title">Explore</h2> /.footer-widget__title -->
+                                <h2 class="footer-widget__title">A propos </h2> 
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">About Company</a></li>
-                                    <li><a href="team.html">Trouver un emploi</a></li>
-                                    <li><a href="blog.html">Creer un CVPaw</a></li>
-                                    <li><a href="project.html">Trouver une formation continue</a></li>
+                                    <li><a href="about.html">A propos de nous</a></li>
+                                    <li><a href="team.html">Histoire</a></li>
+                                    <li><a href="blog.html">Notre équipe</a></li>
+                                    <li><a href="project.html">Témoignages</a></li>
+                                    <li><a href="project.html">FAQ</a></li>
+                                    <li><a href="project.html">Contactez-nous </a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-6 col-xl-2">
                             <div class="footer-widget footer-widget--contact">
-                                <!-- <h2 class="footer-widget__title">Links</h2>/.footer-widget__title -->
+                                <h2 class="footer-widget__title">Services</h2>
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">Publier une offre d’emploi</a></li>
-                                    <li><a href="contact.html">Temoignages</a></li>
-                                    <li><a href="team.html">Contactez-nous</a></li>
-                                    <li><a href="history.html">Publier un appel d’offre</a></li>
-                      
+                                    <li><a href="contact.html">Recrutement</a></li>
+                                    <li><a href="team.html">Achats</a></li>
+                                    <li><a href="history.html">Formation</a></li>
+                                    <li><a href="history.html">Publicité</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-6 col-xl-3">
                             <div class="footer-widget footer-widget--time">
+                            <h2 class="footer-widget__title">Projets </h2>
                             <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">Recruter via Base de CV</a></li>
-                                    <li><a href="contact.html">Statistiques sur le marche de l’emploi</a></li>
-                                    <li><a href="team.html">Partager travaux de recherche</a></li>
-                                    <li><a href="history.html">Publier une formation continue</a></li>
+                                    <li><a href="about.html">One-pager</a></li>
+                                    <li><a href="contact.html">MasterClass</a></li>
+                                    <li><a href="team.html">SiksèPaw-SiksèLòtyo</a></li>
+                                    <li><a href="history.html">Podcast</a></li>
                       
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                                 

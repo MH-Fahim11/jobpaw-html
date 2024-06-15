@@ -1,25 +1,25 @@
 const projects = [
     {
         title: "Voir statistiques opportunités",
-        img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
+        img: "../assets/images/backgrounds/1.jpg",
         path: "/professionals/voir-statistiques-opportunites.php",
         icon: "../assets/images/icons/1.jpg"
     },
     {
         title: "Choisir université ou école",
-        img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
+        img: "../assets/images/backgrounds/2.jpg",
         path: "/professionals/universities.php",
         icon: "../assets/images/icons/2.jpg"
     },
     {
         title: "Créer un CVPaw",
-        img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
+        img: "../assets/images/backgrounds/3.jpg",
         path: "/professionals/cv-paw.php",
         icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Trouver un emploi",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
+        img: "../assets/images/backgrounds/4.jpg",
         path: "/professionals/find-job.php",
         icon: "../assets/images/icons/7.jpg"
     },

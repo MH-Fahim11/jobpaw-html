@@ -108,7 +108,7 @@
         </div>
         <!-- /.page-header__bg -->
         <div class="container">
-          <h2 class="page-header__title">Services</h2>
+          <h2 class="page-header__title">A Propos</h2>
           <ul class="hiredots-breadcrumb list-unstyled">
             <li><a href="index.html">Home</a></li>
             <li><span>A Propos</span></li>

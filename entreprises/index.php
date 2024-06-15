@@ -57,7 +57,7 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="./images/shapes/page-header-shape.png" alt="jobpaw">
+                    <img src="../assets/images/shapes/page-header-shape.png" alt="jobpaw">
                 </div>
                 <div class="container">
                     <h2 class="page-header__title">Entreprises</h2>
