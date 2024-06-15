@@ -1,49 +1,49 @@
 const projects = [
     {
         title: "Voir mon CVPaw",
-        img: "../../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
+        img: "../../assets/images/backgrounds/4.jpg",
         path: "/professionals/private/updateYourProfile.php",
         icon: "../../assets/images/icons/1.jpg"
     },
     {
         title: "Créer un CVPaw",
-        img: "../../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
+        img: "../../assets/images/backgrounds/6.jpg",
         path: "/professionals/private/updateYourProfile2.php",
         icon: "../../assets/images/icons/2.jpg"
     },
     {
         title: "Modifier mon CVPaw",
-        img: "../../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
+        img: "../../assets/images/backgrounds/8.jpg",
         path: "/professionals/private/updateYourProfile2.php",
         icon: "../../assets/images/icons/5.jpg"
     },
     {
         title: "S’abonner aux offres d’emploi",
-        img: "../../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
+        img: "../../assets/images/backgrounds/9.jpg",
         path: "/professionals/private/JobAlerts.php",
         icon: "../../assets/images/icons/7.jpg"
     },
     {
         title: "Appliquer pour un poste",
-        img: "../../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
+        img: "../../assets/images/backgrounds/10.jpg",
         path: "/professionals/private/JobOffers.php",
         icon: "../../assets/images/icons/8.jpg"
     },
     {
         title: "Lister mes applications",
-        img: "../../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
+        img: "../../assets/images/backgrounds/11.jpg",
         path: "/professionals/private/myJobApplications.php",
         icon: "../../assets/images/icons/9.jpg"
     },
     {
         title: "Publier un article/mémoire",
-        img: "../../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
+        img: "../../assets/images/backgrounds/2.jpg",
         path: "/professionals/private/publishAnArticleOrReportAnalysis.php",
         icon: "../../assets/images/icons/10.jpg"
     },
     {
         title: "Lister mes articles",
-        img: "../../images/34FinalPhotos/IMG-20240320-WA0027.jpg",
+        img: "../../assets/images/backgrounds/1.jpg",
         path: "/professionals/private/articles.php",
         icon: "../../assets/images/icons/11.jpg"
     },

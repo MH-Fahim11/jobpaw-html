@@ -1,3 +1,17 @@
+<div class="fixed-bottom footer-fix container-fluid">  
+        <ul class="footer-menu">
+            <li>
+                <a href=""><i class="fa fa-bullhorn"></i> Offre d'emploi</a>
+            </li>
+                            
+            <li>
+                <a href=""><i class="fa fa-phone-square"></i> Appel d'offres</a>
+            </li>
+            <li>
+                 <a href=""><i class="fa fa-question-circle"></i> Formation</a>
+            </li>
+        </ul>
+</div>
 <footer class="main-footer background-black">
             <div class="main-footer__bg" style="background-color: #000052;"></div>
             <!-- /.main-footer__bg -->
@@ -52,17 +66,25 @@
                                                 <i class="fab fa-twitter" aria-hidden="true"></i>
                                                 <span class="sr-only">Twitter</span>
                                             </a>
+                                            <a href="">
+                                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                <span class="sr-only">Linkedin</span>
+                                            </a>
                                             <a href="https://facebook.com">
                                                 <i class="fab fa-facebook" aria-hidden="true"></i>
                                                 <span class="sr-only">Facebook</span>
                                             </a>
-                                            <a href="https://pinterest.com">
-                                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                                <span class="sr-only">Pinterest</span>
+                                            <a href="">
+                                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                                <span class="sr-only">YouTube</span>
                                             </a>
                                             <a href="https://instagram.com">
                                                 <i class="fab fa-instagram" aria-hidden="true"></i>
                                                 <span class="sr-only">Instagram</span>
+                                            </a>
+                                            <a href="https://instagram.com">
+                                                <i class="fab fa-tiktok" aria-hidden="true"></i>
+                                                <span class="sr-only">TikTok</span>
                                             </a>
                                         </div><!-- /.footer-widget__social -->
                                     </div>

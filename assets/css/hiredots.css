@@ -1996,6 +1996,7 @@ h6 {
 --------------------------------------------------------------*/
 .main-footer {
   position: relative;
+  margin-bottom: 50px;
 }
 .main-footer__top {
   padding-top: 80px;
@@ -10346,12 +10347,12 @@ body.megamenu-popup-active .mobile-nav__content {
 # jobs
 --------------------------------------------------------------*/
 .jobs {
-  padding: 120px 0;
+  /* padding: 120px 0; */
   position: relative;
 }
 @media (max-width: 767px) {
   .jobs {
-    padding: 80px 0;
+    /* padding: 80px 0; */
   }
 }
 .jobs__form {
@@ -10938,4 +10939,27 @@ height: 100%;
 .container-c{
   padding-left: 100px;
   padding-right: 100px ;
+}
+
+.footer-fix{
+  background-color: #000052;
+  height: 50px;
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+    align-items: center;
+}
+.footer-menu li a{
+  color: white !important;
+}
+.footer-fix ul{
+  margin-top: 10px;
+  padding: 0px !important;
+  /* margin: 0px !important; */
+}
+.footer-fix li{
+  padding: 0px !important;
+  margin: 0px !important;
 }

@@ -57,7 +57,7 @@
             <section class="page-header">
                 <div class="page-header__bg"></div>
                 <div class="page-header__shape">
-                    <img src="../images/shapes/page-header-shape.png" alt="hiredots">
+                    <img src="../assets/images/shapes/page-header-shape.png" alt="Jobpaw">
                 </div>
                 <div class="container">
                     <h2 class="page-header__title">Universities</h2>
@@ -75,6 +75,62 @@
         <!-- main-slider-end -->
         <!-- Feature Start -->
        <div class="my-5">
+       <div class="container">
+            <form  class="contact-form-validated" action="inc/sendemail.php" noValidate="novalidate">
+                <div class="jobs__form wow fadeInUp animated" data-wow-duration="1500ms">
+                    <div class="jobs__group row gutter-y-20 mb-2">
+                            <div class="col-12 col-md-4 ">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Domaine</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Formation</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Type</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4">
+                            <select class="form-select" aria-label="Default select example">
+                                    <option selected>Ville</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <input type="text" class=" form-control-sm" placeholder="Recherche">
+                            </div>
+                            <div class="col-12 col-md-4">
+                            <button class="btn btn-primary" type="submit">Recherche</button>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="jobs__form__checkbox">
+                    <!-- Checkbox items can be added here -->
+                </div>
+            </form>
+            <div id="jobs" class="jobs">
+                <!-- Content will be dynamically added here -->
+            </div>
+        </div>
         <div class="container">
             <div class="row gutter-y-30 mt-5" id="university-list">
                 <!-- JavaScript will populate this container -->

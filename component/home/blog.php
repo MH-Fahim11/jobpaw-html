@@ -29,6 +29,7 @@
                             }
                         }
                         }'>
+                        
                     <div class="item">
                         <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
                             <div class="blog-card__image">

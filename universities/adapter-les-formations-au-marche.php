@@ -93,12 +93,12 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240409-WA0000.jpg" alt="hiredots">
+                                <img src="../assets/images/backgrounds/12.jpg" alt="hiredots">
                             </div>
                             <div class="feature-one__item__content">
                                 <div class="feature-one__item__ball"></div>
                                 <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/1.jpg"
+                                    <img width="100" height="100" class="rounded-circle" src="../assets/images/icons/9.jpg"
                                         alt="icon">
                                 </div>
                                 <h3 class="feature-one__item__title">Info besoins du marché</h3>
@@ -110,12 +110,12 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240408-WA0005.jpg" alt="hiredots">
+                                <img src="../assets/images/backgrounds/10.jpg" alt="hiredots">
                             </div>
                             <div class="feature-one__item__content">
                                 <div class="feature-one__item__ball"></div>
                                 <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/2.jpg"
+                                    <img width="100" height="100" class="rounded-circle" src="../assets/images/icons/2.jpg"
                                         alt="icon">
                                 </div>
                                 <h3 class="feature-one__item__title">Questionnaire et Interaction</h3>
@@ -128,12 +128,12 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240408-WA0004.jpg" alt="hiredots">
+                                <img src="../assets/images/backgrounds/5.jpg" alt="hiredots">
                             </div>
                             <div class="feature-one__item__content">
                                 <div class="feature-one__item__ball"></div>
                                 <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/5.jpg"
+                                    <img width="100" height="100" class="rounded-circle" src="../assets/images/icons/5.jpg"
                                         alt="icon">
                                 </div>
                                 <h3 class="feature-one__item__title">Rétroaction des étudiants</h3>
@@ -145,12 +145,12 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" style="animation-delay: 100ms;">
                         <div class="feature-one__item text-center">
                             <div class="feature-one__item__img">
-                                <img src="../images/34FinalPhotos/IMG-20240320-WA0054.jpg" alt="hiredots">
+                                <img src="../assets/images/backgrounds/3.jpg" alt="hiredots">
                             </div>
                             <div class="feature-one__item__content">
                                 <div class="feature-one__item__ball"></div>
                                 <div class="feature-one__item__icon">
-                                    <img width="100" height="100" class="rounded-circle" src="../images/5x/6.jpg"
+                                    <img width="100" height="100" class="rounded-circle" src="../assets/images/icons/5.jpg"
                                         alt="icon">
                                 </div>
                                 <h3 class="feature-one__item__title">Opportunités d’affaires</h3>

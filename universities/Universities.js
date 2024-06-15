@@ -1,37 +1,37 @@
 const projects = [
     {
         title: "Adapter les formations au marché",
-        img: "../images/34FinalPhotos/IMG-20240409-WA0000.jpg",
+        img: "../assets/images/backgrounds/12.jpg",
         path: "/",
         icon: "../assets/images/icons/1.jpg"
     },
     {
         title: "Promouvoir son université ou son école",
-        img: "../images/34FinalPhotos/IMG-20240408-WA0005.jpg",
+        img: "../assets/images/backgrounds/10.jpg",
         path: "",
         icon: "../assets/images/icons/2.jpg"
     },
     {
         title: "Stimuler recherche et innovation",
-        img: "../images/34FinalPhotos/IMG-20240408-WA0004.jpg",
+        img: "../assets/images/backgrounds/11.jpg",
         path: "",
         icon: "../assets/images/icons/5.jpg"
     },
     {
         title: "Valoriser les diplomés",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
+        img: "../assets/images/backgrounds/4.jpg",
         path: "",
         icon: "../assets/images/icons/7.jpg"
     },
     {
         title: "Partager les travaux de recherche",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
+        img: "../assets/images/backgrounds/3.jpg",
         path: "",
         icon: "../assets/images/icons/8.jpg"
     },
     {
         title: "Opportunités d’affaires",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
+        img: "../assets/images/backgrounds/9.jpg",
         path: "",
         icon: "../assets/images/icons/9.jpg"
     }
@@ -47,7 +47,7 @@ projects.forEach((feature, index) => {
     featureItem.innerHTML = `
     <div class="feature-one__item text-center">
     <div class="feature-one__item__img">
-        <img src="${feature.img}" alt="hiredots">
+        <img src="${feature.img}" alt="JobPaw">
     </div>
     <div class="feature-one__item__content">
         <div class="feature-one__item__ball"></div>

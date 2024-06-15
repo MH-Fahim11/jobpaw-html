@@ -1,37 +1,37 @@
 document.addEventListener("DOMContentLoaded", function () {
   const services = [
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
+      image: "../assets/images/backgrounds/12.jpg",
       title: "A propos de nous",
       icon: "../assets/images/icons/1.jpg",
       path: "../about.php",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
+      image: "../assets/images/backgrounds/11.jpg",
       title: "Notre histoire",
       icon: "../assets/images/icons/2.jpg",
       path: "",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
+      image: "../assets/images/backgrounds/10.jpg",
       title: "Notre équipe",
       icon: "../assets/images/icons/3.jpg",
       path: "../faq.php",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0042.jpg",
+      image: "../assets/images/backgrounds/9.jpg",
       title: "FAQ",
       icon: "../assets/images/icons/4.jpg",
       path: "",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0045.jpg",
+      image: "../assets/images/backgrounds/8.jpg",
       title: "Témoignages",
       icon: "../assets/images/icons/5.jpg",
       path: "/testimonials.php",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0046.jpg",
+      image: "../assets/images/backgrounds/7.jpg",
       title: "Contactez-nous",
       icon: "../assets/images/icons/6.jpg",
       path: "../contact.php",

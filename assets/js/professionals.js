@@ -25,31 +25,31 @@ const projects = [
     },
     {
         title: "Avoir un coaching",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0052.jpg",
+        img: "../assets/images/backgrounds/5.jpg",
         path: "/professionals/avoir-un-coaching.php",
         icon: "../assets/images/icons/8.jpg"
     },
     {
         title: "Trouver formation continue",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
+        img: "../assets/images/backgrounds/6.jpg",
         path: "/professionals/seminer.php",
         icon: "../assets/images/icons/9.jpg"
     },
     {
         title: "Monter son entreprise",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
+        img: "../assets/images/backgrounds/7.jpg",
         path: "/professionals/choose-school-or-universiry.php",
         icon: "../assets/images/icons/10.jpg"
     },
     {
         title: "Trouver bourse d’étude",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0027.jpg",
+        img: "../assets/images/backgrounds/8.jpg",
         path: "/professionals/choose-school-or-universiry",
         icon: "../assets/images/icons/11.jpg"
     },
     {
         title: "Consulter travaux recherche",
-        img: "../images/34FinalPhotos/IMG-20240320-WA0015.jpg",
+        img: "../assets/images/backgrounds/9.jpg",
         path: "/professionals/consult-research-work.php",
         icon: "../assets/images/icons/12.jpg"
     }

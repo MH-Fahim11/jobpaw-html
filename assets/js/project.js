@@ -1,25 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
     const services = [
       {
-        image: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
+        image: "../assets/images/backgrounds/12.jpg",
         title: "One-pager",
         icon: "../assets/images/icons/1.jpg",
         path: "project-details.php",
       },
       {
-        image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
+        image: "../assets/images/backgrounds/6.jpg",
         title: "MasterClass",
         icon: "../assets/images/icons/2.jpg",
         path: "project-details.php",
       },
       {
-        image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
+        image: "../assets/images/backgrounds/10.jpg",
         title: "SiksèPaw-SiksèLòtyo",
         icon: "../assets/images/icons/3.jpg",
         path: "project-details.php",
       },
       {
-        image: "../images/34FinalPhotos/IMG-20240320-WA0042.jpg",
+        image: "../assets/images/backgrounds/1.jpg",
         title: "Podcast SiksèPaw-SiksèLòtyo",
         icon: "../assets/images/icons/4.jpg",
         path: "project-details.php",
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       projectItem.innerHTML = `
       <div class="feature-one__item text-center">
       <div class="feature-one__item__img">
-          <img src="${feature.image}" alt="hiredots">
+          <img src="${feature.image}" alt="Jobpaw">
       </div>
       <div class="feature-one__item__content">
           <div class="feature-one__item__ball"></div>

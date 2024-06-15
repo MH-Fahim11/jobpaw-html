@@ -21,22 +21,30 @@
             </ul> -->
             <!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://pinterest.com">
-                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
+                                            <a href="https://twitter.com">
+                                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                                <span class="sr-only">Twitter</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                <span class="sr-only">Linkedin</span>
+                                            </a>
+                                            <a href="https://facebook.com">
+                                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                                                <span class="sr-only">Facebook</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                                <span class="sr-only">YouTube</span>
+                                            </a>
+                                            <a href="https://instagram.com">
+                                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                                <span class="sr-only">Instagram</span>
+                                            </a>
+                                            <a href="https://instagram.com">
+                                                <i class="fab fa-tiktok" aria-hidden="true"></i>
+                                                <span class="sr-only">TikTok</span>
+                                            </a>
             </div><!-- /.mobile-nav__social -->
         </div>
         <!-- /.mobile-nav__content -->
