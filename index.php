@@ -47,12 +47,12 @@
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
     
-        <header  class="main-header sticky-header sticky-header--normal">
+        
         <?php
             $logo = "assets/images/logos/logo-light.png";
             include_once('component/navBar.php') ; 
         ?>    
-        </header>
+        
 
         <!-- heaser slider  -->
         <?php

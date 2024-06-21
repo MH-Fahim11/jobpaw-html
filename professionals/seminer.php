@@ -46,12 +46,12 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
-        <header class="main-header sticky-header sticky-header--normal">
+       
         <?php
             $logo = "../assets/images/logos/logo-light.png";
             include_once('../component/navBar.php') ; 
         ?>
-        </header>
+        
         <!-- main-slider-start -->
         <div>
             <section class="page-header">
@@ -75,6 +75,62 @@
         <!-- main-slider-end -->
         <!-- Feature Start -->
        <div class="my-5">
+       <div class="container">
+            <form  class="contact-form-validated" action="inc/sendemail.php" noValidate="novalidate">
+                <div class="jobs__form wow fadeInUp animated" data-wow-duration="1500ms">
+                    <div class="jobs__group row gutter-y-20 mb-2">
+                            <div class="col-12 col-md-4 ">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Compagnie</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Domaine</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4">
+                            <select class="form-select" aria-label="Default select example">
+                                    <option selected>Formation</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Ville</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <input type="text" class=" form-control-sm" placeholder="Recherche">
+                            </div>
+                            <div class="col-12 ">
+                            <button class="btn btn-primary" type="submit">Recherche</button>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="jobs__form__checkbox">
+                    <!-- Checkbox items can be added here -->
+                </div>
+            </form>
+            <div id="jobs" class="jobs">
+                <!-- Content will be dynamically added here -->
+            </div>
+        </div>
         <div class="container">
             <div class="sec-title">
                 Les professionnels et les entreprises ont accès à différentes

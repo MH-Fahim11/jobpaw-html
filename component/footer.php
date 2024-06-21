@@ -10,6 +10,9 @@
             <li>
                  <a href=""><i class="fa fa-question-circle"></i> Formation</a>
             </li>
+            <li class="hide">
+                 <a href=""><i class="fa fa-bar-chart"></i> Statistiques</a>
+            </li>
         </ul>
 </div>
 <footer class="main-footer background-black">

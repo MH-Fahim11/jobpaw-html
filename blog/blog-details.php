@@ -46,12 +46,12 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(../assets/images/loader.png);"></div>
     </div>
-        <header class="main-header sticky-header sticky-header--normal">
+       
         <?php
             $logo = "../../assets/images/logos/logo-light.png";
             include_once('../component/navBar.php') ; 
         ?> 
-        </header>
+    
         <section class="page-header">
             <div class="page-header__bg"></div>
             <div class="page-header__shape"><img src="../assets/images/shapes/page-header-shape.png" alt="hiredots"></div>
@@ -133,13 +133,13 @@
                             <ul class="sidebar__posts list-unstyled blog-details__paginations">
                                 <li class="sidebar__posts__item">
                                     <div class="sidebar__posts__content">
-                                        <h4 class="sidebar__posts__title"><a href="blog-details.html">Does my Business Need a Director of
+                                        <h4 class="sidebar__posts__title"><a href="blog-details.php">Does my Business Need a Director of
                                                 Training?</a></h4><!-- /.sidebar__posts__title -->
                                     </div><!-- /.sidebar__posts__content -->
                                 </li>
                                 <li class="sidebar__posts__item">
                                     <div class="sidebar__posts__content">
-                                        <h4 class="sidebar__posts__title"><a href="blog-details.html">Get deep knowledge
+                                        <h4 class="sidebar__posts__title"><a href="blog-details.php">Get deep knowledge
                                                 of your beauty</a></h4><!-- /.sidebar__posts__title -->
                                     </div><!-- /.sidebar__posts__content -->
                                 </li>
@@ -220,7 +220,7 @@
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
                                                 <p class="sidebar__posts__meta"><i class="fa fa-comments"></i>2 Comments</p><!-- /.sidebar__posts__comment -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details.html">Guide to HR Adviser
+                                                <h4 class="sidebar__posts__title"><a href="blog-details.php">Guide to HR Adviser
                                                         and Clients Lessening</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
@@ -230,7 +230,7 @@
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
                                                 <p class="sidebar__posts__meta"><i class="fa fa-comments"></i>2 Comments</p><!-- /.sidebar__posts__comment -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details.html">Get deep knowledge
+                                                <h4 class="sidebar__posts__title"><a href="blog-details.php">Get deep knowledge
                                                         of your beauty</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
@@ -240,7 +240,7 @@
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
                                                 <p class="sidebar__posts__meta"><i class="fa fa-comments"></i>2 Comments</p><!-- /.sidebar__posts__comment -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details.html">Get deep knowledge
+                                                <h4 class="sidebar__posts__title"><a href="blog-details.php">Get deep knowledge
                                                         of your beauty</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>

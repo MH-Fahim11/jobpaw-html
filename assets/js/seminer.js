@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const seminarItems = [
     {
       id: 1,
-      image: "../images/34FinalPhotos/IMG-20240320-WA0023.jpg",
+      image: "../assets/images/backgrounds/6.jpg",
       title: "Introduction to Data Science Workshop",
       description:
         "TechMaster Bootcamp is an intensive training program designed to equip participants with the skills and knowledge needed to excel in the rapidly evolving field of technology. Whether you're a beginner looking to kickstart your career or a seasoned professional aiming to enhance your expertise, our bootcamp offers a comprehensive curriculum tailored to meet your needs.",
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 2,
-      image: "../images/34FinalPhotos/IMG-20240320-WA0054.jpg",
+      image: "../assets/images/backgrounds/10.jpg",
       title: "Web Development Bootcamp",
       description:
         "Learn the latest technologies and frameworks in web development...",
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 3,
-      image: "../images/34FinalPhotos/IMG-20240320-WA0012.jpg",
+      image: "../assets/images/backgrounds/7.jpg",
       title: "Learn about Digital marketing",
       description:
         "Learn the latest technologies and frameworks in web development...",

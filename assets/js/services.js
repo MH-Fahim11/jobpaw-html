@@ -1,28 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
   const services = [
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0036.jpg",
+      image: "../assets/images/backgrounds/3.jpg",
       title: "Recrutement",
       icon: "../assets/images/icons/1.jpg",
-      path: "#",
+      path: "recrutement.php",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0038.jpg",
+      image: "../assets/images/backgrounds/8.jpg",
       title: "Achats",
       icon: "../assets/images/icons/2.jpg",
-      path: "#",
+      path: "achats.php",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0039.jpg",
+      image: "../assets/images/backgrounds/9.jpg",
       title: "Publicite",
       icon: "../assets/images/icons/3.jpg",
-      path: "#",
+      path: "publicite.php",
     },
     {
-      image: "../images/34FinalPhotos/IMG-20240320-WA0042.jpg",
+      image: "../assets/images/backgrounds/10.jpg",
       title: "Formation",
       icon: "../assets/images/icons/4.jpg",
-      path: "#",
+      path: "formation.php",
     },
     
   ];

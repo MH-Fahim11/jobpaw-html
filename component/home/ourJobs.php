@@ -15,7 +15,7 @@
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
+                                    <img style="width: 50px; height: 50px" src="./assets/images/jobs/image-1.png" alt="${job.company}">
                                     <a href="/services" class="service-one-card__cat">Programming & Tech</a>
                                 </div>
                                 <h3 style="height: 50px" class="service-one-card__title">
@@ -37,7 +37,7 @@
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
+                                    <img style="width: 50px; height: 50px" src="./assets/images/jobs/image-1.png" alt="${job.company}">
                                     <a href="/services" class="service-one-card__cat">Sales & Marketing</a>
                                 </div>
                                 <h3 style="height: 50px" class="service-one-card__title">
@@ -59,7 +59,7 @@
                             </div>
                             <div class="service-one-card__content">
                                 <div style="display: flex; justify-content: space-between" class="service-one-card__icon">
-                                    <img style="width: 50px; height: 50px" src="./images/jobs/image-1.png" alt="${job.company}">
+                                    <img style="width: 50px; height: 50px" src="./assets/images/jobs/image-1.png" alt="${job.company}">
                                     <a href="/services" class="service-one-card__cat">Multimedia</a>
                                 </div>
                                 <h3 style="height: 50px" class="service-one-card__title">

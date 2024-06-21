@@ -48,11 +48,11 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(../assets/images/loader.png);"></div>
     </div>
-    <?php
+    
+        <?php
             $logo = "../assets/images/logos/logo-light.png";
             include_once('../component/navBar.php') ; 
         ?>
-    </header>
     <!-- main-slider-start -->
     <div>
         <section class="page-header">

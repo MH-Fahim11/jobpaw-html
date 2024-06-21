@@ -48,12 +48,11 @@
     </div>
     <!-- /.preloader -->
 
-        <header class="main-header sticky-header sticky-header--normal">
         <?php
             $logo = "../assets/images/logos/logo-light.png";
             include_once('component/navBar.php') ; 
         ?> 
-        </header>
+
         <section class="page-header">
             <div class="page-header__bg"></div>
             <div class="page-header__shape"><img src="assets/images/shapes/page-header-shape.png" alt="hiredots"></div>

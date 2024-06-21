@@ -1,13 +1,17 @@
-<div class="main-header__inner">
+<header  class="sticky-top">
+    <div class="main-header__inner">
                 <div class="main-header__logo">
                     <a href="/">
                         <img src=<?php echo  $logo?> alt="Jobpaw Logo">
                     </a>
                 </div><!-- /.main-header__logo -->
+                
                 <a href="#" class="search-toggler main-header__search">
                     <i class="icon-magnifying-glass" aria-hidden="true"></i>
                     <span class="sr-only">Search</span>
-                </a><!-- /.search-toggler -->
+                </a>
+                <!-- /.search-toggler -->
+                 
                 <div class="main-header__menu">
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
@@ -127,3 +131,4 @@
                     <span></span>
                 </div><!-- /.mobile-nav__toggler -->
             </div>
+</header>
